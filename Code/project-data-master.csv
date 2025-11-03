@@ -1,0 +1,141 @@
+﻿Bin,ID,FirstName,LastName,Gender,BirthDate,BirthPlace,ArrivalDate,ArrivalPlace,DeparturePlace,ShipName,Source
+1,1,Jane,Cosse,Male,1856,Hungary,12 Apr 1882,New York City,"Liverpool, England",RMS Scythia,NewYork1
+1,2,Pat,Mulcarney,Male,1874,Ireland,29 Sep 1884,New York City,"Liverpool, England",Oregon,NewYork1
+1,3,Gustav,Adolfkat,Male,1856,Sweden,2 Apr 1883,New York City,"Bremen, Germany and Southampton, England",Habsburg,NewYork1
+1,4,Isa,Johannes,Male,1841,Switzerland,2 Jun 1881,New York City,"London, England",Denmark,NewYork1
+1,5,Johan,Welz,Male,1861,Germany,21 Aug 1880,New York City,"London, England",Elysia,NewYork1
+1,6,Mary,Lahy,Female,1856,Ireland,28 Apr 1880,New York City,"Liverpool, England and Queenstown, Ireland",England,NewYork1
+1,7,Fredwe,Kennedy,Male,1879,Ireland,3 Jan 1881,New York City,"Liverpool, England",Baltic,NewYork1
+1,8,Wilhelm,Menzel,Male,1852,Germany,26 Jun 1882,New York City,"Liverpool, England and Queenstown, Ireland",Helvetia,NewYork1
+1,9,Rosa,Blumenstein,Female,1848,Germany,25 Aug 1883,New York City,"Bremen, Germany and Southampton, England",Elbe,NewYork1
+1,10,G. M.,Cherveny,Male,1854,England,29 Sep 1884,New York City,"Liverpool, England and Queenstown, Ireland",City of Berlin,NewYork1
+1,11,Maurice,Ellicott,Male,1873,Ireland,19 May 1880,New York City,"London, England and Queenstown, Ireland",Canada,NewYork1
+1,12,Ann,Eager,Female,1841,England,4 May 1881,New York City,"Dandee and New Castle, England",Roxburgh Castle,NewYork1
+1,13,Theo,Ullham,Male,1862,England,18 Sep 1882,New York City,"Liverpool, England",City of Montreal,NewYork1
+1,14,Martha,Brubach,Female,1862,Germany,9 Feb 1883,New York City,"Bremen, Germany and Southampton, England",Elbe,NewYork1
+1,15,Mick,Herres,Male,1834,Ireland,2 Oct 1884,New York City,"Liverpool, England",Nevada,NewYork1
+1,16,Mathilda,Evensen,Female,1856,Norway,22 Jun 1880,New York City,"Liverpool, England and Queenstown, Ireland",Erin,NewYork1
+1,17,Daniel,Frew,Male,1853,Scotland,15 Feb 1881,New York City,"Glasgow, Scotland and Moville, Ireland",Circassia,NewYork1
+1,18,Ladesaus,Schedchuske,Male,1859,Russia,7 Jan 1882,New York City,"Liverpool, England and Queenstown, Ireland",City of Brussels,NewYork1
+1,19,John,Dabel,Male,1858,Ireland,15 Jan 1883,New York City,"Liverpool, England and Queenstown, Ireland",Spain,NewYork1
+1,20,Daniel,Quirk,Male,1865,Ireland,3 Oct 1884,New York City,"Liverpool, England",America,NewYork1
+2,1,Chas,Ditchmann,Male,1855,England,2 Nov 1885,New York City,"Liverpool, England and Queenstown, Ireland",Germanic,NewYork1
+2,2,Schmuel,Tinkelskin,Male,1862,Russia,28 Jul 1886,New York City,"Glasgow, Scotland and Larne, Ireland",State of Nebraska,NewYork1
+2,3,Winifred,Pickhard,Female,1849,Ireland,3 Jan 1887,New York City,"Liverpool, England and Queenstown, Ireland",Germanic,NewYork1
+2,4,Ernst,Yousson,Male,1867,Sweden,25 Jun 1888,New York City,"Liverpool, England and Queenstown, Ireland",Alaska,NewYork1
+2,5,Jen,Nielsen,Male,1859,Denmark,9 Nov 1889,New York City,"Hamburg, Germany and Southampton, England",Augusta Victoria,NewYork1
+2,6,Bernhd,Rebrich,Male,1870,Germany,31 Oct 1885,New York City,"Bremen, Germany and Southampton, England",Neckar,NewYork1
+2,7,Patk,Judge,Male,1866,Ireland,4 May 1886,New York City,"Liverpool, England",City of Montreal,NewYork1
+2,8,Carl,Fergan,Male,1855,Germany,17 Jan 1887,New York City,"Bremen, Germany and Southampton, England",Werra,NewYork1
+2,9,Leonhard,Emerling,Male,1867,Austria,2 Apr 1888,New York City,"Bremen, Germany and Southampton, England",Trave,NewYork1
+2,10,Thomas,Laue,Male,1865,England,27 Aug 1889,New York City,"Liverpool, England",Egypt,NewYork1
+2,11,Baptiste,Rebel,Male,1849,France,4 Nov 1885,New York City,"Le Havre, France and Plymouth, England",Amerique,NewYork1
+2,12,Adling,Johansdotter,Female,1859,Norway,3 May 1886,New York City,"Liverpool, England and Queenstown, Ireland",Umbria,NewYork1
+2,13,Carl,Hane,Male,1858,England,7 Feb 1887,New York City,"Liverpool, England and Queenstown, Ireland",Germanic,NewYork1
+2,14,Richard,Ivey,Male,1864,England,13 Sep 1888,New York City,"Liverpool, England and Queenstown, Ireland",Italy,NewYork1
+2,15,Maria,Xriezko,Female,1865,Hungary,28 Dec 1889,New York City,"Bremen, Germany and Southampton, England",Aller,NewYork1
+2,16,Anna,Lup,Female,1863,Russia,13 Jan 1887,New York City,"Hamburg, Germany and Southampton, England",Rhaetia,NewYork1
+2,17,Anton,Rebicek,Male,1824,Bohemia,26 Dec 1885,New York City,"Bremen, Germany and Southampton, England",Main,NewYork1
+2,18,Eleanor,Keeling,Female,1853,England,7 Nov 1889,New York City,"Liverpool, England",Teutonic,NewYork1
+2,19,Jochrn,Willing,Male,1873,Germany,15 Mar 1888,New York City,"Bremen, Germany and Southampton, England",Werra,NewYork1
+2,20,Bridgett,Hallman,Female,1865,Ireland,5 Aug 1886,New York City,"Galway, Ireland and London, England",Assyrian Monarch,NewYork1
+3,1,Barney,Doran,Male,1869,Ireland,5 Dec 1890,New York City,"Liverpool, England and Queenstown, Ireland",Teutonic,NewYork1
+3,2,Carol,Qusseb,Female,1869,Germany,15 May 1891,New York City,"Bremen, Germany and Southampton, England",Trave,NewYork1
+3,3,Eunic,Southworth,Female,1869,England,2 Apr 1892,New York City,"Hull, England",Colorado,NewYork1
+3,4,John,Brown,Male,1865,England,2 Mar 1893,New York City,"Liverpool, England",Teutonic,NewYork1
+3,5,Mary Anne,Stewart,Female,1875,Ireland,14 Apr 1894,New York City,"Southampton, England",New York,NewYork1
+3,6,Ivan,Doba,Male,1859,Hungary,7 Feb 1890,New York City,"Bremen, Germany and Southampton, England",Lahn,NewYork1
+3,7,Kate,Batler,Female,1872,Ireland,27 Feb 1893,New York City,"Liverpool, England",Britannic,NewYork1
+3,8,Pat,Reilly,Male,1875,Ireland,16 Feb 1894,New York City,"Liverpool, England",Majestic,NewYork1
+3,9,Paula,Passler,Female,1859,Prussia,9 Nov 1891,New York City,"Hamburg, Germany and Southampton, England",Augusta Victoria,NewYork1
+3,10,Daul,McMullen,Male,1868,Ireland,15 Aug 1892,New York City,"Londonderry, Ireland",Furnessia,NewYork1
+3,11,Jacob,Zoller,Male,1863,Germany,26 Sep 1890,New York City,"Bremen, Germany and Southampton, England",Lahn,NewYork1
+3,12,Ignatz,Unjar,Male,1842,Hungary,6 Oct 1891,New York City,"Bremen, Germany and Southampton, England",Eider,NewYork1
+3,13,James,Farrier,Male,1859,Wales,11 May 1892,New York City,"Liverpool, England",City of New York,NewYork1
+3,14,Ellen,Yorkin,Female,1850,England,30 Mar 1893,New York City,"Southampton, England",Chester,NewYork1
+3,15,David,Freund,Male,1861,Poland,19 Feb 1894,New York City,"Liverpool, England",Etruria,NewYork1
+3,16,Alexander,Otto,Male,1870,Germany,14 Jan 1890,New York City,"Bremen, Germany and Southampton, England",Eider,NewYork1
+3,17,John,Connally,Male,1866,Ireland,28 Oct 1891,New York City,"Glasgow, Scotland and Moville, Ireland",Devonia,NewYork1
+3,18,Erio,Zetterlund,Male,1867,Sweden,6 Jun 1892,New York City,"Liverpool, England",Servia,NewYork1
+3,19,Ebba,Thornell,Female,1875,Sweden,27 May 1893,New York City,"Liverpool, England",Campania,NewYork1
+3,20,Richard,Rigby,Male,1834,England,19 Mar 1894,New York City,"Liverpool, England",Campania,NewYork1
+4,1,Jocob,Bernson,Male,1872,Russia,4 Feb 1895,New York City,"Liverpool, England",Aurania,NewYork1
+4,2,Mary,Burne,Female,1877,Ireland,16 Apr 1896,New York City,"Liverpool, England",Teutonic,NewYork1
+4,3,John,Juni,Male,1863,Japan,11 Jan 1897,New York City,"Liverpool, England",Lucania,NewYork1
+4,4,Mata,Xanson,Female,1878,Sweden,19 May 1898,New York City,"Liverpool, England",Aurania,NewYork1
+4,5,Anna,Zvisl,Female,1875,Sweden,12 Oct 1899,New York City,"Liverpool, England",Oceanic,NewYork1
+4,6,John,Meegan,Male,1842,Ireland,13 Apr 1895,New York City,"Liverpool, England",Lucania,NewYork1
+4,7,Patrick,Keane,Male,1871,Ireland,8 May  1896,New York City,"Queenstown, Ireland",Germanic,NewYork1
+4,8,Leander,Venstrom,Male,1863,Sweden,11 Jan 1897,New York City,"Southampton, England",Paris,NewYork1
+4,9,Laurits,Larsen,Male,1882,Denmark,5 Mar 1898,New York City,"Southampton, England",St. Paul,NewYork1
+4,10,Kate,Bray,Female,1861,Ireland,25 Feb 1899,New York City,"Queenstown, Ireland",Britannic,NewYork1
+4,11,Alf,Young,Male,1867,England,12 Mar 1895,New York City,"Southampton, England",Berlin,NewYork1
+4,12,Helga,Schanke,Female,1895,Norway,13 Mar 1896,New York City,"Liverpool, England",Germanic,NewYork1
+4,13,Thomas,Richards,Male,1845,England,21 Aug 1897,New York City,"Southampton, England",St. Paul,NewYork1
+4,14,Albert,Janson,Male,1873,Sweden,8 Sep 1898,New York City,"Liverpool, England",Majestic,NewYork1
+4,15,Kaisa,Taskila,Female,1864,Finland,1 Oct 1899,New York City,"Glasgow, Scotland",Ethiopia,NewYork1
+4,16,Ed,Young,Male,1872,England,20 Feb 1895,New York City,"Southampton, England",Berlin,NewYork1
+4,17,William,Isaac,Male,1868,England,14 Aug 1896,New York City,"Liverpool, England",Britannic,NewYork1
+4,18,Albert,Rhys,Male,1876,Wales,19 Jul 1897,New York City,"Liverpool, England",Aurania,NewYork1
+4,19,Jennie,Ward,Female,1866,Ireland,9 Aug 1898,New York City,"Glasgow, Scotland",Mongolian,NewYork1
+4,20,Edward,Marshall,Male,1883,Ireland,21 Sep 1899,New York City,"Liverpool, England",Majestic,NewYork1
+5,1,John,Loftus,Male,1878,Ireland,19 Apr 1900,New York City,"Liverpool, England",Teutonic,NewYork1
+5,2,Maria,Pheifer,Female,1879,Austria,23 Jan 1901,New York City,"Southampton, England",Vaderland,NewYork1
+5,3,Thomas,Wallace,Male,1883,Italy,2 Aug 1902,New York City,"Southampton, England",Philadelphia,NewYork1
+5,4,Sarah,Rush,Female,1883,Ireland,7 May 1903,New York City,"Londonderry, Ireland",Ethiopia,NewYork1
+5,5,Robert,Young,Male,1868,Scotland,17 Jul 1904,New York City,"Liverpool, England",Cedric,NewYork1
+5,6,Omand,Carlsen,Male,1878,Norway,17 Apr 1900,New York City,"Glasgow, Scotland",State of Nebraska,NewYork1
+5,7,Otto,Schutz,Male,1869,Switzerland,26 Mar 1901,New York City,"Liverpool, England",Etruria,NewYork1
+5,8,Chaine,Navch,Female,1884,Austria,12 Jun 1902,New York City,"Liverpool, England",Teutonic,NewYork1
+5,9,Walter,Thompson,Male,1882,England,4 Jan 1903,New York City,"Liverpool, England",Umbria,NewYork1
+5,10,John,Johnson,Male,1873,Sweden,20 Feb 1904,New York City,"Liverpool, England",Cedric,NewYork1
+5,11,Catherine,Moran,Female,1882,Ireland,4 Dec 1900,New York City,"Londonderry, Ireland",Furnessia,NewYork1
+5,12,Anders,Andersen,Male,1879,Denmark,27 May 1901,New York City,"Liverpool, England",Cymric,NewYork1
+5,13,Augustus,Baralowitsch,Male,1882,Russia,1 Aug 1902,New York City,"Liverpool, England",Celtic,NewYork1
+5,14,Kate,Ivey,Female,1877,England,12 Sep 1903,New York City,"Southampton, England",New York,NewYork1
+5,15,T.,Fuji,Male,1867,Japan,21 Oct 1904,New York City,"Dover, England",Deutschland,NewYork1
+5,16,John,Scherzinger,Male,1861,Switzerland,1 Sep 1900,New York City,"Southampton, England",St. Paul,NewYork1
+5,17,Alexander,Rutherford,Male,1872,Scotland,8 Jun 1901,New York City,"Liverpool, England",Campania,NewYork1
+5,18,Held,Inaff,Female,1879,Sweden,22 Mar 1902,New York City,"Liverpool, England",Campania,NewYork1
+5,19,Ade,Ximeno,Male,1856,Cuba,23 Aug 1903,New York City,"Liverpool, England",Umbria,NewYork1
+5,20,Kars,Paude,Male,1848,Norway,28 Jan 1904,New York City,"Liverpool, England",Majestic,NewYork1
+6,1,Ambrozy,Zajonczkowski,Male,1886,Lithuania,10 Oct 1905,New York City,"Glasgow, Scotland",Furnessia,NewYork1
+6,2,Mary,Gurner,Female,1881,France,30 Jun 1906,New York City,"Dover, England",Amerika,NewYork1
+6,3,David,Carr,Male,1870,England,16 Nov 1907,New York City,"Liverpool, England",Arabic,NewYork1
+6,4,Esther,Neale,Female,1863,England,4 Aug 1908,New York City,"Dover, England",Vaderland,NewYork1
+6,5,Harry,Etherington,Male,1857,England,3 Dec 1909,New York City,"Liverpool, England",Lusitania,NewYork1
+6,6,Jessie,Varley,Female,1888,England,13 Mar 1905,New York City,"Liverpool, England",Umbria,NewYork1
+6,7,Silppa,Hakkarainen,Female,1883,Finland,13 Jan 1906,New York City,"Liverpool, England",Baltic,NewYork1
+6,8,Lucie,Gerrard,Female,1877,France,8 Oct 1907,New York City,"Dover, England",Zeeland,NewYork1
+6,9,Richard,Needham,Male,1875,England,8 Feb 1908,New York City,"Liverpool, England",Lucania,NewYork1
+6,10,Thomas,Fearon,Male,1879,Ireland,8 May 1909,New York City,"Liverpool, England",Campania,NewYork1
+6,11,Christopher,Naylor,Male,1850,England,1 May 1905,New York City,"Liverpool, England",Campania,NewYork1
+6,12,Peter,Tobin,Male,1841,Ireland,8 Sep 1906,New York City,"Liverpool, England",Campania,NewYork1
+6,13,Nellie,Quinn,Female,1878,Ireland,17 Apr 1907,New York City,"Liverpool, England",Campania,NewYork1
+6,14,Henry,Vild,Male,1839,Switzerland,17 Apr 1908,New York City,"Southampton, England",Kaiserin Augusta Victoria,NewYork1
+6,15,John,Yule,Male,1870,Scotland,25 Nov 1909,New York City,"Liverpool, England",Mauretania,NewYork1
+6,16,Wilhelm,Ostern,Male,1874,Germany,3 Feb 1905,New York City,"Dover, England",Patricia,NewYork1
+6,17,Giovanni,Ortelli,Male,1872,Italy,23 Dec 1906,New York City,"Southampton, England",Amerika,NewYork1
+6,18,Gerrard,Bandina,Male,1883,England,17 Jul 1907,New York City,"Dover, England",Zeeland,NewYork1
+6,19,Meary,Vanderpool,Female,1856,England,5 Sep 1908,New York City,"Liverpool, England",Cedric,NewYork1
+6,20,Marie,Engelson,Female,1878,Norway,27 Mar 1909,New York City,"Liverpool, England",Lusitania,NewYork1
+7,1,William,Warden,Male,1888,Scotland,16 Feb 1910,New York City,"Glasgow, Scotland",California,NewYork1
+7,2,Henry,Rautiainen,Male,1888,Finland,29 May 1911,New York City,"Liverpool, England",Baltic,NewYork1
+7,3,Charles,Thomfsen,Male,1881,Scotland,7 May 1912,New York City,"Glasgow, Scotland",Columbia,NewYork1
+7,4,William,Thomas,Male,1889,Wales,17 May 1913,New York City,"Liverpool, England",Mauretania,NewYork1
+7,5,Emmanuel,Georgiades,Male,1885,Greece,29 Apr 1914,New York City,"Southampton, England",Kaiser Wilhelm II,NewYork1
+7,6,James,McCoy,Male,1867,Ireland,7 Oct 1910,New York City,"Liverpool, England",Hilarius,NewYork1
+7,7,Mate,Jakovac,Male,1883,Croatia,20 Jan 1911,New York City,"Southampton, England",New York,NewYork1
+7,8,John,Irwon,Male,1888,Ireland,17 Jan 1912,New York City,"Londonderry, Ireland",Columbia,NewYork1
+7,9,Ada,Abbott,Female,1870,England,3 Nov 1913,New York City,"Dover, England",Lapland,NewYork1
+7,10,Margaret,Larsen,Female,1882,England,9 Jan 1914,New York City,"Liverpool, England",Lusitania,NewYork1
+7,11,William,Bellamy,Male,1889,England,18 Jun 1910,New York City,"Hull, England",Buffalo,NewYork1
+7,12,John,Jost,Male,1886,Germany,20 Mar 1911,New York City,"Dover, England",Lapland,NewYork1
+7,13,Jean,Danguy,Male,1860,France,14 Aug 1912,New York City,"Dover, England",Finland,NewYork1
+7,14,Carrie,Aronton,Female,1851,England,29 Sep 1913,New York City,"Dover, England",Lapland,NewYork1
+7,15,Jan,Zurionsko,Male,1887,Russia,9 May 1914,New York City,"Liverpool, England",Adriatic,NewYork1
+7,16,Annie,Normile,Female,1886,Ireland,14 Apr 1910,New York City,"Queenstown, Ireland",Oceanic,NewYork1
+7,17,Margaret,Lydoro,Female,1883,Ireland,10 Jul 1911,New York City,"Dover, England",Lapland,NewYork1
+7,18,Willhelm,Ostrander,Male,1905,Norway,3 Feb 1912,New York City,"Liverpool, England",Arabic,NewYork1
+7,19,William,Holmb,Male,1864,Scotland,4 Jun 1913,New York City,"Dover, England",Kroonland,NewYork1
+7,20,Arthur,Schulthess,Male,1882,Germany,4 Feb 1914,New York City,"Dover, England",Finland,NewYork1
