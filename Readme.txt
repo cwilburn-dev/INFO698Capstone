@@ -1,5 +1,4 @@
 Notes:  This document is a running project log and journal.  At the moment, it's informal and inconsistent in places; these will be cleaned up over time.
-
 Project Hours: 34 hours, 40 minutes thus far.
 
 ---
