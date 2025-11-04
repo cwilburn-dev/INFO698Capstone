@@ -1,19 +1,19 @@
 import pandas as pd
 
-# PRE-PROCESSING
-# load and read dataset
+# loads original data
 file_path = "project-data-master.csv"
 df = pd.read_csv(file_path)
 
-# initial preview
-print("Shape of dataset:", df.shape)
-print("\nColumn names:", df.columns.tolist())
-print("\nSample rows:")
+print("Initial dataset loaded")
+print("Shape:", df.shape)
+print("Columns:", df.columns.tolist())
+print("\nRaw Sample:")
 print(df.head())
 
-# convert ArrivalDate to datetime
+# date format corrections and derived ArrivalYear
 if "ArrivalDate" in df.columns:
     def parse_dates(date_str):
+        """Try multiple date formats until one matches."""
         for fmt in ("%d %b %Y", "%d-%b-%y", "%m/%d/%Y", "%m/%d/%y"):
             try:
                 return pd.to_datetime(date_str, format=fmt)
@@ -28,40 +28,43 @@ if "ArrivalDate" in df.columns:
 if "ArrivalDate" in df.columns:
     df = df.sort_values(by="ArrivalDate")
 
-# normalize ship names
+# normalize ShipNames
 if "ShipName" in df.columns:
     df["ShipName"] = df["ShipName"].str.replace(r'^(RMS|SS|MV|HMS)\s+', '', regex=True)
 
-# maps name variants
-ship_mapping = {
-    "Augusta Victoria": "Kaiserin Augusta Victoria",
-    "Kaiser Wilhelm II": "Kaiser Wilhelm II",
-}
-df['ShipName'] = df['ShipName'].replace(ship_mapping)
+    # name mappings for variants
+    ship_mapping = {
+        "Augusta Victoria": "Kaiserin Augusta Victoria",
+        "Kaiser Wilhelm II": "Kaiser Wilhelm II",
+    }
+    df["ShipName"] = df["ShipName"].replace(ship_mapping)
 
-# normalize departure ports
+# departures
 if "DeparturePlace" in df.columns:
-    # multiple departure ports
-    df["TransitIndicator"] = df["DeparturePlace"].str.contains(" and ")
-    # keep last port
+    df["TransitIndicator"] = df["DeparturePlace"].str.contains(" and ", case=False, na=False)
     df["DeparturePlace"] = df["DeparturePlace"].str.split(" and ").str[-1].str.strip()
 
-# summary
-print("\nSummary by bin:")
+# derived AgeAtArrival
+if "BirthDate" in df.columns:
+    # Ensure numeric and handle invalid conversions
+    df["BirthDate"] = pd.to_numeric(df["BirthDate"], errors="coerce")
+    df["AgeAtArrival"] = df["ArrivalYear"] - df["BirthDate"]
+
+# summaries
+print("\nSummary by Bin:")
 print(df.groupby("Bin").size())
 
-print("\nNumber of inferred multi-leg journeys (TransitIndicator=True):")
-print(df["TransitIndicator"].sum())
+if "DeparturePlace" in df.columns:
+    print("\nTop Departure Ports:")
+    print(df["DeparturePlace"].value_counts().head())
 
-# convert ArrivalDate back to "dd MMM yyyy" for csv
-df['ArrivalDate'] = df['ArrivalDate'].dt.strftime('%d %b %Y')
+if "ShipName" in df.columns:
+    print("\nTop Ships:")
+    print(df["ShipName"].value_counts().head())
 
-# post-cleaning preview
-print("Shape of dataset:", df.shape)
-print("\nColumn names:", df.columns.tolist())
-print("\nSample rows:")
-print(df.head())
+print("\nSample with computed age:")
+print(df[["FirstName", "LastName", "BirthDate", "ArrivalYear", "AgeAtArrival"]].head())
 
-# cleaned csv
-df.to_csv("migration_master_clean.csv", index=False)
-print("\nCleaned data saved as migration_master_clean.csv")
+# clean csv for data analysis
+df.to_csv("migration_analysis_ready.csv", index=False)
+print("\nAll steps complete — final file saved as migration_analysis_ready.csv")
