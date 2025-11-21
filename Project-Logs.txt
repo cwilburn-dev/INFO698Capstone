@@ -1,6 +1,20 @@
 Notes:  This document is a running project log and journal.  At the moment, it's informal and inconsistent in places; these will be cleaned up over time.
 Project Hours: 83 hours, 10 minutes
 
+---
+11/21/25 (2.5 hours)
+12pm-2:30pm: Rewrote README.md, updated project logs, cleaned up GitHub repository.
+
+=======
+Week 13
+=======
+11/20/25 (0.5 hours)
+10am-10:30am: Meeting with Prof. Werchan via Zoom;
+
+---
+11/13/25 (0.5 hours)
+10am-10:30am: Meeting with Prof. Werchan via Zoom;
+
 =======
 Week 12
 =======

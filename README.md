@@ -54,22 +54,22 @@ git clone https://github.com/cwilburn-dev/INFO698Capstone.git
 cd INFO698Capstone  
 
 
-Install required packages:
+Install required packages:  
 pip install -r requirements.txt
 
 ## Usage
 
-Run the Streamlit app:
+Run the Streamlit app:  
 streamlit run streamlit.py  
 
 Once running, the Streamlit app should open in your browser automatically.  
-If not, navigate to:
+If not, navigate to:  
 http://localhost:8501
 
 
 ## Configuration
 
-streamlit.py
-migration_analysis_ready_clean.csv
-historical_events.json
+streamlit.py  
+migration_analysis_ready_clean.csv  
+historical_events.json  
 
