@@ -1,9 +1,56 @@
 Notes:  This document is a running project log and journal.  At the moment, it's informal and inconsistent in places; these will be cleaned up over time.
-Project Hours: 34 hours, 40 minutes thus far.
+Project Hours: 83 hours, 10 minutes
+
+=======
+Week 12
+=======
+11/11/25
+
 
 ---
-11/03/25 (4 hours)
-11am-3pm: made the decision to attempt this without a proper database; will try streamlit instead, as I have had some success with it on another project.  if it doesn't work out, some form of lightweight relational database will be implemented.  wrote pre-processing and basic analysis code, but was running into issues with ArrivalDate.  this required fixing some of the data in the csv file, as somehow, the export changed the cell type on some of the dates, resulting in some data being dumped at processing time.
+11/10/25 (2 hours)
+11am-1pm: Reworked Streamlit page. Still have one element to figure out where to fit it in, then I think the layout is complete.
+
+---
+11/09/25 (8.5 hours)
+11am-12:30pm: Completed historical research for U.S.
+12:30pm-3pm: Updated Streamlit script to clean up details and improve organization.  Must add more analysis and explanation.
+6pm-11:30pm: Added Shipping Lines to data, should provide another element that can be analyzed for trends.
+
+---
+11/08/25 (8.5 hours)
+10am-5pm: Historical research for data comparison.  Worked through Britain, Ireland, and Scandinavia from Nugent source.
+10:30pm-12am: Continued historical research - Germany/German Empire.  Still need to pull some numbers for the United States as well.
+
+---
+11/07/25 (4 hours)
+11am-3pm: Worked on trying to implement the timeline with historical context.
+
+=======
+Week 11
+=======
+11/06/25 (11 hours)
+10am-10:30am: Meeting with Prof. Werchan via Zoom; demoed the Streamlit page and some of the exploratory analysis.  Talked about what's next - more analysis and visualizations!
+11am-3pm: Data collection.  Added some temporal analysis for BirthPlace and Age.
+7:30pm-2am: Continued expanding dataset; reached 420 records. Cleaned up some UI issues in Streamlit.  Still need to update labels.
+
+---
+11/05/25 (10 hours)
+11am-3pm: Transferred pre-processing and exploratory code to a Jupyter Notebook, should make visualizations and outputs easier to read.  After the transfer, began performing follow-up exploration of a couple points that caught my attention last night.  One was an error in the data, the other however warrants further investigation.
+5pm-7:30pm: Implemented a basic Streamlit app.  It can currently toggle between equal distribution and a historical weight to the dataset.  Also added a basic cluster analysis, but it needs to be improved.
+10pm-1:30am: Expanded dataset to 280 records.
+
+---
+11/04/25 (3.5 hours)
+10pm-12am: Added another 35 records to the dataset, bringing it to 210 total, with 30 per bin.  Target is 280 records by Thursday, should be possible.
+
+12am-1:30am: Conducting exploratory analysis for points of interest or issues.  Tonight focused on descriptive stats (gender, age, birthplace, departure, etc.) to check the condition of the data.  Should be able to move into other analysis tomorrow.
+
+---
+11/03/25 (7 hours)
+11am-3pm: I made the decision to attempt this without a proper database; will try Streamlit instead, as I have had some success with it on another project.  If it doesn't work out, some form of lightweight relational database will be implemented.  I wrote pre-processing and basic analysis code, but I was running into issues with ArrivalDate.  This required fixing some of the data in the csv file, as somehow, the export changed the cell type on some of the dates, resulting in some data being dumped at processing time.
+
+10pm-1am: Began expanding dataset as initial set was too small. will have it doubled by Thursday's meeting.  while doing the data entry, i had an idea to use one data set and give the user the choice to select equal weight or historic weight on the dataset.  will look into it tomorrow.
 
 ---
 11/02/25 (13.5 hours)
@@ -11,41 +58,56 @@ Project Hours: 34 hours, 40 minutes thus far.
 
 4pm-3:30am: initial 140 records entered from ancestry.com into csv; compiled project logs from notes; really should do this immediately after my work, not later from my notes.
 
----
+=======
+Week 10
+=======
 10/30/25 (4.5 hours)
 1pm-1:30pm: Meeting with Prof. Werchan via Zoom; discussed contingency plan to include some data from secondary sources if necessary.  was given the go ahead to continue trying to get viable primary data manually.  unsure of time investment required, but i would have preferred an API.
+
 8pm-12am: explored ancestry.com immigration and emigration collections.  i'm a bit overwhelmed by the volume of records to go through, even though i know many will not be relevant to my project.  its still a daunting task.  collected a few sample records from 4 collections for evaluation sometime over the next few days.
 
 ---
 10/26/25 (3 hours)
 10am-1pm: Re-read relevant chapters from Hatton and Williamson's Age of Mass Migration.
 
----
+=======
+Week 9
+=======
 10/23/25 (30 min)
 10am-10:30am: Meeting with Prof. Werchan via Zoom; discussed contact follow-ups with familysearch.org and ancestry.com and their lack of available datasets or API access and how this may affect the project.
 
 ---
 10/21/25 (3 hours)
 General: received response from ancestry.com, no api access but there is a student discount available.  also can't scrape data, all searches must be manually conducted.  bummer.
+
 12pm-3pm: Re-read relevant chapters of Nugent's Crossings for better context in relation to the UK during the period.
 
 ---
 10/17/25 (5 hours)
 10am-1pm: Explored ancestry.com and familysearch.org to evaluate the types of records available, what kinds of search tools they provide, what types of access are available (free, memberships, discounts, api).  emailed them to inquire about api access, etc.
+
 4pm-6pm: continued searching the websites
 
----
+=======
+Week 8
+=======
 10/16/25 (30 min)
 10am-10:30am: Meeting with Prof. Werchan via Zoom; discussed preliminary searches and strategy.  talked about some potential difficulties, like data access. i know i'm behind at this point, but can make it up with some free time.  i told him that i know i'm behind too.  shouldn't be a problem though now that I've wrapped up that one class and have the other project in a good place.
 
----
+=======
+Week 7
+=======
 10/9/25 (10 min)
 No meeting this week with Prof. Werchan; touched base via email.  same as last week, he knows that i'm busy with other projects but will make time when i can.
 
----
+=======
+Week 6
+=======
 10/2/25 (10 min)
 No meeting this week with Prof. Werchan; touched base via email.  in addition to my usual weekly course work, i have a project proposal for another class and a final project for a 7 week course that are due by the 15th of October.  Unfortunately, that will heavily restrict my time to work on this project until those are under control/completed.
 
----
+=======
+Week 5
+=======
 9/25/25 (20 min)
 Initial GitHub Site Setup and Desktop Test

@@ -1,0 +1,19 @@
+[
+  {"year": 1880, "country": "Global", "title": "Steamships Revolutionize Ocean Travel", "description": "Steamship provide a faster, safer passage for half the cost of 1860 prices ($45).", "type": "technology"},
+  {"year": 1880, "country": "Scandinavia", "title": "Agrarian Crises in Scandinaniva", "description": "Several agrarian crises give rise to Finnish and Swedish emigration to the United States.", "type": "economic"},
+  {"year": 1883, "country": "United Kingdom", "title": "Barberton Gold Rush", "description": "Gold discovered in South Africa, sparking a small rush from 1883-1886.  Many left when richer deposits were discovered nearby.", "type": "economic"},
+  {"year": 1886, "country": "United Kingdom", "title": "Witwatersrand Gold Rush", "description": "Incredible gold deposits found in South Africa, leading to the Witwatersrand Gold Rush and the founding of Johannesburg.", "type": "economic"},
+  {"year": 1886, "country": "United Kingdom", "title": "Private Societies Promote Emigration", "description": "More than 60 private societies promote emigration amongst the English, Irish, and Scottish to the Dominions and United States.", "type": "economic"},
+  {"year": 1890, "country": "Germany", "title": "German Industrial Expansion", "description": "Rapid industrialization reduced emigration.", "type": "economic"},
+  {"year": 1891, "country": "United Kingdom", "title": "Murchison Gold Rush", "description": "Gold is discovered in Western Australia, lasting from 1891-1894.", "type": "economic"},
+  {"year": 1892, "country": "United Kingdom", "title": "Coolgardie Gold Rush", "description": "More gold is discovered in Western Australia, lasting from 1892-1894.", "type": "economic"},
+  {"year": 1893, "country": "United Kingdom", "title": "Kalgoorlie Gold Rush", "description": "One of the richest goldfields ever found is discovered in Western Australia.  This mining operation is still running today.", "type": "economic"},
+  {"year": 1893, "country": "United States", "title": "Panic of 1893", "description": "Economic depression reduced immigration demand.", "type": "economic"},
+  {"year": 1896, "country": "United Kingdom", "title": "Klondike Gold Rush", "description": "The discovery of gold in the Yukon draws tens of thousands to try their luck.  This gold rush would run from 1896-1899.", "type": "economic"},
+  {"year": 1898, "country": "United Kingdom", "title": "Atlin Gold Rush", "description": "More gold discovered in the Yukon and continues to bring people to Canada.  This gold rush would last from 1898-1900.", "type": "economic"},
+  {"year": 1903, "country": "United Kingdom", "title": "Royal Commmission", "description": "The Royal Commission of 1903 restricts \"undesireables\" from entering the UK. This act along with the 1905 Aliens Act effectively put an end to the free immigration of the past.", "type": "political"},
+  {"year": 1905, "country": "United Kingdom", "title": "Aliens Act", "description": "Home Office is now resposible for deciding who can enter.", "type": "political"},
+  {"year": 1909, "country": "United Kingdom", "title": "Porcupine Gold Rush", "description": "Gold is discovered in Northern Ontario.  While smaller than the previous two, this rush would continue from 1909-1911.", "type": "economic"},
+  {"year": 1912, "country": "United Kingdom", "title": "Titanic Sinks", "description": "April 1912 - Titanic sinks in the North Atlantic, reducing immigration demand.", "type": "disaster"},
+  {"year": 1914, "country": "Global", "title": "World War I Begins", "description": "With the assassination of archduke Franz Ferdinand, Europe's tangle of alliances quickly devolves into a world war.", "type": "economic"}
+]
