@@ -32,6 +32,7 @@ The project:
 - Highlights correlations between travel patterns and major socio-political events.
 
 All analysis is conducted directly on local datasets (no external database required), and results are presented through a Streamlit interface for ease of use and accessibility.
+
 ---
 
 ## Features
@@ -52,9 +53,11 @@ Clone the repository:
 git clone https://github.com/cwilburn-dev/INFO698Capstone.git
 cd INFO698Capstone
 
+
 Install required packages:
 
 pip install -r requirements.txt
+
 
 ## Usage
 
@@ -62,10 +65,12 @@ Run the Streamlit app:
 
 streamlit run streamlit.py
 
+
 Once running, the Streamlit app should open in your browser automatically.
 If not, navigate to:
 
 http://localhost:8501
+
 
 ## Configuration
 
