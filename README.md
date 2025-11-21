@@ -11,9 +11,6 @@ The goal is to create a clear, data-driven narrative of who migrated, when they 
 - [Installation](#installation)
 - [Usage](#usage)
 - [Configuration](#configuration)
-- [API](#api)
-- [Roadmap](#roadmap)
-- [Contributing](#contributing)
 - [License](#license)
 - [Acknowledgements](#acknowledgements)
 
@@ -72,4 +69,12 @@ http://localhost:8501
 streamlit.py  
 migration_analysis_ready_clean.csv  
 historical_events.json  
+
+## License
+
+pending.
+
+## Acknowledgements
+
+pending.
 
