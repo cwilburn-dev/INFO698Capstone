@@ -3,5 +3,4 @@ altair
 pandas
 plotly
 numpy
-scikit-learn
-streamlit-timeline
+kmodes
