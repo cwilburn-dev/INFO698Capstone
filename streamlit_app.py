@@ -334,7 +334,7 @@ if sampled_df is not None:
         theme_color: accentColor,
         hash_bookmark: false,
         initial_zoom: 3,
-        start_at_slide: 7,
+        start_at_slide: 1,
         start_at_end: false
     }});
 
