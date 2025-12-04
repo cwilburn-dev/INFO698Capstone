@@ -541,7 +541,7 @@ if sampled_df is not None:
                     hole=0.3
                 )
                 fig_gender.update_traces(textposition="inside", textinfo="percent+label")
-                st.plotly_chart(fig_gender, use_container_width=True)
+                st.plotly_chart(fig_gender, width="stretch")
             else:
                 st.warning("⚠️ 'Gender' column not found.")
 
@@ -564,7 +564,7 @@ if sampled_df is not None:
                 labels={"Age": "Age at Arrival", "Count": "Number of Migrants"}
             )
             fig_age.update_traces(textposition="outside")
-            st.plotly_chart(fig_age, use_container_width=True)
+            st.plotly_chart(fig_age, width="stretch")
         else:
             st.warning("⚠️ 'AgeAtArrival' column not found.")
 
@@ -591,7 +591,7 @@ if sampled_df is not None:
                 )
                 fig_children.update_traces(textposition="outside")
                 fig_children.update_layout(xaxis={"categoryorder": "total descending"})
-                st.plotly_chart(fig_children, use_container_width=True)
+                st.plotly_chart(fig_children, width="stretch")
         else:
             st.warning("⚠️ Missing 'AgeAtArrival' or 'BirthPlace' columns.")
 # endregion
@@ -642,7 +642,7 @@ if sampled_df is not None:
                 #st.write("Years in filtered data:", sorted(filtered["ArrivalYear"].unique()))
 
                 annotated = annotate_chart(chart, events_to_annotate)
-                st.altair_chart(annotated, use_container_width=True)
+                st.altair_chart(annotated, width="stretch")
                 st.caption("💡Tip: If the chart ever appears blank, double-click inside the plot to refresh it.")
 
                 if apply_smoothing:
@@ -664,7 +664,7 @@ if sampled_df is not None:
                         )
                         .properties(width=700, height=400, title="3-Year Rolling Average (Smoothed)")
                     )
-                    st.altair_chart(smoothed_chart, use_container_width=True)
+                    st.altair_chart(smoothed_chart, width="stretch")
 
         st.markdown("""
             ### Understanding Migration Patterns Over Time
@@ -823,16 +823,16 @@ if sampled_df is not None:
                 return chart
             
             st.write("### Cluster vs RouteCode")
-            st.altair_chart(plot_heatmap_with_profile(df_km_rel, "RouteCode", cluster_profiles_rel), use_container_width=True)
+            st.altair_chart(plot_heatmap_with_profile(df_km_rel, "RouteCode", cluster_profiles_rel), width="stretch")
 
             st.write("### Cluster vs Season")
-            st.altair_chart(plot_heatmap_with_profile(df_km_rel, "Season", cluster_profiles_rel), use_container_width=True)
+            st.altair_chart(plot_heatmap_with_profile(df_km_rel, "Season", cluster_profiles_rel), width="stretch")
 
             st.write("### Cluster vs AgeCategory")
-            st.altair_chart(plot_heatmap_with_profile(df_km_rel, "AgeCategory", cluster_profiles_rel), use_container_width=True)
+            st.altair_chart(plot_heatmap_with_profile(df_km_rel, "AgeCategory", cluster_profiles_rel), width="stretch")
 
             st.write("### Cluster vs Gender")
-            st.altair_chart(plot_heatmap_with_profile(df_km_rel, "Gender", cluster_profiles_rel), use_container_width=True)
+            st.altair_chart(plot_heatmap_with_profile(df_km_rel, "Gender", cluster_profiles_rel), width="stretch")
 
         else:
             st.info("KModes clustering unavailable due to missing or invalid data.")
