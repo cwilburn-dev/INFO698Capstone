@@ -179,7 +179,7 @@ if st.session_state.show_intro:
     """)
 
     st.button("**Begin Analysis**", on_click=begin_analysis, type="primary")
-    st.stop()   # prevents rest of app from loading
+    st.stop()
 
 df = load_data()
 df["BinLabel"] = df["Bin"].map(bin_labels)
@@ -197,7 +197,7 @@ with st.sidebar:
         "Random Seed",
         min_value=0,
         max_value=1_000_000_000,
-        value=42,      # initial seed
+        value=42,
         step=1
     )
 
@@ -237,11 +237,11 @@ with st.sidebar:
 if sampled_df is not None:
     # clears the sample message
     msg = st.empty()
-    msg.success(f"✅ Sample generated successfully ({len(sampled_df)} records).")
+    msg.success(f"Sample generated successfully ({len(sampled_df)} records).")
     time.sleep(1)
     msg.empty()
     
-    st.title("Transatlantic Migration Explorer (1880-1914)")
+    st.title("North Atlantic Migration Explorer (1880-1914)")
     
     # filtered dataset for all tabs
     selected_df = sampled_df[
@@ -524,7 +524,7 @@ if sampled_df is not None:
                 fig_bp.update_traces(textposition="inside", textinfo="percent+label")
                 st.plotly_chart(fig_bp, width="stretch")
             else:
-                st.warning("⚠️ 'BirthPlace' column not found.")
+                st.warning("WARNING: 'BirthPlace' column not found.")
 
         # gender        
         with col2:
@@ -546,7 +546,7 @@ if sampled_df is not None:
                 fig_gender.update_traces(textposition="inside", textinfo="percent+label")
                 st.plotly_chart(fig_gender, width="stretch")
             else:
-                st.warning("⚠️ 'Gender' column not found.")
+                st.warning("WARNING: 'Gender' column not found.")
 
         # age
         if "AgeAtArrival" in sampled_df.columns:
@@ -569,7 +569,7 @@ if sampled_df is not None:
             fig_age.update_traces(textposition="outside")
             st.plotly_chart(fig_age, width="stretch")
         else:
-            st.warning("⚠️ 'AgeAtArrival' column not found.")
+            st.warning("WARNING: 'AgeAtArrival' column not found.")
 
         # children by nationality
         if {"AgeAtArrival", "BirthPlace"}.issubset(sampled_df.columns):
@@ -596,7 +596,7 @@ if sampled_df is not None:
                 fig_children.update_layout(xaxis={"categoryorder": "total descending"})
                 st.plotly_chart(fig_children, width="stretch")
         else:
-            st.warning("⚠️ Missing 'AgeAtArrival' or 'BirthPlace' columns.")
+            st.warning("WARNING: Missing 'AgeAtArrival' or 'BirthPlace' columns.")
 # endregion
 
 # region TEMPORAL
@@ -604,7 +604,7 @@ if sampled_df is not None:
         st.markdown("## Temporal Migration Trends Over Time")
 
         if 'ArrivalYear' not in selected_df.columns:
-            st.error("❌ The dataset does not include 'ArrivalYear'. Please add it during preprocessing.")
+            st.error("ERROR: The dataset does not include 'ArrivalYear'. Please add it during preprocessing.")
         else:
             df_grouped = (
                 selected_df.groupby(['ArrivalYear', 'BirthPlace'])
@@ -615,7 +615,7 @@ if sampled_df is not None:
             filtered = df_grouped[df_grouped['BirthPlace'].isin(selected_birthplaces)]
 
             if filtered.empty:
-                st.warning("⚠️ No data available for the selected filters.")
+                st.warning("WARNING: No data available for the selected filters.")
             else:
                 chart = (
                     alt.Chart(filtered)
@@ -764,13 +764,13 @@ if sampled_df is not None:
         missing_cols = [col for col in cat_cols_rel if col not in df_rel.columns]
 
         if missing_cols:
-            st.warning(f"⚠️ KModes clustering skipped: missing required columns: {missing_cols}")
+            st.warning(f"WARNING: KModes clustering skipped: missing required columns: {missing_cols}")
             kmodes_ready = False
         else:
             # null check
             null_summary = df_rel[cat_cols_rel].isna().sum()
             if null_summary.sum() > 0:
-                st.warning("⚠️ KModes clustering skipped: required categorical columns contain null values.")
+                st.warning("WARNING: KModes clustering skipped: required categorical columns contain null values.")
                 st.write(null_summary)
                 kmodes_ready = False
             else:
