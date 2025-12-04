@@ -498,7 +498,7 @@ if sampled_df is not None:
         )
         fig_hist.update_traces(textposition="outside")
         fig_hist.update_layout(xaxis={"categoryorder": "array", "categoryarray": list(bin_labels.values())})
-        st.plotly_chart(fig_hist, use_container_width=True)
+        st.plotly_chart(fig_hist, width="stretch")
 
         # --- PIE CHARTS ---
         col1, col2 = st.columns(2)
@@ -519,7 +519,7 @@ if sampled_df is not None:
                     hole=0.3
                 )
                 fig_bp.update_traces(textposition="inside", textinfo="percent+label")
-                st.plotly_chart(fig_bp, use_container_width=True)
+                st.plotly_chart(fig_bp, width="stretch")
             else:
                 st.warning("⚠️ 'BirthPlace' column not found.")
 
