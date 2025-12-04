@@ -19,7 +19,7 @@
 
 ### 11/27/25 (12 hours)
 - 10am-2:30pm: Finally resolved a display issue in my Timeline; that one had been bothering me for a couple of weeks and after several attempts to locate the source, it's finally fixed.  
-- 7pm-10pm: *(no note)*  
+- 7pm-10pm: Additional work on writing descriptions.  
 - 12am-2:30am: Continued writing and revising analysis for app. Almost done at this point with a first pass through all sections. Will need to review and revise again once first pass is done.
 
 ### 11/26/25 (11 hours)
@@ -33,7 +33,7 @@
 - 12am-1:30am: Added markers for individual countries to Temporal graph.
 
 ### 11/24/25 (3.5 hours)
-- 10am-10:30am: Meeting with Prof. Werchan via Zoom.  
+- 10am-10:30am: Meeting with Prof. Werchan via Zoom; this was a last chance to ask questions before Thanksgiving meeting.  Spoke briefly of project status but everything was pretty much in the same state from last time; no new questions for him at this time.  
 - 1pm-4pm: Wrote descriptions for temporal (complete) and clustering (in progress).
 
 ### 11/22/25 (3.5 hours)
@@ -60,10 +60,10 @@
 ## Week 12 (Nov 7 - Nov 13)
 
 ### 11/13/25 (0.5 hours)
-- 10am-10:30am: Meeting with Prof. Werchan via Zoom; demoed new changes, nothing particular of note in meeting. Continue working on systems and plowing ahead.
+- 10am-10:30am: Meeting with Prof. Werchan via Zoom; demoed new changes, nothing new of particular note in meeting and will continue working on systems and plowing ahead.
 
 ### 11/11/25 (2 hours)
-- What did I do this day?
+- 2pm-4pm: Finally found the right placement for the controls.
 
 ### 11/10/25 (2 hours)
 - 11am-1pm: Reworked Streamlit page. Still have one element to figure out where to fit it in, then layout is complete.
