@@ -1,4 +1,4 @@
-# North Atlantic Migration Patterns During the Ocean Liner Era (1880–1914)
+# North Atlantic Migration Pattern Explorer (1880–1914)
 
 North Atlantic Migration Patterns Explorer (1880–1914) is an interactive Streamlit application that explores UK–US migration during the late 19th and early 20th centuries.
 Using digitized passenger lists and contextual historical event data, the project visualizes temporal trends, demographic patterns, and factors influencing long-distance travel.
@@ -11,7 +11,6 @@ The goal is to create a clear, data-driven narrative of who migrated, when they 
 - [Installation](#installation)
 - [Usage](#usage)
 - [Configuration](#configuration)
-- [Acknowledgements](#acknowledgements)
 
 ---
 
@@ -27,7 +26,7 @@ The project:
 - Provides interactive visualizations to support exploration and interpretation.
 - Highlights correlations between travel patterns and major socio-political events.
 
-All analysis is conducted directly on local datasets (no external database required), and results are presented through a Streamlit interface for ease of use and accessibility.
+All analysis is conducted within the Streamlit app, which handles datasets and processing automatically, so users can explore the data entirely in their browser without local files or database setup.
 
 ---
 
@@ -38,11 +37,14 @@ All analysis is conducted directly on local datasets (no external database requi
 - Demographic analysis including age, gender, occupation, and origin/destination.
 - Ship and voyage exploration (routes, departure ports, travel timing).
 - Clustering and pattern detection using scikit-learn techniques.
-- Local dataset integration — no database setup required.
+- Automatic dataset integration: all data is handled internally by the app.
 
 ---
 
 ## Installation
+
+We recommend exploring the dataset via the live Streamlit app.
+If you choose to run the app locally, note that some functionality or behavior may differ from the deployed version.
 
 Clone the repository:
 
@@ -55,16 +57,22 @@ pip install -r requirements.txt
 
 ## Usage
 
-Run the Streamlit app:  
-streamlit run streamlit_app.py  
+Visit the live Streamlit app at https://wilburn-capstone.streamlit.app/.
+The app runs entirely in your browser — no local setup is required.
+All necessary Python packages and datasets are handled automatically by Streamlit.
 
-Once running, the Streamlit app should open in your browser automatically.  
-If not, navigate to:  
-http://localhost:8501
+Explore the migration data through the interactive interface, including:
+
+- Temporal migration trends
+- Demographic analysis (age, gender, occupation, origin/destination)
+- Ship and voyage information
+- Historical event correlations and patterns
+
+No additional configuration or downloads are necessary.
 
 
 ## Configuration
 
-streamlit.py  
-migration_analysis_ready_clean.csv  
-historical_events.json  
+No manual configuration is required.
+The Streamlit app automatically manages dependencies and dataset integration.
+Simply open the app link and start exploring.
