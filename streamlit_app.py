@@ -148,12 +148,12 @@ def annotate_chart(base_chart, events):
 # endregion
 
 # region MAIN
-st.set_page_config(page_title="Transatlantic Migration Explorer (1880-1914)", layout="wide")
+st.set_page_config(page_title="North Atlantic Migration Pattern Explorer (1880-1914)", layout="wide")
 
 # --- Landing Page ---
 if st.session_state.show_intro:
     st.markdown("""
-    # Transatlantic Migration Explorer  
+    # North Atlantic Migration Explorer  
     ### 1880-1914
 
     The late 19th through early 20th centuries marked one of the most dramatic population movements 

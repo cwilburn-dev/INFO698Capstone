@@ -1,5 +1,11 @@
 About:  This document is a running project log and journal.
-Project Hours: 137.5 hours
+Project Hours: 140.5 hours
+
+=======
+Week 15 (Nov27-Dec3)
+=======
+11/28/25 (3 hours)
+12pm-3pm: Fighting with the Streamlit deployment.  It's always something.
 
 =======
 Week 14 (Nov21-Nov27)

@@ -11,7 +11,6 @@ The goal is to create a clear, data-driven narrative of who migrated, when they 
 - [Installation](#installation)
 - [Usage](#usage)
 - [Configuration](#configuration)
-- [License](#license)
 - [Acknowledgements](#acknowledgements)
 
 ---
@@ -57,7 +56,7 @@ pip install -r requirements.txt
 ## Usage
 
 Run the Streamlit app:  
-streamlit run streamlit.py  
+streamlit run streamlit_app.py  
 
 Once running, the Streamlit app should open in your browser automatically.  
 If not, navigate to:  
@@ -69,10 +68,6 @@ http://localhost:8501
 streamlit.py  
 migration_analysis_ready_clean.csv  
 historical_events.json  
-
-## License
-
-pending.
 
 ## Acknowledgements
 
