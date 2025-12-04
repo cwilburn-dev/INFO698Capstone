@@ -171,6 +171,8 @@ if st.session_state.show_intro:
     Act (1924), which introduced strict immigration quotas and brought about the end of the age of 
     mass European migration.
 
+    NOTE: If you are viewing this before December 10th, 2025, the project is still undergoing minor
+    refinements that may result in interruptions.  Thank you for the understanding.
     ---
     ### Click below to begin exploring the data.
     """)
