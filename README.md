@@ -70,6 +70,14 @@ Explore the migration data through the interactive interface, including:
 
 No additional configuration or downloads are necessary.
 
+For local usage:  
+From a terminal window, execute the command:  
+streamlit run streamlit_app.py
+
+Once running, the Streamlit app should open in your browser automatically.  
+
+If not, navigate to:  
+http://localhost:8501
 
 ## Configuration
 
