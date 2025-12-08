@@ -94,9 +94,10 @@ def load_data(csv_path="migration_analysis_ready_clean.csv"):
     if "Bin" in df.columns:
         df["Bin"] = df["Bin"].astype(str).str.strip()
 
-    st.success(f"✅ Loaded {len(df)} rows from {csv_path}")
+    st.success(f"Loaded {len(df)} rows from {csv_path}")
+    time.sleep(1)
+    msg.empty()
     return df
-
 # endregion
 
 # region CONSTANTS
