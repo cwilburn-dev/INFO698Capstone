@@ -1,13 +1,14 @@
 # Project Log
 
 **About:** This document is a running project log and journal.  
-**Project Hours:** 165.5 hours
+**Project Hours:** 172.5 hours
 
 ## Week 16 (Dec 4 - Dec 10)
 
-### 12/07/25 (8.5 hours)
+### 12/07/25 (15.5 hours)
 - 11am-4pm: Completed supporting paper for the project; will review it in the morning.
 - 6pm-9:30pm: Cleaned up codebase and Readme; added headers, added docstrings, and removed debugging code.  Cleaned up a few spelling and verbiage issues.
+- 10:30pm-5:30am: Added a new dataset bringing total records to 588, but the app is refusing to add the new records.
 
 ### 12/06/25 (9 hours)
 - 10am-1pm: Revised résumé and LinkedIn to reflect master's degree and a couple of projects (this is one of them).
