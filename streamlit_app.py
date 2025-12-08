@@ -90,7 +90,8 @@ historical_events_by_country = {
     "German Empire": [
         {"year": 1871, "label": "German Unification"},
         {"year": 1886, "label": "Ruhr Mining Crisis"},
-        {"year": 1890, "label": "Industrial Expansion"}
+        {"year": 1890, "label": "Industrial Expansion"},
+        {"year": 1890, "label": "German liner Elbe sinks"}
     ],
     "Russian Empire": [
         {"year": 1881, "label": "Assassination of Tsar Alexander II"},
@@ -107,7 +108,7 @@ historical_events_by_country = {
         {"year": 1880, "label": "Steamships Revolutionize Travel"},
         {"year": 1885, "label": "U.S. Recovery Begins"},
         {"year": 1886, "label": "U.S. Recession"},
-        {"year": 1893, "label": "U.S. Panic of 1893"},
+        {"year": 1893, "label": "U.S. Panic of 1893-1897"},
         {"year": 1914, "label": "World War I Begins"}
     ],
 }
