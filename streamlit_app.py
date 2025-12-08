@@ -539,8 +539,8 @@ if sampled_df is not None:
         st.markdown("### Sample Data")
         st.markdown("""
         The 588 records used in this analysis were drawn from the **'New York, U.S., Arriving Passenger and Crew Lists
-        (Castle Garden and Ellis Island), 1820-1957'** collection available through Ancestry.com.  Records were selected 
-        using a random letter-based sampling approach, collected in batches of 140 entries, and later grouped into 
+        (including Castle Garden and Ellis Island), 1820-1957'** collection available through Ancestry.com.  Records were 
+        selected using a random letter-based sampling approach, collected in batches of 140 entries, and later grouped into 
         five-year migration bins to ensure balanced temporal representation across the study period.
         """)
 
