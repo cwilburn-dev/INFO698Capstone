@@ -1,11 +1,22 @@
 # Project Log
 
 **About:** This document is a running project log and journal.  
-**Project Hours:** 140.5 hours
+**Project Hours:** 165.5 hours
+
+## Week 16 (Dec 4 - Dec 10)
+
+### 12/07/25 (8.5 hours)
+- 11am-4pm: Completed supporting paper for the project; will review it in the morning.
+- 6pm-9:30pm: Cleaned up codebase and Readme; added headers, added docstrings, and removed debugging code.  Cleaned up a few spelling and verbiage issues.
+
+### 12/06/25 (9 hours)
+- 10am-1pm: Revised résumé and LinkedIn to reflect master's degree and a couple of projects (this is one of them).
+- 7pm-1am: Revised supporting paper; was in pretty good shape with the draft, but needed a consistency check between the paper and the code.
 
 ---
 
 ## Week 15 (Nov 27 - Dec 3)
+
 ### 12/03/25 (8 hours)
 - 6pm-9:30pm: Completed the poster.  Unsure if I needed that, as I'm not able to attend or present at the iShowcase, but felt that it was better safe than sorry.
 - 9:30pm-2am: Updated the Readme.md to accurately reflect the current state of the project and converted my project_log.txt to Project_Log.md.
@@ -18,7 +29,7 @@
 ## Week 14 (Nov 21 - Nov 27)
 
 ### 11/27/25 (12 hours)
-- 10am-2:30pm: Finally resolved a display issue in my Timeline; that one had been bothering me for a couple of weeks and after several attempts to locate the source, it's finally fixed.  
+- 10am-2:30pm: Finally resolved a display issue in my timeline; that one had been bothering me for a couple of weeks and after several attempts to locate the source, it's finally fixed.  
 - 7pm-10pm: Additional work on writing descriptions.  
 - 12am-2:30am: Continued writing and revising analysis for app. Almost done at this point with a first pass through all sections. Will need to review and revise again once first pass is done.
 
@@ -104,7 +115,7 @@
 
 ### 11/02/25 (13.5 hours)
 - 10am-12pm: Evaluated preliminary data; reduced scope to 1880–1914. Chose Ellis Island and Castle Garden as primary sources. Expanded search to include UK departures. Implemented 5-year bins with 20 records per bin. Wrote Python script to randomly assign letters for sampling.  
-- 4pm-3:30am: Entered initial 140 records from ancestry.com into CSV; compiled project logs from notes.
+- 4pm-3:30am: Entered initial 140 records from Ancestry.com into CSV; compiled project logs from notes.
 
 ---
 
@@ -112,7 +123,7 @@
 
 ### 10/30/25 (4.5 hours)
 - 1pm-1:30pm: Meeting with Prof. Werchan via Zoom; discussed contingency plan and using secondary sources if needed.  
-- 8pm-12am: Explored ancestry.com immigration/emigration collections. Collected sample records from 4 collections.
+- 8pm-12am: Explored Ancestry.com immigration/emigration collections. Collected sample records from 4 collections.
 
 ### 10/26/25 (3 hours)
 - 10am-1pm: Re-read relevant chapters from Hatton and Williamson's *Age of Mass Migration*.
@@ -125,7 +136,7 @@
 - 10am-10:30am: Meeting with Prof. Werchan via Zoom; discussed contact follow-ups with familysearch.org and ancestry.com and lack of API access.
 
 ### 10/21/25 (3 hours)
-- General: Received response from ancestry.com, no API access but student discount available.  
+- General: Received response from Ancestry.com, no API access but student discount available.  
 - 12pm-3pm: Re-read relevant chapters of Nugent's *Crossings* for context.
 
 ### 10/17/25 (5 hours)
