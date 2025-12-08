@@ -248,7 +248,7 @@ if st.session_state.show_intro:
     mass European migration.
 
     Notice: If you are viewing this before December 10th, 2025, the project is still undergoing minor
-    refinements that may result in interruptions.  Thank you for the understanding.
+    refinements that may result in interruptions.  Thank you for your understanding.
                 
     ---
     ### Click below to begin exploring the data.
@@ -464,7 +464,7 @@ if sampled_df is not None:
         liner era (1880-1914) by analyzing digitized passenger-list data from the New York Arriving Passenger and Crew Lists 
         collection.
                     
-        The goal for thes project is to identify migration patterns, validate or challenge traditional historical interpretations, 
+        The goal for this project is to identify migration patterns, validate or challenge traditional historical interpretations, 
         and present the results through an interactive application that allows users to explore demographic, temporal, and 
         event-driven aspects of transatlantic travel.
 
@@ -961,6 +961,20 @@ if sampled_df is not None:
             st.info("KModes clustering unavailable due to missing or invalid data.")
 
         st.markdown("""
+        ### KModes Initialization Methods
+
+        The KModes algorithm starts by selecting initial cluster modes (centroids), and the method used can affect cluster results:
+
+        - **Huang (default)**: Chooses initial modes randomly with probabilities proportional to category frequencies.  
+        - Tends to favor more common categories.  
+        - Fast and works well for small or moderately diverse datasets.
+
+        - **Cao**: Selects initial modes to be as distinct as possible using a density-based approach.  
+        - Produces more spread-out starting clusters.  
+        - Often results in better separation for datasets with diverse categorical values, but may be slightly slower.
+
+        You can experiment with both methods to see how cluster assignments change in your data.
+                    
         ### Interpretation of the KModes Clustering Results
                     
         The KModes algorithm groups migrants based on their most common combinations of four categorical variables:  
