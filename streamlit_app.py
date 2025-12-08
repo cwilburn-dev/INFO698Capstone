@@ -964,14 +964,13 @@ if sampled_df is not None:
         ### KModes Initialization Methods
 
         The KModes algorithm starts by selecting initial cluster modes (centroids), and the method used can affect cluster results:
+        • **Huang (default)**: Chooses initial modes randomly with probabilities proportional to category frequencies.  
+        • Tends to favor more common categories.  
+        • Fast and works well for small or moderately diverse datasets.  
 
-        - **Huang (default)**: Chooses initial modes randomly with probabilities proportional to category frequencies.  
-        - Tends to favor more common categories.  
-        - Fast and works well for small or moderately diverse datasets.
-
-        - **Cao**: Selects initial modes to be as distinct as possible using a density-based approach.  
-        - Produces more spread-out starting clusters.  
-        - Often results in better separation for datasets with diverse categorical values, but may be slightly slower.
+        • **Cao**: Selects initial modes to be as distinct as possible using a density-based approach.  
+        • Produces more spread-out starting clusters.  
+        • Often results in better separation for datasets with diverse categorical values, but may be slightly slower.
 
         You can experiment with both methods to see how cluster assignments change in your data.
                     
