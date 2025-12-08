@@ -113,7 +113,7 @@ historical_events_by_country = {
         {"year": 1893, "label": "U.S. Panic of 1893-1897"},
         {"year": 1907, "label": "U.S. Panic of 1907"},
         {"year": 1907, "label": "U.S. Immigration Act of 1907"},
-        {"year": 1910, "label": "U.S. Dillingham Commission Report"},
+        {"year": 1910, "label": "U.S. Dillingham Report"},
         {"year": 1914, "label": "World War I Begins"}
     ],
 }
