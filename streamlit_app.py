@@ -135,7 +135,7 @@ birthplace_to_country = {
 # ============================================================
 #                       METHODS
 # ============================================================
-def get_sample(df, sample_per_bin=60):
+def get_sample(df, sample_per_bin=80):
     """
     Generate a sampled dataset by bin, limiting each bin to a maximum number of records.
 
