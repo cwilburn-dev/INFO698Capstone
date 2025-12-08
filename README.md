@@ -93,4 +93,5 @@ Simply open the app link and start exploring.
 ## Acknowledgements
 
 Thank you to Prof. Henry Werchan for serving as my project mentor, whose guidance was invaluable over the project's duration.  
+
 And a special thanks to Dr. Nikita Sharma for supporting me in the early stages of the project and ensuring that I had what I needed to succeed. 
