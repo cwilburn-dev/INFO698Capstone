@@ -187,6 +187,8 @@ def annotate_chart(base_chart, events):
         - Each event is drawn with a red dashed line and a corresponding text annotation.
         - Designed for time series plots with an 'ArrivalYear' axis.
     """
+    # staggered offsets for readability
+    offsets = [-20, -35, -50, -65, -80, -95]
     layers = [base_chart]
 
     if not events:
@@ -196,59 +198,45 @@ def annotate_chart(base_chart, events):
     years = [e["year"] for e in events]
     min_year, max_year = min(years), max(years)
 
-    # group events by year
-    events_by_year = {}
-    for e in events:
-        events_by_year.setdefault(e["year"], []).append(e["label"])
+    for idx, e in enumerate(events):
+        df_event = pd.DataFrame({"ArrivalYear": [e["year"]], "Event": [e["label"]]})
+        offset = offsets[idx % len(offsets)]
 
-    # spacing for stacked labels
-    offset_step = 15
-    max_offset = 120
+        # default placement: right
+        align = "left"
+        dx = 5
 
-    for year, labels in events_by_year.items():
-        n = len(labels)
-        # center stack around 0
-        start_offset = -offset_step * (n - 1) / 2
+        # flip label for right edge
+        if e["year"] == max_year:
+            align = "right"
+            dx = -5
 
-        for i, label in enumerate(labels):
-            dy = start_offset + i * offset_step
-            dy = max(min(dy, max_offset), -max_offset)
-
-            df_event = pd.DataFrame({"ArrivalYear": [year], "Event": [label]})
-
-            # default placement
-            align = "left"
-            dx = 5
-            if year == max_year:  # flip right edge
-                align = "right"
-                dx = -5
-
-            # vertical line
-            rule = (
-                alt.Chart(df_event)
-                .mark_rule(color="red", strokeDash=[4, 4])
-                .encode(
-                    x='ArrivalYear:O',
-                    tooltip=['ArrivalYear:O', 'Event:N']
-                )
+        # vertical line
+        rule = (
+            alt.Chart(df_event)
+            .mark_rule(color="red", strokeDash=[4, 4])
+            .encode(
+                x='ArrivalYear:O',
+                tooltip=['ArrivalYear:O', 'Event:N']
             )
+        )
 
-            # label
-            text = (
-                alt.Chart(df_event)
-                .mark_text(
-                    align=align,
-                    dy=dy,
-                    dx=dx,
-                    color="white"
-                )
-                .encode(
-                    x='ArrivalYear:O',
-                    text='Event:N'
-                )
+        # label
+        text = (
+            alt.Chart(df_event)
+            .mark_text(
+                align=align,
+                dy=offset,
+                dx=dx,
+                color="white"
             )
+            .encode(
+                x='ArrivalYear:O',
+                text='Event:N'
+            )
+        )
 
-            layers.extend([rule, text])
+        layers.extend([rule, text])
 
     return alt.layer(*layers)
 # endregion
