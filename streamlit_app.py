@@ -1,11 +1,19 @@
+# ============================================================
+#                       IMPORTS
+# ============================================================
+# === Standard library ===
+import json
+import time
+import random
+
+# === Third-party libraries ===
 import streamlit as st
 import altair as alt
 import pandas as pd
 import plotly.express as px
 import numpy as np
-import json
-import time
-import random
+
+# === Local / project-specific ===
 from kmodes.kmodes import KModes
 
 # region INITIALIZATION
@@ -194,7 +202,7 @@ def annotate_chart(base_chart, events):
 # ============================================================
 st.set_page_config(page_title="North Atlantic Migration Pattern Explorer (1880-1914)", layout="wide")
 
-# --- Landing Page ---
+# === Landing Page ===
 if st.session_state.show_intro:
     st.markdown("""
     # North Atlantic Migration Explorer  
@@ -557,10 +565,10 @@ if sampled_df is not None:
         fig_hist.update_layout(xaxis={"categoryorder": "array", "categoryarray": list(bin_labels.values())})
         st.plotly_chart(fig_hist, width="stretch")
 
-        # --- PIE CHARTS ---
+        # === PIE CHARTS ===
         col1, col2 = st.columns(2)
 
-        # nationality - top 10
+        # === nationality - top 10 ===
         with col1:
             if "BirthPlace" in selected_df.columns:
                 st.subheader("Top 10 Birthplaces / Nationalities")
@@ -580,7 +588,7 @@ if sampled_df is not None:
             else:
                 st.warning("WARNING: 'BirthPlace' column not found.")
 
-        # gender        
+        # === gender ===        
         with col2:
             if "Gender" in sampled_df.columns:
                 st.subheader("Gender Distribution")
@@ -602,7 +610,7 @@ if sampled_df is not None:
             else:
                 st.warning("WARNING: 'Gender' column not found.")
 
-        # age
+        # === age ===
         if "AgeAtArrival" in sampled_df.columns:
             st.subheader("Age Distribution of Migrants")
             age_counts = (
@@ -625,7 +633,7 @@ if sampled_df is not None:
         else:
             st.warning("WARNING: 'AgeAtArrival' column not found.")
 
-        # children by nationality
+        # === children by nationality ===
         if {"AgeAtArrival", "BirthPlace"}.issubset(sampled_df.columns):
             st.subheader("Children by Nationality")
             children_df = sampled_df[sampled_df["AgeAtArrival"] < 15]
@@ -779,7 +787,7 @@ if sampled_df is not None:
         # route code: birthplace → departure
         df_rel["RouteCode"] = df_rel["BirthPlace"].astype(str) + " → " + df_rel["DeparturePlace"].astype(str)
 
-        # season
+        # === season ===
         def get_season(month_name):
             """
             Convert a month name to a meteorological season.
@@ -808,7 +816,7 @@ if sampled_df is not None:
 
         df_rel["Season"] = df_rel["ArrivalMonth"].apply(get_season)
         
-        # age
+        # === age ===
         def get_age_cat(age):
             """
             Categorize an individual's age into a general age group.
@@ -830,7 +838,7 @@ if sampled_df is not None:
 
         df_rel["AgeCategory"] = df_rel["AgeAtArrival"].apply(get_age_cat)
 
-        # --- KMODES ---
+        # === KMODES ===
         # categories
         cat_cols_rel = ["RouteCode", "Season", "AgeCategory", "Gender"]
 
