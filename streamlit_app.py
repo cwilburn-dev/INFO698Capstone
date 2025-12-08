@@ -94,6 +94,20 @@ birthplace_to_country = {
 
 # region METHODS
 def get_sample(df, sample_per_bin=60):
+    """
+    Generate a sampled dataset by bin, limiting each bin to a maximum number of records.
+
+    Args:
+        df (pd.DataFrame): The original DataFrame containing migration data, including a 'Bin' column.
+        sample_per_bin (int): Maximum number of rows to sample per bin. Defaults to 60.
+
+    Returns:
+        pd.DataFrame: A new DataFrame containing the sampled records, concatenated across all bins.
+    
+    Notes:
+        - If a bin contains fewer rows than sample_per_bin, all rows are included.
+        - The resulting DataFrame index is reset.
+    """
     sampled_groups = []
 
     for bin_value, group in df.groupby("Bin"):
@@ -107,6 +121,23 @@ def get_sample(df, sample_per_bin=60):
 # adds vertical event marks to chart
 # events is a list of {"year": int, "label": str}.
 def annotate_chart(base_chart, events):
+    """
+    Layer vertical event markers and labels onto an Altair chart.
+
+    Args:
+        base_chart (alt.Chart): The Altair chart to annotate.
+        events (list[dict]): List of events, where each dict contains:
+            - 'year' (int): The year of the event.
+            - 'label' (str): The text label for the event.
+
+    Returns:
+        alt.LayerChart: The original chart overlaid with vertical rules and staggered text labels.
+    
+    Notes:
+        - Label offsets are staggered for readability to avoid overlapping text.
+        - Each event is drawn with a red dashed line and a corresponding text annotation.
+        - Designed for time series plots with an 'ArrivalYear' axis.
+    """
     # staggered offsets for readability
     offsets = [ -20, -35, -50, -65, -80, -95 ]
     layers = [base_chart]
@@ -725,6 +756,15 @@ if sampled_df is not None:
 
         # season
         def get_season(month_name):
+            """
+            Convert a month name to a meteorological season.
+
+            Args:
+                month_name (str): Name of the month (e.g., 'January').
+
+            Returns:
+                str: One of 'Winter', 'Spring', 'Summer', 'Fall', or 'Unknown' if the month name is not recognized.
+            """
             winter = ["December", "January", "February"]
             spring = ["March", "April", "May"]
             summer = ["June", "July", "August"]
@@ -745,6 +785,15 @@ if sampled_df is not None:
         
         # age
         def get_age_cat(age):
+            """
+            Categorize an individual's age into a general age group.
+
+            Args:
+                age (int or float): Age at arrival.
+
+            Returns:
+                str: One of the categories 'Child', 'YoungAdult', 'Adult', or 'Senior'.
+            """
             if age < 15:
                 return "Child"
             elif age < 24:
@@ -802,7 +851,22 @@ if sampled_df is not None:
                 cluster_profiles_rel[cluster] = profile
 
             # heatmap plotting function 
-            def plot_heatmap_with_profile(df, x_col, cluster_profiles): 
+            def plot_heatmap_with_profile(df, x_col, cluster_profiles):
+                """
+                Generate an Altair heatmap showing the distribution of clusters across a categorical feature.
+
+                Args:
+                    df (pd.DataFrame): DataFrame containing a 'Cluster' column and the categorical feature column (x_col).
+                    x_col (str): The name of the categorical column to plot on the x-axis.
+                    cluster_profiles (dict): Mapping of cluster ID to dict of representative feature values.
+
+                Returns:
+                    alt.Chart: Altair chart object visualizing the count of each cluster for each x_col value with tooltips showing cluster profiles.
+                
+                Notes:
+                    - Darker colors indicate higher counts.
+                    - The tooltip displays cluster number, count, and the defining profile for the cluster.
+                """ 
                 heat_data = df.groupby([x_col, "Cluster"]).size().reset_index(name="Count") 
                 profile_strings = [] 
                 for _, row in heat_data.iterrows(): 
