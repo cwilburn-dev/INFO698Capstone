@@ -162,7 +162,7 @@
 ## Week 6 (Sep 26 - Oct 2)
 
 ### 10/2/25 (0.5 hours)
-- No meeting this week; touched base via email. Other class project deadlines restricted time for this project.
+- No meeting this week; touched base via email. Other class project deadlines will restrict time for this project over the next couple of weeks.
 
 ---
 
