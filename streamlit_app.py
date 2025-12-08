@@ -81,6 +81,15 @@ def load_data(csv_path="migration_analysis_ready_clean.csv"):
                 return pd.NA
         df["ArrivalDate"] = df["ArrivalDate"].apply(safe_parse)
     
+    # derive ArrivalYear as integer
+    if "ArrivalDate" in df.columns:
+        df["ArrivalYear"] = pd.to_datetime(df["ArrivalDate"], errors='coerce').dt.year
+
+    # optional: check for missing years
+    missing_years = df["ArrivalYear"].isna().sum()
+    if missing_years > 0:
+        st.warning(f"{missing_years} rows have invalid ArrivalDate -> ArrivalYear set as NaN")
+
     # ensure Bin is string
     if "Bin" in df.columns:
         df["Bin"] = df["Bin"].astype(str).str.strip()
