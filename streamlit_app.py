@@ -1012,7 +1012,6 @@ if sampled_df is not None:
                     
         This heatmap shows seasonal tendencies for each cluster.  A cluster with a strong seasonal preference will display a
         noticeably darker cell for that season.
-
         Hover tooltips reveal how season pairs with the cluster's route, age category, and gender.
         """)
 # endregion
