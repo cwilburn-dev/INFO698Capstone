@@ -492,8 +492,8 @@ if sampled_df is not None:
 
         st.markdown("#### Data Collection & Methodology")
         st.markdown("""
-        A total of 448 records were manually collected from the Ancestry.com “New York, U.S., Arriving Passenger and Crew Lists 
-        (1820-1957)” collection.
+        A total of 588 records were manually collected from the Ancestry.com “New York, U.S., Arriving Passenger and Crew Lists 
+        (including Castle Garden and Ellis Island), 1820-1957” collection.
         
         To create a manageable yet representative dataset:  
         •	A letter-based random sampling strategy was used to stagger record selection.  
@@ -538,7 +538,7 @@ if sampled_df is not None:
 
         st.markdown("### Sample Data")
         st.markdown("""
-        The 448 records used in this analysis were drawn from the **'New York, U.S., Arriving Passenger and Crew Lists
+        The 588 records used in this analysis were drawn from the **'New York, U.S., Arriving Passenger and Crew Lists
         (Castle Garden and Ellis Island), 1820-1957'** collection available through Ancestry.com.  Records were selected 
         using a random letter-based sampling approach, collected in batches of 140 entries, and later grouped into 
         five-year migration bins to ensure balanced temporal representation across the study period.
