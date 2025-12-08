@@ -181,16 +181,30 @@ def annotate_chart(base_chart, events):
         - Designed for time series plots with an 'ArrivalYear' axis.
     """
     # staggered offsets for readability
-    offsets = [ -20, -35, -50, -65, -80, -95 ]
+    offsets = [-20, -35, -50, -65, -80, -95]
     layers = [base_chart]
+
+    if not events:
+        return base_chart
+
+    # detect min/max year for edge detection
+    years = [e["year"] for e in events]
+    min_year, max_year = min(years), max(years)
 
     for idx, e in enumerate(events):
         df_event = pd.DataFrame({"ArrivalYear": [e["year"]], "Event": [e["label"]]})
-
-        # label offset
         offset = offsets[idx % len(offsets)]
 
-        # draws lines
+        # default placement: right
+        align = "left"
+        dx = 5
+
+        # flip label for right edge
+        if e["year"] == max_year:
+            align = "right"
+            dx = -5
+
+        # vertical line
         rule = (
             alt.Chart(df_event)
             .mark_rule(color="red", strokeDash=[4, 4])
@@ -200,13 +214,13 @@ def annotate_chart(base_chart, events):
             )
         )
 
-        # labels - staggered
+        # label
         text = (
             alt.Chart(df_event)
             .mark_text(
-                align="left",
+                align=align,
                 dy=offset,
-                dx=5,
+                dx=dx,
                 color="white"
             )
             .encode(
