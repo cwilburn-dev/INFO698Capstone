@@ -85,7 +85,9 @@ bin_labels = {
 historical_events_by_country = {
     "United Kingdom": [       
         {"year": 1887, "label": "English Labor Disruptions"},
-        {"year": 1888, "label": "Shipping Bottlenecks"}
+        {"year": 1888, "label": "Shipping Bottlenecks"},
+        {"year": 1897, "label": "Chain Migration in Ireland"},
+        {"year": 1905, "label": "Aliens Act Passed"}
     ],
     "German Empire": [
         {"year": 1871, "label": "German Unification"},
@@ -109,6 +111,9 @@ historical_events_by_country = {
         {"year": 1885, "label": "U.S. Recovery Begins"},
         {"year": 1886, "label": "U.S. Recession"},
         {"year": 1893, "label": "U.S. Panic of 1893-1897"},
+        {"year": 1907, "label": "U.S. Panic of 1907"},
+        {"year": 1907, "label": "U.S. Immigration Act of 1907"},
+        {"year": 1910, "label": "U.S. Dillingham Commission Report"},
         {"year": 1914, "label": "World War I Begins"}
     ],
 }
