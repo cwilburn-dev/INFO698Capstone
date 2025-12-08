@@ -1,6 +1,6 @@
-# North Atlantic Migration Pattern Explorer (1880–1914)
+# North Atlantic Migration Explorer (1880–1914)
 
-North Atlantic Migration Patterns Explorer (1880–1914) is an interactive Streamlit application that explores UK–US migration during the late 19th and early 20th centuries.
+North Atlantic Migration Explorer (1880–1914) is an interactive Streamlit application that explores UK–US migration during the late 19th and early 20th centuries.
 Using digitized passenger lists and contextual historical event data, the project visualizes temporal trends, demographic patterns, and factors influencing long-distance travel.
 The goal is to create a clear, data-driven narrative of who migrated, when they traveled, and how major events shaped these movements.
 
