@@ -83,9 +83,7 @@ bin_labels = {
 }
 
 historical_events_by_country = {
-    "United Kingdom": [
-        {"year": 1885, "label": "U.S. Recovery Begins"},
-        {"year": 1886, "label": "U.S. Recession"},
+    "United Kingdom": [       
         {"year": 1887, "label": "English Labor Disruptions"},
         {"year": 1888, "label": "Shipping Bottlenecks"}
     ],
@@ -105,8 +103,11 @@ historical_events_by_country = {
         {"year": 1905, "label": "Norway-Sweden Dissolution"}
     ],
     "Global": [
-        {"year": 1873, "label": "Long Depression"},
+        {"year": 1873, "label": "Long Depression 1873-1879"},
         {"year": 1880, "label": "Steamships Revolutionize Travel"},
+        {"year": 1885, "label": "U.S. Recovery Begins"},
+        {"year": 1886, "label": "U.S. Recession"},
+        {"year": 1893, "label": "U.S. Panic of 1893"},
         {"year": 1914, "label": "World War I Begins"}
     ],
 }
