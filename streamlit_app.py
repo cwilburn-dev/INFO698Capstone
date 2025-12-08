@@ -260,7 +260,7 @@ if st.session_state.show_intro:
 df = load_data()
 df["BinLabel"] = df["Bin"].map(bin_labels)
 
-sampled_df = get_sample(df, sample_per_bin=60)
+sampled_df = get_sample(df, sample_per_bin=80)
 # endregion
 
 # region SIDEBAR
