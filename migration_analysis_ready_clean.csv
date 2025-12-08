@@ -1,449 +1,588 @@
 Bin,ID,FirstName,LastName,Gender,BirthDate,BirthPlace,ArrivalDate,ArrivalPlace,DeparturePlace,ShipName,ShippingLine,Source,ArrivalYear,ArrivalMonth,TransitIndicator,AgeAtArrival,LastInitial
-1,1,Jane,Cosse,Male,1856,Hungary,1882-04-12,New York City,"Liverpool, England",Scythia,Cunard,NewYork1,1882,April,False,26,C
-1,2,Pat,Mulcarney,Male,1874,Ireland,1884-09-29,New York City,"Liverpool, England",Oregon,Cunard,NewYork1,1884,September,False,10,M
-1,3,Gustav,Adolfkat,Male,1856,Sweden,1883-04-02,New York City,"Southampton, England",Habsburg,Norddeutscher Lloyd,NewYork1,1883,April,True,27,A
-1,4,Isa,Johannes,Male,1841,Switzerland,1881-06-02,New York City,"London, England",Denmark,National Line,NewYork1,1881,June,False,40,J
-1,5,Johan,Welz,Male,1861,Germany,1880-08-21,New York City,"London, England",Elysia,Anchor Line,NewYork1,1880,August,False,19,W
-1,6,Mary,Lahy,Female,1856,Ireland,1880-04-28,New York City,"Queenstown, Ireland",England,National Line,NewYork1,1880,April,True,24,L
-1,7,Fredwe,Kennedy,Male,1879,Ireland,1881-01-03,New York City,"Liverpool, England",Baltic,White Star Line,NewYork1,1881,January,False,2,K
-1,8,Wilhelm,Menzel,Male,1852,Germany,1882-06-26,New York City,"Queenstown, Ireland",Helvetia,National Line,NewYork1,1882,June,True,30,M
-1,9,Rosa,Blumenstein,Female,1848,Germany,1883-08-25,New York City,"Southampton, England",Elbe,Norddeutscher Lloyd,NewYork1,1883,August,True,35,B
-1,10,G. M.,Cherveny,Male,1854,England,1884-09-29,New York City,"Queenstown, Ireland",City of Berlin,Inman Line,NewYork1,1884,September,True,30,C
-1,11,Maurice,Ellicott,Male,1873,Ireland,1880-05-19,New York City,"Queenstown, Ireland",Canada,National Line,NewYork1,1880,May,True,7,E
-1,12,Ann,Eager,Female,1841,England,1881-05-04,New York City,"Newcastle, England",Roxburgh Castle,Red R Shipping Line,NewYork1,1881,May,True,40,E
-1,13,Theo,Ullham,Male,1862,England,1882-09-18,New York City,"Liverpool, England",City of Montreal,Inman Line,NewYork1,1882,September,False,20,U
-1,14,Martha,Brubach,Female,1862,Germany,1883-02-09,New York City,"Southampton, England",Elbe,Norddeutscher Lloyd,NewYork1,1883,February,True,21,B
-1,15,Mick,Herres,Male,1834,Ireland,1884-10-02,New York City,"Liverpool, England",Nevada,Guion Line,NewYork1,1884,October,False,50,H
-1,16,Mathilda,Evensen,Female,1856,Norway,1880-06-22,New York City,"Queenstown, Ireland",Erin,National Line,NewYork1,1880,June,True,24,E
-1,17,Daniel,Frew,Male,1853,Scotland,1881-02-15,New York City,"Moville, Ireland",Circassia,Anchor Line,NewYork1,1881,February,True,28,F
-1,18,Ladesaus,Schedchuske,Male,1859,Russia,1882-01-07,New York City,"Queenstown, Ireland",City of Brussels,Inman Line,NewYork1,1882,January,True,23,S
-1,19,John,Dabel,Male,1858,Ireland,1883-01-15,New York City,"Queenstown, Ireland",Spain,National Line,NewYork1,1883,January,True,25,D
-1,20,Daniel,Quirk,Male,1865,Ireland,1884-10-03,New York City,"Liverpool, England",America,National Line,NewYork1,1884,October,False,19,Q
-1,21,Harriet,Quirk,Female,1834,Ireland,1880-09-06,New York City,"Queenstown, Ireland",Celtic,White Star Line,NewYork1,1880,September,True,46,Q
-1,22,Wilhelmin,Hermann,Female,1814,Germany,1881-01-03,New York City,"Southampton, England",Neckar,Norddeutscher Lloyd,NewYork1,1881,January,True,67,H
-1,23,Georg,Lensbecher,Male,1862,Germany,1882-03-13,New York City,"Southampton, England",Oder,Norddeutscher Lloyd,NewYork1,1882,March,True,20,L
-1,24,George,Bacon,Male,1846,England,1883-09-07,New York City,"London, England",Persian Monarch,Allan Line,NewYork1,1883,September,False,37,B
-1,25,James,Wallace,Male,1857,Scotland,1884-11-03,New York City,"Liverpool, England",Oregon,Cunard,NewYork1,1884,November,False,27,W
-1,26,Anna,Infantine,Female,1860,Italy,1880-04-28,New York City,"London, England",The Queen,National Line,NewYork1,1880,April,False,20,I
-1,27,Ed,Byrne,Male,1848,Ireland,1881-05-30,New York City,"Queenstown, Ireland",Erin,National Line,NewYork1,1881,May,True,33,B
-1,28,Johannes,Larson,Male,1855,Sweden,1882-03-20,New York City,"Liverpool, England",City of New York,Inman Line,NewYork1,1882,March,False,27,L
-1,29,Edward,Lea,Male,1844,Denmark,1883-09-13,New York City,"Plymouth, England",Amerique,Natioral Line,NewYork1,1883,September,True,39,L
-1,30,Patrick,Egan,Male,1866,Ireland,1884-07-21,New York City,"Liverpool, England",Oregon,Cunard,NewYork1,1884,July,False,18,E
-1,31,Hans,Osbroald,Male,1877,Germany,1880-07-17,New York City,"Southampton, England",Neckar,Norddeutscher Lloyd,NewYork1,1880,July,True,3,O
-1,32,Ernst,Engel,Male,1836,Germany,1881-01-17,New York City,"Southampton, England",Oder,Norddeutscher Lloyd,NewYork1,1881,January,True,45,E
-1,33,Marka,Joyce,Male,1855,Ireland,1882-04-03,New York City,"Liverpool, England",Lake Huron,National Line,NewYork1,1882,April,False,27,J
-1,34,M.,Newman,Male,1857,Germany,1883-08-08,New York City,"London, England",Grecian Monarch,Allan Line,NewYork1,1883,August,False,26,N
-1,35,Bertha,Schwebke,Female,1866,Germany,1884-11-15,New York City,"Southampton, England",Eider,Norddeutscher Lloyd,NewYork1,1884,November,True,18,S
-1,36,Fanny,Young,Female,1854,England,1880-08-09,New York City,"London, England",Greece,National Line,NewYork1,1880,August,False,26,Y
-1,37,Adrney,Fanny,Male,1855,England,1881-01-06,New York City,"London, England",Elysia,Anchor Line,NewYork1,1881,January,False,26,F
-1,38,Ed,Doncie,Male,1860,Ireland,1882-03-20,New York City,"Liverpool, England",City of New York,Inman Line,NewYork1,1882,March,False,22,D
-1,39,Casper,Wuchmaner,Male,1855,Germany,1883-10-13,New York City,"Southampton, England",Werra,Norddeutscher Lloyd,NewYork1,1883,October,True,28,W
-1,40,Adolphus,Abraham,Male,1864,Poland,1884-04-14,New York City,"London, England",Assyrian Monarch,Allan Line,NewYork1,1884,April,False,20,A
-1,41,Marie,Benesch,Female,1862,Bohemia,1880-05-01,New York City,"Southampton, England",Oder,Norddeutscher Lloyd,NewYork1,1880,May,True,18,B
-1,42,Adolphine,Yasenez,Male,1855,Netherlands,1881-06-02,New York City,"London, England",Denmark,National Line,NewYork1,1881,June,False,26,Y
-1,43,J.E.,Young,Male,1843,Scotland,1882-08-02,New York City,"Queenstown, Ireland",Bothnia,Cunard,NewYork1,1882,August,True,39,Y
-1,44,Geard,Benecke,Female,1872,Germany,1883-08-14,New York City,"Southampton, England",Hohenzollern,Norddeutscher Lloyd,NewYork1,1883,August,True,11,B
-1,45,Josefa,Uper,Female,1819,Bohemia,1884-10-10,New York City,"Southampton, England",Oder,Norddeutscher Lloyd,NewYork1,1884,October,True,65,U
-1,46,Patk,Fitzsimons,Male,1858,Ireland,1880-05-04,New York City,"Liverpool, England",Republic,White Star Line,NewYork1,1880,May,False,22,F
-1,47,Charles,Dittrich,Male,1872,England,1881-01-24,New York City,"London, England",Alsatia,Anchor Line,NewYork1,1881,January,False,9,D
-1,48,William,Gibson,Male,1854,Scotland,1882-01-12,New York City,"Glasgow, Scotland",Anchoria,Anchor Line,NewYork1,1882,January,False,28,G
-1,49,Matilda,Phillips,Female,1873,Ireland,1883-09-04,New York City,"Glasgow, Scotland",Anchoria,Anchor Line,NewYork1,1883,September,False,10,P
-1,50,Jochein,Xarwick,Male,1866,Germany,1884-07-22,New York City,"Moville, Ireland",Bolivia,Anchor Line,NewYork1,1884,July,True,18,X
-1,51,Andrew,Dowd,Male,1866,Ireland,1880-05-10,New York City,"Liverpool, England",Helvetia,National Line,NewYork1,1880,May,False,14,D
-1,52,Samuel,Austill,Male,1855,England,1881-06-02,New York City,"Bristol, England",Bristol,Unknown,NewYork1,1881,June,False,26,A
-1,53,Anner,Fersler,Female,1863,Denmark,1882-03-27,New York City,"Liverpool, England",City of Montreal,Inman Line,NewYork1,1882,March,False,19,F
-1,54,Mary,Quirke,Female,1870,Ireland,1883-09-14,New York City,"Queenstown, Ireland",City of Rome,Inman Line,NewYork1,1883,September,True,13,Q
-1,55,Edward,Carolan,Male,1858,Ireland,1884-10-13,New York City,"Liverpool, England",Austral,Orient Line,NewYork1,1884,October,False,26,C
-1,56,Gerrit,Hagelsay,Male,1849,Germany,1880-04-28,New York City,"London, England",The Queen,National Line,NewYork1,1880,April,False,31,H
-1,57,Ernestine,Notzold,Female,1840,Germany,1881-03-04,New York City,"Southampton, England",Mosel,Norddeutscher Lloyd,NewYork1,1881,March,True,41,N
-1,58,Bernard,Quinn,Male,1858,Ireland,1882-08-22,New York City,"Liverpool, England",Baltic,White Star Line,NewYork1,1882,August,False,24,Q
-1,59,Lutta,Fredman,Female,1859,Hungary,1883-02-23,New York City,"Southampton, England",Werra,Norddeutscher Lloyd,NewYork1,1883,February,True,24,F
-1,60,John,Cumming,Male,1852,England,1884-05-07,New York City,"Plymouth, England",Italy,National Line,NewYork1,1884,May,True,32,C
-2,1,Chas,Ditchmann,Male,1855,England,1885-11-02,New York City,"Queenstown, Ireland",Germanic,White Star Line,NewYork1,1885,November,True,30,D
-2,2,Schmuel,Tinkelskin,Male,1862,Russia,1886-07-28,New York City,"Larne, Ireland",State of Nebraska,Allan Line,NewYork1,1886,July,True,24,T
-2,3,Winifred,Pickhard,Female,1849,Ireland,1887-01-03,New York City,"Queenstown, Ireland",Germanic,White Star Line,NewYork1,1887,January,True,38,P
-2,4,Ernst,Yousson,Male,1867,Sweden,1888-06-25,New York City,"Queenstown, Ireland",Alaska,Guion Line,NewYork1,1888,June,True,21,Y
-2,5,Jen,Nielsen,Male,1859,Denmark,1889-11-09,New York City,"Southampton, England",Kaiserin Augusta Victoria,Hamburg America Line,NewYork1,1889,November,True,30,N
-2,6,Bernhd,Rebrich,Male,1870,Germany,1885-10-31,New York City,"Southampton, England",Neckar,Norddeutscher Lloyd,NewYork1,1885,October,True,15,R
-2,7,Patk,Judge,Male,1866,Ireland,1886-05-04,New York City,"Liverpool, England",City of Montreal,Inman Line,NewYork1,1886,May,False,20,J
-2,8,Carl,Fergan,Male,1855,Germany,1887-01-17,New York City,"Southampton, England",Werra,Norddeutscher Lloyd,NewYork1,1887,January,True,32,F
-2,9,Leonhard,Emerling,Male,1867,Austria,1888-04-02,New York City,"Southampton, England",Trave,Norddeutscher Lloyd,NewYork1,1888,April,True,21,E
-2,10,Thomas,Laue,Male,1865,England,1889-08-27,New York City,"Liverpool, England",Egypt,National Line,NewYork1,1889,August,False,24,L
-2,11,Baptiste,Rebel,Male,1849,France,1885-11-04,New York City,"Plymouth, England",Amerique,National Line,NewYork1,1885,November,True,36,R
-2,12,Adling,Johansdotter,Female,1859,Norway,1886-05-03,New York City,"Queenstown, Ireland",Umbria,Cunard,NewYork1,1886,May,True,27,J
-2,13,Carl,Hane,Male,1858,England,1887-02-07,New York City,"Queenstown, Ireland",Germanic,White Star Line,NewYork1,1887,February,True,29,H
-2,14,Richard,Ivey,Male,1864,England,1888-09-13,New York City,"Queenstown, Ireland",Italy,National Line,NewYork1,1888,September,True,24,I
-2,15,Maria,Xriezko,Female,1865,Hungary,1889-12-28,New York City,"Southampton, England",Aller,Norddeutscher Lloyd,NewYork1,1889,December,True,24,X
-2,16,Anna,Lup,Female,1863,Russia,1887-01-13,New York City,"Southampton, England",Rhaetia,Hamburg America Line,NewYork1,1887,January,True,24,L
-2,17,Anton,Rebicek,Male,1824,Bohemia,1885-12-26,New York City,"Southampton, England",Main,Norddeutscher Lloyd,NewYork1,1885,December,True,61,R
-2,18,Eleanor,Keeling,Female,1853,England,1889-11-07,New York City,"Liverpool, England",Teutonic,White Star Line,NewYork1,1889,November,False,36,K
-2,19,Jochrn,Willing,Male,1873,Germany,1888-03-15,New York City,"Southampton, England",Werra,Norddeutscher Lloyd,NewYork1,1888,March,True,15,W
-2,20,Bridgett,Hallman,Female,1865,Ireland,1886-08-05,New York City,"London, England",Assyrian Monarch,Allan Line,NewYork1,1886,August,True,21,H
-2,21,Josef,Weichel,Male,1857,Russia,1885-11-14,New York City,"Southampton, England",Eider,Norddeutscher Lloyd,NewYork1,1885,November,True,28,W
-2,22,Mihal,Wasil,Male,1869,Hungary,1886-01-30,New York City,"Southampton, England",Eider,Norddeutscher Lloyd,NewYork1,1886,January,True,17,W
-2,23,Ellen,Quigley,Female,1856,England,1887-09-03,New York City,"Queenstown, Ireland",Britannic,White Star Line,NewYork1,1887,September,True,31,Q
-2,24,Jan,Zufan,Male,1863,Bohemia,1888-02-11,New York City,"Southampton, England",Lahn,Norddeutscher Lloyd,NewYork1,1888,February,True,25,Z
-2,25,Gyurg,Ihnat,Male,1852,Hungary,1889-06-07,New York City,"Southampton, England",Eider,Norddeutscher Lloyd,NewYork1,1889,June,True,37,I
-2,26,Josefa,Elias,Female,1863,Prussia,1885-04-01,New York City,"Southampton, England",Werra,Norddeutscher Lloyd,NewYork1,1885,April,True,22,E
-2,27,Michal,Melniezath,Male,1861,Hungary,1886-05-01,New York City,"Southampton, England",Werra,Norddeutscher Lloyd,NewYork1,1886,May,True,25,M
-2,28,Samuel,Wilson,Male,1856,England,1887-02-19,New York City,"Liverpool, England",Etruria,Cunard,NewYork1,1887,February,False,31,W
-2,29,Carl,Gustafson,Male,1846,Sweden,1888-06-29,New York City,"Southampton, England",Lahn,Norddeutscher Lloyd,NewYork1,1888,June,True,42,G
-2,30,Peter,Axon,Male,1842,Wales,1889-08-27,New York City,"Liverpool, England",Egypt,National Line,NewYork1,1889,August,False,47,A
-2,31,Mary,Clive,Female,1858,England,1885-11-09,New York City,"Liverpool, England",Egypt,National Line,NewYork1,1885,November,False,27,C
-2,32,Janos,Nemesiez,Male,1866,Hungary,1886-01-30,New York City,"Southampton, England",Eider,Norddeutscher Lloyd,NewYork1,1886,January,True,20,N
-2,33,Michl,Gibb,Male,1876,Ireland,1887-09-26,New York City,"Glasgow, Scotland",Anchoria,Anchor Line,NewYork1,1887,September,False,11,G
-2,34,Edwin,England,Male,1865,Sweden,1888-06-11,New York City,"Liverpool, England",Republic,White Star Line,NewYork1,1888,June,False,23,E
-2,35,Patsy,Oherron,Male,1873,Ireland,1889-11-07,New York City,"Liverpool, England",Teutonic,White Star Line,NewYork1,1889,November,False,16,O
-2,36,Harry,Wheeler,Male,1878,England,1885-12-26,New York City,"London, England",Persian Monarch,Allan Line,NewYork1,1885,December,False,7,W
-2,37,C.,Snell,Male,1861,England,1886-08-05,New York City,"London, England",Assyrian Monarch,Allan Line,NewYork1,1886,August,True,25,S
-2,38,Margl,Geys,Female,1864,Germany,1887-01-10,New York City,"Southampton, England",Eider,Norddeutscher Lloyd,NewYork1,1887,January,True,23,G
-2,39,Karen,Kristensen,Male,1868,Denmark,1888-04-05,New York City,"Southampton, England",Elbe,Norddeutscher Lloyd,NewYork1,1888,April,True,20,K
-2,40,Anna,Nilson,Female,1857,Sweden,1889-11-09,New York City,"Southampton, England",Saale,Norddeutscher Lloyd,NewYork1,1889,November,True,32,N
-2,41,Joseph,Tighe,Male,1866,Ireland,1885-03-30,New York City,"Liverpool, England",Aurania,Cunard,NewYork1,1885,March,False,19,T
-2,42,Alex,Milne,Male,1866,England,1886-05-07,New York City,"Liverpool, England",America,National Line,NewYork1,1886,May,False,20,M
-2,43,Archd,Donald,Male,1883,Scotland,1887-10-03,New York City,"Glasgow, Scotland",Devonia,Anchor Line,NewYork1,1887,October,False,4,D
-2,44,Marie,Neubauer,Female,1871,Germany,1888-03-19,New York City,"Southampton, England",Aller,Norddeutscher Lloyd,NewYork1,1888,March,True,17,N
-2,45,Krista,Saumelsson,Female,1882,Finland,1889-07-19,New York City,"Southampton, England",Trave,Norddeutscher Lloyd,NewYork1,1889,July,True,7,S
-2,46,R.B.,Irwin,Male,1849,England,1885-11-02,New York City,"Queenstown, Ireland",Germanic,White Star Line,NewYork1,1885,November,True,36,I
-2,47,James,Ivery,Male,1846,England,1886-08-26,New York City,"London, England",Persian Monarch,Allan Line,NewYork1,1886,August,False,40,I
-2,48,Anna,Ondis,Female,1869,Hungary,1887-01-17,New York City,"Southampton, England",Werra,Norddeutscher Lloyd,NewYork1,1887,January,True,18,O
-2,49,Auguste,Burmeister,Female,1838,Germany,1888-09-21,New York City,"Southampton, England",Trave,Norddeutscher Lloyd,NewYork1,1888,September,True,50,B
-2,50,John,Ortlieb,Male,1839,Germany,1889-10-16,New York City,"Southampton, England",Ems,Norddeutscher Lloyd,NewYork1,1889,October,True,50,O
-2,51,Rosalia,Frohnapfel,Female,1868,Prussia,1885-04-01,New York City,"Southampton, England",Werra,Norddeutscher Lloyd,NewYork1,1885,April,True,17,F
-2,52,Joseph,Newby,Male,1826,England,1886-03-04,New York City,"London, England",Egyptian Monarch,Allan Line,NewYork1,1886,March,False,60,N
-2,53,Johann,Mutz,Male,1848,Germany,1887-11-05,New York City,"Southampton, England",Ems,Norddeutscher Lloyd,NewYork1,1887,November,True,39,M
-2,54,Anton,Kozlowski,Male,1856,Austria,1888-06-05,New York City,"Southampton, England",Werra,Norddeutscher Lloyd,NewYork1,1888,June,True,32,K
-2,55,Anders,Iveslmon,Male,1871,Sweden,1889-06-22,New York City,"Queenstown, Ireland",Germanic,White Star Line,NewYork1,1889,June,True,18,I
-2,56,Eugen,Lippsowitz,Male,1870,Germany,1885-12-14,New York City,"Southampton, England",Neckar,Norddeutscher Lloyd,NewYork1,1885,December,True,15,L
-2,57,Kate,Baine,Female,1868,Ireland,1886-05-04,New York City,"Liverpool, England",City of Montreal,Inman Line,NewYork1,1886,May,False,18,B
-2,58,Hugh,Urquhart,Male,1883,Scotland,1887-02-23,New York City,"Moville, Ireland",Bolivia,Anchor Line,NewYork1,1887,February,True,4,U
-2,59,Matthew,Miller,Male,1869,Ireland,1888-04-02,New York City,"Glasgow, Scotland",Devonia,Anchor Line,NewYork1,1888,April,False,19,M
-2,60,Emilie,Anderson,Female,1860,Sweden,1889-11-15,New York City,"Southampton, England",Trave,Norddeutscher Lloyd,NewYork1,1889,November,True,29,A
-3,1,Barney,Doran,Male,1869,Ireland,1890-12-05,New York City,"Queenstown, Ireland",Teutonic,White Star Line,NewYork1,1890,December,True,21,D
-3,2,Carol,Qusseb,Female,1869,Germany,1891-05-15,New York City,"Southampton, England",Trave,Norddeutscher Lloyd,NewYork1,1891,May,True,22,Q
-3,3,Eunic,Southworth,Female,1869,England,1892-04-02,New York City,"Hull, England",Colorado,National Line,NewYork1,1892,April,False,23,S
-3,4,John,Brown,Male,1865,England,1893-03-02,New York City,"Liverpool, England",Teutonic,White Star Line,NewYork1,1893,March,False,28,B
-3,5,Mary Anne,Stewart,Female,1875,Ireland,1894-04-14,New York City,"Southampton, England",City of New York,American Line,NewYork1,1894,April,False,19,S
-3,6,Ivan,Doba,Male,1859,Hungary,1890-02-07,New York City,"Southampton, England",Lahn,Norddeutscher Lloyd,NewYork1,1890,February,True,31,D
-3,7,Kate,Batler,Female,1872,Ireland,1893-02-27,New York City,"Liverpool, England",Britannic,White Star Line,NewYork1,1893,February,False,21,B
-3,8,Pat,Reilly,Male,1875,Ireland,1894-02-16,New York City,"Liverpool, England",Majestic,White Star Line,NewYork1,1894,February,False,19,R
-3,9,Paula,Passler,Female,1859,Prussia,1891-11-09,New York City,"Southampton, England",Kaiserin Augusta Victoria,Hamburg America Line,NewYork1,1891,November,True,32,P
-3,10,Daul,McMullen,Male,1868,Ireland,1892-08-15,New York City,"Londonderry, Ireland",Furnessia,Anchor Line,NewYork1,1892,August,False,24,M
-3,11,Jacob,Zoller,Male,1863,Germany,1890-09-26,New York City,"Southampton, England",Lahn,Norddeutscher Lloyd,NewYork1,1890,September,True,27,Z
-3,12,Ignatz,Unjar,Male,1842,Hungary,1891-10-06,New York City,"Southampton, England",Eider,Norddeutscher Lloyd,NewYork1,1891,October,True,49,U
-3,13,James,Farrier,Male,1859,Wales,1892-05-11,New York City,"Liverpool, England",City of New York,Inman Line,NewYork1,1892,May,False,33,F
-3,14,Ellen,Yorkin,Female,1850,England,1893-03-30,New York City,"Southampton, England",Chester,American Line,NewYork1,1893,March,False,43,Y
-3,15,David,Freund,Male,1861,Poland,1894-02-19,New York City,"Liverpool, England",Etruria,Cunard,NewYork1,1894,February,False,33,F
-3,16,Alexander,Otto,Male,1870,Germany,1890-01-14,New York City,"Southampton, England",Eider,Norddeutscher Lloyd,NewYork1,1890,January,True,20,O
-3,17,John,Connally,Male,1866,Ireland,1891-10-28,New York City,"Moville, Ireland",Devonia,Anchor Line,NewYork1,1891,October,True,25,C
-3,18,Erio,Zetterlund,Male,1867,Sweden,1892-06-06,New York City,"Liverpool, England",Servia,Cunard,NewYork1,1892,June,False,25,Z
-3,19,Ebba,Thornell,Female,1875,Sweden,1893-05-27,New York City,"Liverpool, England",Campania,Cunard,NewYork1,1893,May,False,18,T
-3,20,Richard,Rigby,Male,1834,England,1894-03-19,New York City,"Liverpool, England",Campania,Cunard,NewYork1,1894,March,False,60,R
-3,21,Olevia,Nelson,Female,1872,Sweden,1890-09-26,New York City,"Southampton, England",Lahn,Norddeutscher Lloyd,NewYork1,1890,September,True,18,N
-3,22,Florian,Marcalak,Male,1841,Austria,1891-03-28,New York City,"Southampton, England",Werra,Norddeutscher Lloyd,NewYork1,1891,March,True,50,M
-3,23,Kate,Quinn,Female,1862,Ireland,1892-06-01,New York City,"Liverpool, England",Teutonic,White Star Line,NewYork1,1892,June,False,30,Q
-3,24,Peter,McAulcy,Male,1864,Scotland,1893-03-15,New York City,"Glasgow, Scotland",Devonia,Anchor Line,NewYork1,1893,March,False,29,M
-3,25,Niels,Christinson,Male,1870,Denmark,1894-03-20,New York City,"Southampton, England",Berlin,American Line,NewYork1,1894,March,False,24,C
-3,26,Edwin,Booth,Male,1867,England,1890-03-25,New York City,"Hull, England",Martello,Wilson Line,NewYork1,1890,March,False,23,B
-3,27,Maud,Herrell,Female,1872,England,1891-08-08,New York City,"London, England",Egyptian Monarch,Allan Line,NewYork1,1891,August,False,19,H
-3,28,Mattus,Hanssen,Female,1873,Norway,1892-07-23,New York City,"Liverpool, England",City of Chester,Inman Line,NewYork1,1892,July,False,19,H
-3,29,Chas,Parker,Male,1892,England,1893-09-02,New York City,"Liverpool, England",Umbria,Cunard,NewYork1,1893,September,False,1,P
-3,30,Geo,Hunter,Male,1891,Scotland,1894-10-10,New York City,"Liverpool, England",Teutonic,White Star Line,NewYork1,1894,October,False,3,H
-3,31,Martha,Lof,Female,1889,Finland,1890-05-27,New York City,"Southampton, England",Elbe,Norddeutscher Lloyd,NewYork1,1890,May,True,1,L
-3,32,C.W.,Golloeyse,Male,1869,England,1891-08-08,New York City,"Southampton, England",Fürst Bismarck,Hamburg America Line,NewYork1,1891,August,True,22,G
-3,33,Henry,Vanghan,Male,1851,England,1892-06-06,New York City,"Liverpool, England",Tauric,White Star Line,NewYork1,1892,June,False,41,V
-3,34,Jonathan,Isherwood,Male,1853,England,1893-07-03,New York City,"Liverpool, England",Umbria,Cunard,NewYork1,1893,July,False,40,I
-3,35,Adam,Bratter,Male,1873,Ireland,1894-03-19,New York City,"Liverpool, England",Campania,Cunard,NewYork1,1894,March,False,21,B
-3,36,Johan,Isigus,Male,1867,Austria,1890-01-20,New York City,"Southampton, England",Werra,Norddeutscher Lloyd,NewYork1,1890,January,True,23,I
-3,37,Kathe,Lindon,Female,1881,Germany,1891-02-03,New York City,"Southampton, England",Trave,Norddeutscher Lloyd,NewYork1,1891,February,True,10,L
-3,38,Emma,Fisher,Female,1867,England,1892-09-12,New York City,"Liverpool, England",Aurania,Cunard,NewYork1,1892,September,False,25,F
-3,39,Pheny,Mierson,Male,1890,England,1893-07-05,New York City,"Liverpool, England",Majestic,White Star Line,NewYork1,1893,July,False,3,M
-3,40,Charles,Nicol,Male,1871,Scotland,1894-03-24,New York City,"Liverpool, England",Germanic,White Star Line,NewYork1,1894,March,False,23,N
-3,41,John,Waugh,Male,1870,Ireland,1890-04-12,New York City,"London, England",The Queen,National Line,NewYork1,1890,April,True,20,W
-3,42,Franz,Mehlig,Male,1888,Germany,1891-03-28,New York City,"Southampton, England",Werra,Norddeutscher Lloyd,NewYork1,1891,March,True,3,M
-3,43,Agnezka,Szieminski,Female,1847,Poland,1892-08-10,New York City,"Liverpool, England",Wisconsin,Guion Line,NewYork1,1892,August,False,45,S
-3,44,David,Owen,Male,1869,England,1893-09-06,New York City,"Liverpool, England",Majestic,White Star Line,NewYork1,1893,September,False,24,O
-3,45,William,Pierson,Male,1849,Ireland,1894-08-06,New York City,"Liverpool, England",Aurania,Cunard,NewYork1,1894,August,False,45,P
-3,46,Kate,Quinn,Female,1873,Ireland,1890-06-05,New York City,"Liverpool, England",Majestic,White Star Line,NewYork1,1890,June,False,17,Q
-3,47,Zillie,Tillmann,Female,1873,Hungary,1891-10-28,New York City,"Southampton, England",Ems,Norddeutscher Lloyd,NewYork1,1891,October,True,18,T
-3,48,Oscar,Nelson,Male,1873,Sweden,1892-05-11,New York City,"Liverpool, England",City of New York,Inman Line,NewYork1,1892,May,False,19,N
-3,49,Ebbe,Overan,Male,1870,Norway,1893-02-16,New York City,"Liverpool, England",City of New York,Inman Line,NewYork1,1893,February,False,23,O
-3,50,Joseph,Waterhouse,Male,1866,England,1894-11-03,New York City,"Liverpool, England",Germanic,White Star Line,NewYork1,1894,November,False,28,W
-3,51,Chars,Uavenberg,Female,1837,Russia,1890-07-05,New York City,"Southampton, England",Aller,Norddeutscher Lloyd,NewYork1,1890,July,True,53,U
-3,52,Marie,Nemec,Female,1870,Bohemia,1891-12-10,New York City,"Southampton, England",Elbe,Norddeutscher Lloyd,NewYork1,1891,December,True,21,N
-3,53,Pat,Haeg,Male,1876,Ireland,1892-05-17,New York City,"Londonderry, Ireland",Circassia,Anchor Line,NewYork1,1892,May,False,16,H
-3,54,Stewart,Gilkinson,Male,1857,Scotland,1893-02-25,New York City,"Glasgow, Scotland",State of Nebraska,Allan Line,NewYork1,1893,February,False,36,G
-3,55,Mary,Hall,Female,1883,England,1894-03-12,New York City,"Glasgow, Scotland",Ethiopia,Anchor Line,NewYork1,1894,March,False,11,H
-3,56,Georg,Fuche,Male,1862,Germany,1890-04-25,New York City,"Southampton, England",Trave,Norddeutscher Lloyd,NewYork1,1890,April,True,28,F
-3,57,Hura,Fenhula,Female,1835,Finland,1891-10-28,New York City,"Southampton, England",Ems,Norddeutscher Lloyd,NewYork1,1891,October,True,56,F
-3,58,Debah,Venevity,Female,1870,Russia,1892-08-05,New York City,"Liverpool, England",City of Berlin,Inman Line,NewYork1,1892,August,False,22,V
-3,59,John,Uppenberg,Male,1877,Sweden,1893-11-15,New York City,"Liverpool, England",Teutonic,White Star Line,NewYork1,1893,November,False,16,U
-3,60,Berdines,Hoivig,Male,1873,Norway,1894-03-26,New York City,"Southampton, England",City of New York,American Line,NewYork1,1894,March,False,21,H
-4,1,Jocob,Bernson,Male,1872,Russia,1895-02-04,New York City,"Liverpool, England",Aurania,Cunard,NewYork1,1895,February,False,23,B
-4,2,Mary,Burne,Female,1877,Ireland,1896-04-16,New York City,"Liverpool, England",Teutonic,White Star Line,NewYork1,1896,April,False,19,B
-4,3,John,Juni,Male,1863,Japan,1897-01-11,New York City,"Liverpool, England",Lucania,Cunard,NewYork1,1897,January,False,34,J
-4,4,Mata,Xanson,Female,1878,Sweden,1898-05-19,New York City,"Liverpool, England",Aurania,Cunard,NewYork1,1898,May,False,20,X
-4,5,Anna,Zvisl,Female,1875,Sweden,1899-10-12,New York City,"Liverpool, England",Oceanic,White Star Line,NewYork1,1899,October,False,24,Z
-4,6,John,Meegan,Male,1842,Ireland,1895-04-13,New York City,"Liverpool, England",Lucania,Cunard,NewYork1,1895,April,False,53,M
-4,7,Patrick,Keane,Male,1871,Ireland,1896-05-08,New York City,"Queenstown, Ireland",Germanic,White Star Line,NewYork1,1896,May,False,25,K
-4,8,Leander,Venstrom,Male,1863,Sweden,1897-01-11,New York City,"Southampton, England",Paris,American Line,NewYork1,1897,January,False,34,V
-4,9,Laurits,Larsen,Male,1882,Denmark,1898-03-05,New York City,"Southampton, England",St. Paul,American Line,NewYork1,1898,March,False,16,L
-4,10,Kate,Bray,Female,1861,Ireland,1899-02-25,New York City,"Queenstown, Ireland",Britannic,White Star Line,NewYork1,1899,February,False,38,B
-4,11,Alf,Young,Male,1867,England,1895-03-12,New York City,"Southampton, England",Berlin,American Line,NewYork1,1895,March,False,28,Y
-4,12,Helga,Schanke,Female,1895,Norway,1896-03-13,New York City,"Liverpool, England",Germanic,White Star Line,NewYork1,1896,March,False,1,S
-4,13,Thomas,Richards,Male,1845,England,1897-08-21,New York City,"Southampton, England",St. Paul,American Line,NewYork1,1897,August,False,52,R
-4,14,Albert,Janson,Male,1873,Sweden,1898-09-08,New York City,"Liverpool, England",Majestic,White Star Line,NewYork1,1898,September,False,25,J
-4,15,Kaisa,Taskila,Female,1864,Finland,1899-10-01,New York City,"Glasgow, Scotland",Ethiopia,Anchor Line,NewYork1,1899,October,False,35,T
-4,16,Ed,Young,Male,1872,England,1895-02-20,New York City,"Southampton, England",Berlin,American Line,NewYork1,1895,February,False,23,Y
-4,17,William,Isaac,Male,1868,England,1896-08-14,New York City,"Liverpool, England",Britannic,White Star Line,NewYork1,1896,August,False,28,I
-4,18,Albert,Rhys,Male,1876,Wales,1897-07-19,New York City,"Liverpool, England",Aurania,Cunard,NewYork1,1897,July,False,21,R
-4,19,Jennie,Ward,Female,1866,Ireland,1898-08-09,New York City,"Glasgow, Scotland",Mongolian,Allan Line,NewYork1,1898,August,False,32,W
-4,20,Edward,Marshall,Male,1883,Ireland,1899-09-21,New York City,"Liverpool, England",Majestic,White Star Line,NewYork1,1899,September,False,16,M
-4,21,Cecil,Muller,Male,1874,England,1895-03-02,New York City,"Liverpool, England",Adriatic,White Star Line,NewYork1,1895,March,False,21,M
-4,22,Karen,Underfakke,Female,1874,Norway,1896-03-30,New York City,"Liverpool, England",Umbria,Cunard,NewYork1,1896,March,False,22,U
-4,23,Christian,Deguigne,Male,1847,France,1897-04-09,New York City,"Liverpool, England",Germanic,White Star Line,NewYork1,1897,April,False,50,D
-4,24,Thomas,Rorke,Male,1863,Ireland,1898-07-15,New York City,"Liverpool, England",Umbria,Cunard,NewYork1,1898,July,False,35,R
-4,25,Annie,Irwin,Female,1879,Ireland,1899-05-25,New York City,"Queenstown, Ireland",Majestic,White Star Line,NewYork1,1899,May,False,20,I
-4,26,Hy,Fielding,Male,1863,England,1895-06-04,New York City,"Southampton, England",Berlin,American Line,NewYork1,1895,June,False,32,F
-4,27,Lomine,Iversen,Female,1864,Norway,1896-10-31,New York City,"Liverpool, England",Campania,Cunard,NewYork1,1896,October,False,32,I
-4,28,Albert,Dunn,Male,1867,Wales,1897-08-28,New York City,"Liverpool, England",Lucania,Cunard,NewYork1,1897,August,False,30,D
-4,29,John,McParklin,Male,1873,Ireland,1898-04-22,New York City,"Liverpool, England",Germanic,White Star Line,NewYork1,1898,April,False,25,M
-4,30,Joseph,Zarky,Male,1892,Russia,1899-12-01,New York City,"Liverpool, England",Germanic,White Star Line,NewYork1,1899,December,False,7,Z
-4,31,Annie,Underwood,Female,1850,England,1895-06-08,New York City,"Southampton, England",City of New York,National Line,NewYork1,1895,June,False,45,U
-4,32,Peter,Axelsen,Male,1873,Denmark,1896-03-13,New York City,"Glasgow, Scotland",Anchoria,Anchor Line,NewYork1,1896,March,False,23,A
-4,33,Harry,Narttey,Male,1877,England,1897-01-07,New York City,"Liverpool, England",Majestic,White Star Line,NewYork1,1897,January,False,20,N
-4,34,Ailda,Rose,Female,1897,England,1898-04-24,New York City,"Southampton, England",St. Louis,American Line,NewYork1,1898,April,False,1,R
-4,35,Margaret,Harding,Female,1861,Ireland,1899-02-19,New York City,"Liverpool, England",Campania,Cunard,NewYork1,1899,February,False,38,H
-4,36,Chas,Bull,Male,1865,England,1895-05-25,New York City,"Southampton, England",Paris,American Line,NewYork1,1895,May,False,30,B
-4,37,Andrew,Laison,Male,1841,Sweden,1896-08-14,New York City,"Liverpool, England",Britannic,White Star Line,NewYork1,1896,August,False,55,L
-4,38,Sarah,Isachson,Female,1860,Russia,1897-11-23,New York City,"Glasgow, Scotland",Anchoria,Anchor Line,NewYork1,1897,November,False,37,I
-4,39,Henry,Uhren,Male,1869,England,1898-12-17,New York City,"Southampton, England",St. Paul,American Line,NewYork1,1898,December,False,29,U
-4,40,Annie,Upton,Female,1881,Ireland,1899-05-27,New York City,"Queenstown, Ireland",Lucania,Cunard,NewYork1,1899,May,False,18,U
-4,41,Leib,Tiller,Male,1855,Germany,1895-06-03,New York City,"Liverpool, England",Umbria,Cunard,NewYork1,1895,June,False,40,T
-4,42,J.,Hartmann,Male,1857,England,1896-12-05,New York City,"Hull, England",Ohio,National Line,NewYork1,1896,December,False,39,H
-4,43,Enon,Heras,Male,1881,Italy,1897-03-27,New York City,"Southampton, England",City of New York,National Line,NewYork1,1897,March,False,16,H
-4,44,William,Davies,Male,1876,Wales,1898-07-22,New York City,"Liverpool, England",Cymric,White Star Line,NewYork1,1898,July,False,22,D
-4,45,Edward,Laffert,Male,1854,Ireland,1899-02-23,New York City,"Londonderry, Ireland",Furnessia,Anchor Line,NewYork1,1899,February,False,45,L
-4,46,Sofie,Jensen,Female,1871,Norway,1895-04-08,New York City,"Liverpool, England",Umbria,Cunard,NewYork1,1895,April,False,24,J
-4,47,Ann,Quigley,Female,1878,Ireland,1896-04-24,New York City,"Liverpool, England",Britannic,White Star Line,NewYork1,1896,April,False,18,Q
-4,48,Hanna,Zetterlund,Female,1871,Sweden,1897-10-23,New York City,"Southampton, England",St. Paul,American Line,NewYork1,1897,October,False,26,Z
-4,49,Albert,Wyler,Male,1864,Switzerland,1898-04-06,New York City,"Southampton, England",Kaiser Wilhelm Der Grosse,Norddeutscher Lloyd,NewYork1,1898,April,False,34,W
-4,50,Catherine,Kinsey,Female,1854,Wales,1899-10-06,New York City,"Liverpool, England",Servia,Cunard,NewYork1,1899,October,False,45,K
-4,51,Chas,Isapp,Male,1863,England,1895-08-23,New York City,"Liverpool, England",Campania,Cunard,NewYork1,1895,August,False,32,I
-4,52,John,Hughes,Male,1875,Wales,1896-11-06,New York City,"Liverpool, England",Britannic,White Star Line,NewYork1,1896,November,False,21,H
-4,53,Mary,Young,Female,1870,Ireland,1897-10-02,New York City,"Queenstown, Ireland",Etruria,Cunard,NewYork1,1897,October,False,27,Y
-4,54,Herman,Norlin,Male,1866,Sweden,1898-03-05,New York City,"Liverpool, England",Lucania,Cunard,NewYork1,1898,March,False,32,N
-4,55,Francis,Knight,Male,1878,England,1899-02-19,New York City,"Liverpool, England",Campania,Cunard,NewYork1,1899,February,False,21,K
-4,56,David,Treenbell,Male,1883,England,1895-06-04,New York City,"Southampton, England",Berlin,American Line,NewYork1,1895,June,False,12,T
-4,57,James,Young,Male,1866,Scotland,1896-12-03,New York City,"Glasgow, Scotland",Siberian,Allan Line,NewYork1,1896,December,False,30,Y
-4,58,Ama,Poikonen,Female,1893,Finland,1897-01-18,New York City,"Liverpool, England",Servia,Cunard,NewYork1,1897,January,False,4,P
-4,59,Maria,Schwermin,Female,1889,Germany,1898-04-10,New York City,"Liverpool, England",Etruria,Cunard,NewYork1,1898,April,False,9,S
-4,60,Sore,Seckowsky,Female,1873,Russia,1899-10-08,New York City,"Glasgow, Scotland",City of Rome,Inman Line,NewYork1,1899,October,False,26,S
-5,1,John,Loftus,Male,1878,Ireland,1900-04-19,New York City,"Liverpool, England",Teutonic,White Star Line,NewYork1,1900,April,False,22,L
-5,2,Maria,Pheifer,Female,1879,Austria,1901-01-23,New York City,"Southampton, England",Vaderland,Red Star Line,NewYork1,1901,January,False,22,P
-5,3,Thomas,Wallace,Male,1883,Italy,1902-08-02,New York City,"Southampton, England",City of Philadelphia,National Line,NewYork1,1902,August,False,19,W
-5,4,Sarah,Rush,Female,1883,Ireland,1903-05-07,New York City,"Londonderry, Ireland",Ethiopia,Anchor Line,NewYork1,1903,May,False,20,R
-5,5,Robert,Young,Male,1868,Scotland,1904-07-17,New York City,"Liverpool, England",Cedric,White Star Line,NewYork1,1904,July,False,36,Y
-5,6,Omand,Carlsen,Male,1878,Norway,1900-04-17,New York City,"Glasgow, Scotland",State of Nebraska,Allan Line,NewYork1,1900,April,False,22,C
-5,7,Otto,Schutz,Male,1869,Switzerland,1901-03-26,New York City,"Liverpool, England",Etruria,Cunard,NewYork1,1901,March,False,32,S
-5,8,Chaine,Navch,Female,1884,Austria,1902-06-12,New York City,"Liverpool, England",Teutonic,White Star Line,NewYork1,1902,June,False,18,N
-5,9,Walter,Thompson,Male,1882,England,1903-01-04,New York City,"Liverpool, England",Umbria,Cunard,NewYork1,1903,January,False,21,T
-5,10,John,Johnson,Male,1873,Sweden,1904-02-20,New York City,"Liverpool, England",Cedric,White Star Line,NewYork1,1904,February,False,31,J
-5,11,Catherine,Moran,Female,1882,Ireland,1900-12-04,New York City,"Londonderry, Ireland",Furnessia,Anchor Line,NewYork1,1900,December,False,18,M
-5,12,Anders,Andersen,Male,1879,Denmark,1901-05-27,New York City,"Liverpool, England",Cymric,White Star Line,NewYork1,1901,May,False,22,A
-5,13,Augustus,Baralowitsch,Male,1882,Russia,1902-08-01,New York City,"Liverpool, England",Celtic,White Star Line,NewYork1,1902,August,False,20,B
-5,14,Kate,Ivey,Female,1877,England,1903-09-12,New York City,"Southampton, England",City of New York,National Line,NewYork1,1903,September,False,26,I
-5,15,T.,Fuji,Male,1867,Japan,1904-10-21,New York City,"Dover, England",Deutschland,Hamburg America Line,NewYork1,1904,October,False,37,F
-5,16,John,Scherzinger,Male,1861,Switzerland,1900-09-01,New York City,"Southampton, England",St. Paul,American Line,NewYork1,1900,September,False,39,S
-5,17,Alexander,Rutherford,Male,1872,Scotland,1901-06-08,New York City,"Liverpool, England",Campania,Cunard,NewYork1,1901,June,False,29,R
-5,18,Held,Inaff,Female,1879,Sweden,1902-03-22,New York City,"Liverpool, England",Campania,Cunard,NewYork1,1902,March,False,23,I
-5,19,Ade,Ximeno,Male,1856,Cuba,1903-08-23,New York City,"Liverpool, England",Umbria,Cunard,NewYork1,1903,August,False,47,X
-5,20,Kars,Paude,Male,1848,Norway,1904-01-28,New York City,"Liverpool, England",Majestic,White Star Line,NewYork1,1904,January,False,56,P
-5,21,Asmus,Nielson,Male,1868,Denmark,1900-09-01,New York City,"Southampton, England",St. Paul,American Line,NewYork1,1900,September,False,32,N
-5,22,David,Evans,Male,1864,Wales,1901-02-20,New York City,"Liverpool, England",Oceanic,White Star Line,NewYork1,1901,February,False,37,E
-5,23,Mary,Quinn,Female,1884,Ireland,1902-03-22,New York City,"Queenstown, Ireland",Campania,Cunard,NewYork1,1902,March,False,18,Q
-5,24,Margt,Robertson,Female,1845,Scotland,1903-05-25,New York City,"Glasgow, Scotland",Columbia,Anchor Line,NewYork1,1903,May,False,58,R
-5,25,Benjamin,Moorhouse,Male,1870,England,1904-03-04,New York City,"Liverpool, England",Oceanic,White Star Line,NewYork1,1904,March,False,34,M
-5,26,Leonard,Napper,Male,1882,England,1900-11-09,New York City,"Liverpool, England",Germanic,White Star Line,NewYork1,1900,November,False,18,N
-5,27,Dorothea,Anderson,Female,1882,Sweden,1901-06-22,New York City,"Liverpool, England",Lucania,Cunard,NewYork1,1901,June,False,19,A
-5,28,Andrew,Xedis,Male,1877,Greece,1902-08-23,New York City,"Southampton, England",City of Philadelphia,National Line,NewYork1,1902,August,False,25,X
-5,29,Manuel,Vidal,Male,1878,Spain,1903-04-02,New York City,"Liverpool, England",Oceanic,White Star Line,NewYork1,1903,April,False,25,V
-5,30,Walter,Clemson,Male,1857,England,1904-03-01,New York City,"Southampton, England",Kaiser Wilhelm Der Grosse,Norddeutscher Lloyd,NewYork1,1904,March,False,47,C
-5,31,Catherine,Deblin,Female,1870,Ireland,1900-04-18,New York City,"Londonderry, Ireland",Anchoria,Anchor Line,NewYork1,1900,April,False,30,D
-5,32,Jossman,Robinson,Male,1881,Austria,1901-01-08,New York City,"Glasgow, Scotland",Furnessia,Anchor Line,NewYork1,1901,January,False,20,R
-5,33,Jean,Ulrich,Male,1885,England,1902-08-14,New York City,"Liverpool, England",Teutonic,White Star Line,NewYork1,1902,August,False,17,U
-5,34,Mary,Michael,Female,1877,Syria,1903-04-26,New York City,"Southampton, England",St. Paul,American Line,NewYork1,1903,April,False,26,M
-5,35,Frederick,Kranse,Male,1881,Germany,1904-04-02,New York City,"Dover, England",Moltke,Hamburg America Line,NewYork1,1904,April,False,23,K
-5,36,Michael,Shannon,Male,1884,Ireland,1900-11-22,New York City,"Liverpool, England",Oceanic,White Star Line,NewYork1,1900,November,False,16,S
-5,37,Robert,Brownlee,Male,1871,Ireland,1901-06-13,New York City,"Londonderry, Ireland",Sardinian,Allan Line,NewYork1,1901,June,False,30,B
-5,38,John,Fitzmaurice,Male,1876,Ireland,1902-09-11,New York City,"Liverpool, England",Teutonic,White Star Line,NewYork1,1902,September,False,26,F
-5,39,May,Pitcher,Female,1880,England,1903-07-05,New York City,"Liverpool, England",Lucania,Cunard,NewYork1,1903,July,False,23,P
-5,40,Lindsay,Douglas,Male,1873,England,1904-02-16,New York City,"Liverpool, England",Ivernia,Cunard,NewYork1,1904,February,False,31,D
-5,41,Joseph,Rooney,Male,1876,Ireland,1900-06-25,New York City,"Londonderry, Ireland",City of Rome,Inman Line,NewYork1,1900,June,False,24,R
-5,42,Iva,Fitzgibbon,Male,1892,Ireland,1901-09-28,New York City,"Liverpool, England",Campania,Cunard,NewYork1,1901,September,False,9,F
-5,43,Ivar,Johanson,Male,1877,Sweden,1902-03-27,New York City,"Liverpool, England",Oceanic,White Star Line,NewYork1,1902,March,False,25,J
-5,44,Jacob,Zulik,Male,1898,Germany,1903-11-20,New York City,"Liverpool, England",Carpathia,Cunard,NewYork1,1903,November,False,5,Z
-5,45,Annie,Vickers,Female,1862,England,1904-08-27,New York City,"Liverpool, England",Umbria,Cunard,NewYork1,1904,August,False,42,V
-5,46,Harriette,Yarrow,Female,1838,England,1900-08-18,New York City,"Liverpool, England",Lucania,Cunard,NewYork1,1900,August,False,62,Y
-5,47,Mary,Lamont,Female,1864,Ireland,1901-01-08,New York City,"Glasgow, Scotland",Furnessia,Anchor Line,NewYork1,1901,January,False,37,L
-5,48,Timothy,Edward,Male,1870,England,1902-10-15,New York City,"Liverpool, England",Oceanic,White Star Line,NewYork1,1902,October,False,32,E
-5,49,Alexander,Young,Male,1853,Scotland,1903-04-12,New York City,"Liverpool, England",Ivernia,Cunard,NewYork1,1903,April,False,50,Y
-5,50,Gilbert,Don,Male,1860,Scotland,1904-02-16,New York City,"Liverpool, England",Ivernia,Cunard,NewYork1,1904,February,False,44,D
-5,51,Christine,Berge,Female,1878,Norway,1900-05-17,New York City,"Liverpool, England",Teutonic,White Star Line,NewYork1,1900,May,False,22,B
-5,52,Michael,Winter,Male,1861,Russia,1901-01-27,New York City,"Southampton, England",St. Louis,American Line,NewYork1,1901,January,False,40,W
-5,53,Henrich,Ising,Male,1879,Germany,1902-03-20,New York City,"Liverpool, England",Teutonic,White Star Line,NewYork1,1902,March,False,23,I
-5,54,William,Aggas,Male,1857,England,1903-08-15,New York City,"Liverpool, England",Campania,Cunard,NewYork1,1903,August,False,46,A
-5,55,Robert,McFarlane,Male,1873,Scotland,1904-02-16,New York City,"Glasgow, Scotland",Corean,Allan Line,NewYork1,1904,February,False,31,M
-5,56,Margaret,Donohue,Female,1883,Ireland,1900-08-29,New York City,"Liverpool, England",Oceanic,White Star Line,NewYork1,1900,August,False,17,D
-5,57,Katas,Katulis,Female,1873,Germany,1901-06-10,New York City,"Glasgow, Scotland",Furnessia,Anchor Line,NewYork1,1901,June,False,28,K
-5,58,Auton,Olsen,Male,1870,Norway,1902-06-01,New York City,"Liverpool, England",Celtic,White Star Line,NewYork1,1902,June,False,32,O
-5,59,Johan,Herslof,Male,1885,Sweden,1903-05-25,New York City,"Liverpool, England",Celtic,White Star Line,NewYork1,1903,May,False,18,H
-5,60,Andrey,Pacer,Male,1883,Poland,1904-04-25,New York City,"Glasgow, Scotland",Columbia,Anchor Line,NewYork1,1904,April,False,21,P
-6,1,Ambrozy,Zajonczkowski,Male,1886,Lithuania,1905-10-10,New York City,"Glasgow, Scotland",Furnessia,Anchor Line,NewYork1,1905,October,False,19,Z
-6,2,Mary,Gurner,Female,1881,France,1906-06-30,New York City,"Dover, England",Amerika,Hamburg America Line,NewYork1,1906,June,False,25,G
-6,3,David,Carr,Male,1870,England,1907-11-16,New York City,"Liverpool, England",Arabic,White Star Line,NewYork1,1907,November,False,37,C
-6,4,Esther,Neale,Female,1863,England,1908-08-04,New York City,"Dover, England",Vaderland,Red Star Line,NewYork1,1908,August,False,45,N
-6,5,Harry,Etherington,Male,1857,England,1909-12-03,New York City,"Liverpool, England",Lusitania,Cunard,NewYork1,1909,December,False,52,E
-6,6,Jessie,Varley,Female,1888,England,1905-03-13,New York City,"Liverpool, England",Umbria,Cunard,NewYork1,1905,March,False,17,V
-6,7,Silppa,Hakkarainen,Female,1883,Finland,1906-01-13,New York City,"Liverpool, England",Baltic,White Star Line,NewYork1,1906,January,False,23,H
-6,8,Lucie,Gerrard,Female,1877,France,1907-10-08,New York City,"Dover, England",Zeeland,Red Star Line,NewYork1,1907,October,False,30,G
-6,9,Richard,Needham,Male,1875,England,1908-02-08,New York City,"Liverpool, England",Lucania,Cunard,NewYork1,1908,February,False,33,N
-6,10,Thomas,Fearon,Male,1879,Ireland,1909-05-08,New York City,"Liverpool, England",Campania,Cunard,NewYork1,1909,May,False,30,F
-6,11,Christopher,Naylor,Male,1850,England,1905-05-01,New York City,"Liverpool, England",Campania,Cunard,NewYork1,1905,May,False,55,N
-6,12,Peter,Tobin,Male,1841,Ireland,1906-09-08,New York City,"Liverpool, England",Campania,Cunard,NewYork1,1906,September,False,65,T
-6,13,Nellie,Quinn,Female,1878,Ireland,1907-04-17,New York City,"Liverpool, England",Campania,Cunard,NewYork1,1907,April,False,29,Q
-6,14,Henry,Vild,Male,1839,Switzerland,1908-04-17,New York City,"Southampton, England",Kaiserin Augusta Victoria,Hamburg America Line,NewYork1,1908,April,False,69,V
-6,15,John,Yule,Male,1870,Scotland,1909-11-25,New York City,"Liverpool, England",Mauretania,Cunard,NewYork1,1909,November,False,39,Y
-6,16,Wilhelm,Ostern,Male,1874,Germany,1905-02-03,New York City,"Dover, England",Patricia,Hamburg America Line,NewYork1,1905,February,False,31,O
-6,17,Giovanni,Ortelli,Male,1872,Italy,1906-12-23,New York City,"Southampton, England",Amerika,Hamburg America Line,NewYork1,1906,December,False,34,O
-6,18,Gerrard,Bandina,Male,1883,England,1907-07-17,New York City,"Dover, England",Zeeland,Red Star Line,NewYork1,1907,July,False,24,B
-6,19,Meary,Vanderpool,Female,1856,England,1908-09-05,New York City,"Liverpool, England",Cedric,White Star Line,NewYork1,1908,September,False,52,V
-6,20,Marie,Engelson,Female,1878,Norway,1909-03-27,New York City,"Liverpool, England",Lusitania,Cunard,NewYork1,1909,March,False,31,E
-6,21,Matti,Jarva,Male,1876,Finland,1905-10-25,New York City,"Liverpool, England",Oceanic,White Star Line,NewYork1,1905,October,False,29,J
-6,22,Amedio,Venti,Male,1890,Italy,1906-04-30,New York City,"Glasgow, Scotland",Caledonia,Anchor Line,NewYork1,1906,April,False,16,V
-6,23,John,Vernon,Male,1878,England,1907-05-31,New York City,"Liverpool, England",Oceanic,White Star Line,NewYork1,1907,May,False,29,V
-6,24,Henry,Warwick,Male,1856,England,1908-07-17,New York City,"Liverpool, England",Mauretania,Cunard,NewYork1,1908,July,False,52,W
-6,25,Molly,Austen,Female,1905,England,1909-06-09,New York City,"Southampton, England",Teutonic,White Star Line,NewYork1,1909,June,False,4,A
-6,26,Edgar,Elgar,Male,1858,England,1905-06-16,New York City,"Dover, England",Deutschland,Hamburg America Line,NewYork1,1905,June,False,47,E
-6,27,Erkki,Anttio,Male,1876,Finland,1906-02-19,New York City,"Southampton, England",St. Paul,American Line,NewYork1,1906,February,False,30,A
-6,28,May,Joyce,Female,1880,England,1907-09-28,New York City,"Southampton, England",City of New York,National Line,NewYork1,1907,September,False,27,J
-6,29,Ernest,Gilbert,Male,1866,England,1908-08-19,New York City,"Southampton, England",Oceanic,White Star Line,NewYork1,1908,August,False,42,G
-6,30,Patrick,Kunan,Male,1884,Ireland,1909-05-10,New York City,"Londonderry, Ireland",Columbia,Anchor Line,NewYork1,1909,May,False,25,K
-6,31,M.,Luri,Male,1880,Italy,1905-03-27,New York City,"Dover, England",Pretoria,Hamburg America Line,NewYork1,1905,March,False,25,L
-6,32,Robert,Ireland,Male,1882,Ireland,1906-01-23,New York City,"Liverpool, England",Umbria,Cunard,NewYork1,1906,January,False,24,I
-6,33,Catherine,Walker,Female,1881,Ireland,1907-05-04,New York City,"Hull, England",Idaho,National Line,NewYork1,1907,May,False,26,W
-6,34,Bernard,Elmore,Female,1880,Ireland,1908-07-16,New York City,"Liverpool, England",Carmania,National Line,NewYork1,1908,July,False,28,E
-6,35,Paolo,Xerri,Male,1887,England,1909-12-31,New York City,"Southampton, England",City of New York,National Line,NewYork1,1909,December,False,22,X
-6,36,Ellen,Irwin,Female,1890,Ireland,1905-12-09,New York City,"Londonderry, Ireland",Furnessia,Anchor Line,NewYork1,1905,December,False,15,I
-6,37,Joseph,Yates,Male,1873,England,1906-10-19,New York City,"Liverpool, England",Baltic,White Star Line,NewYork1,1906,October,False,33,Y
-6,38,Richad,Theahan,Male,1873,Ireland,1907-12-09,New York City,"Liverpool, England",Lusitania,Cunard,NewYork1,1907,December,False,34,T
-6,39,Fredk,Vail,Male,1866,England,1908-03-14,New York City,"Liverpool, England",Lusitania,Cunard,NewYork1,1908,March,False,42,V
-6,40,Ovs,Norman,Male,1870,Norway,1909-07-14,New York City,"Glasgow, Scotland",Furnessia,Anchor Line,NewYork1,1909,July,False,39,N
-6,41,J.P.,Gavria,Male,1877,Spain,1905-12-18,New York City,"Dover, England",Pretoria,Hamburg America Line,NewYork1,1905,December,False,28,G
-6,42,James,"McLaughlin, Jr",Male,1849,Ireland,1906-12-27,New York City,"Liverpool, England",Oceanic,White Star Line,NewYork1,1906,December,False,57,M
-6,43,Annie,Quinlan,Female,1864,England,1907-04-12,New York City,"Liverpool, England",Majestic,White Star Line,NewYork1,1907,April,False,43,Q
-6,44,Kasimer,Urban,Male,1886,Russia,1908-11-29,New York City,"Liverpool, England",Cedric,White Star Line,NewYork1,1908,November,False,22,U
-6,45,Thomas,Wood,Male,1842,England,1909-11-03,New York City,"Liverpool, England",Carmania,National Line,NewYork1,1909,November,False,67,W
-6,46,Ellen,Crowhurst,Female,1874,England,1905-10-21,New York City,"Dover, England",Amerika,Hamburg America Line,NewYork1,1905,October,False,31,C
-6,47,John,Robartson,Male,1820,Netherlands,1906-01-13,New York City,"Liverpool, England",Baltic,White Star Line,NewYork1,1906,January,False,86,R
-6,48,Wilfred,Thomborrow,Male,1883,England,1907-02-11,New York City,"Liverpool, England",Carmania,National Line,NewYork1,1907,February,False,24,T
-6,49,Dirk,Fabrick,Male,1889,Netherlands,1908-05-15,New York City,"Southampton, England",Adriatic,White Star Line,NewYork1,1908,May,False,19,F
-6,50,Vernon,Dren,Male,1886,Australia,1909-08-08,New York City,"Liverpool, England",Baltic,White Star Line,NewYork1,1909,August,False,23,D
-6,51,Minnie,Edwards,Female,1881,England,1905-03-26,New York City,"Southampton, England",City of Philadelphia,National Line,NewYork1,1905,March,False,24,E
-6,52,C.,Royer,Male,1867,France,1906-07-29,New York City,"Dover, England",Amerika,Hamburg America Line,NewYork1,1906,July,False,39,R
-6,53,William,Holmes,Male,1886,Ireland,1907-09-30,New York City,"Glasgow, Scotland",Caledonia,Anchor Line,NewYork1,1907,September,False,21,H
-6,54,Michael,Gilhoolys,Male,1889,Ireland,1908-09-08,New York City,"Londonderry, Ireland",California,National Line,NewYork1,1908,September,False,19,G
-6,55,Bertrice,Toop,Female,1887,England,1909-10-31,New York City,"Southampton, England",St. Paul,American Line,NewYork1,1909,October,False,22,T
-6,56,John,Jones,Male,1883,Wales,1905-04-10,New York City,"Liverpool, England",Caronia,National Line,NewYork1,1905,April,False,22,J
-6,57,Alfred,Tetlow,Male,1881,England,1906-02-04,New York City,"Southampton, England",St. Louis,American Line,NewYork1,1906,February,False,25,T
-6,58,Thomas,McNally,Male,1871,Ireland,1907-07-15,New York City,"Liverpool, England",Adriatic,White Star Line,NewYork1,1907,July,False,36,M
-6,59,Bridget,Quinn,Female,1880,Ireland,1908-10-03,New York City,"Liverpool, England",Cedric,White Star Line,NewYork1,1908,October,False,28,Q
-6,60,Richer,Chando,Male,1869,England,1909-06-13,New York City,"Liverpool, England",Baltic,White Star Line,NewYork1,1909,June,False,40,C
-7,1,William,Warden,Male,1888,Scotland,1910-02-16,New York City,"Glasgow, Scotland",California,National Line,NewYork1,1910,February,False,22,W
-7,2,Henry,Rautiainen,Male,1888,Finland,1911-05-29,New York City,"Liverpool, England",Baltic,White Star Line,NewYork1,1911,May,False,23,R
-7,3,Charles,Thomfsen,Male,1881,Scotland,1912-05-07,New York City,"Glasgow, Scotland",Columbia,Anchor Line,NewYork1,1912,May,False,31,T
-7,4,William,Thomas,Male,1889,Wales,1913-05-17,New York City,"Liverpool, England",Mauretania,Cunard,NewYork1,1913,May,False,24,T
-7,5,Emmanuel,Georgiades,Male,1885,Greece,1914-04-29,New York City,"Southampton, England",Kaiser Wilhelm II,Norddeutscher Lloyd,NewYork1,1914,April,False,29,G
-7,6,James,McCoy,Male,1867,Ireland,1910-10-07,New York City,"Liverpool, England",Hilarius,National Line,NewYork1,1910,October,False,43,M
-7,7,Mate,Jakovac,Male,1883,Croatia,1911-01-20,New York City,"Southampton, England",City of New York,National Line,NewYork1,1911,January,False,28,J
-7,8,John,Irwon,Male,1888,Ireland,1912-01-17,New York City,"Londonderry, Ireland",Columbia,Anchor Line,NewYork1,1912,January,False,24,I
-7,9,Ada,Abbott,Female,1870,England,1913-11-03,New York City,"Dover, England",Lapland,Red Star Line,NewYork1,1913,November,False,43,A
-7,10,Margaret,Larsen,Female,1882,England,1914-01-09,New York City,"Liverpool, England",Lusitania,Cunard,NewYork1,1914,January,False,32,L
-7,11,William,Bellamy,Male,1889,England,1910-06-18,New York City,"Hull, England",Buffalo,National Line,NewYork1,1910,June,False,21,B
-7,12,John,Jost,Male,1886,Germany,1911-03-20,New York City,"Dover, England",Lapland,Red Star Line,NewYork1,1911,March,False,25,J
-7,13,Jean,Danguy,Male,1860,France,1912-08-14,New York City,"Dover, England",Finland,National Line,NewYork1,1912,August,False,52,D
-7,14,Carrie,Aronton,Female,1851,England,1913-09-29,New York City,"Dover, England",Lapland,Red Star Line,NewYork1,1913,September,False,62,A
-7,15,Jan,Zurionsko,Male,1887,Russia,1914-05-09,New York City,"Liverpool, England",Adriatic,White Star Line,NewYork1,1914,May,False,27,Z
-7,16,Annie,Normile,Female,1886,Ireland,1910-04-14,New York City,"Queenstown, Ireland",Oceanic,White Star Line,NewYork1,1910,April,False,24,N
-7,17,Margaret,Lydoro,Female,1883,Ireland,1911-07-10,New York City,"Dover, England",Lapland,Red Star Line,NewYork1,1911,July,False,28,L
-7,18,Willhelm,Ostrander,Male,1905,Norway,1912-02-03,New York City,"Liverpool, England",Arabic,White Star Line,NewYork1,1912,February,False,7,O
-7,19,William,Holmb,Male,1864,Scotland,1913-06-04,New York City,"Dover, England",Kroonland,Red Star Line,NewYork1,1913,June,False,49,H
-7,20,Arthur,Schulthess,Male,1882,Germany,1914-02-04,New York City,"Dover, England",Finland,National Line,NewYork1,1914,February,False,32,S
-7,21,Augustus,Hug,Male,1882,Germany,1910-10-25,New York City,"Dover, England",Vaderland,Red Star Line,NewYork1,1910,October,False,28,H
-7,22,Michael,Ellard,Male,1891,Ireland,1911-03-26,New York City,"Queenstown, Ireland",Campania,Cunard,NewYork1,1911,March,False,20,E
-7,23,Marianne,Urban,Female,1893,Russia,1912-06-28,New York City,"Liverpool, England",Mauretania,Cunard,NewYork1,1912,June,False,19,U
-7,24,William,Vincent,Male,1888,England,1913-01-15,New York City,"Liverpool, England",Cedric,White Star Line,NewYork1,1913,January,False,25,V
-7,25,Gladys,Inman,Female,1893,England,1914-05-04,New York City,"Southampton, England",Olympic,White Star Line,NewYork1,1914,May,False,21,I
-7,26,Lihue,Zuny,Female,1888,China,1910-08-20,New York City,"Liverpool, England",Campania,Cunard,NewYork1,1910,August,False,22,Z
-7,27,Harold,Emmerson,Male,1901,Ireland,1911-09-09,New York City,"Liverpool, England",Carmania,National Line,NewYork1,1911,September,False,10,E
-7,28,Michael,Flynn,Male,1891,Ireland,1912-03-21,New York City,"Southampton, England",Olympic,White Star Line,NewYork1,1912,March,False,21,F
-7,29,Robe,Cheesman,Female,1872,England,1913-04-29,New York City,"Dover, England",Lapland,Red Star Line,NewYork1,1913,April,False,41,C
-7,30,Spencer,Grey,Male,1889,England,1914-12-24,New York City,"Liverpool, England",Lusitania,Cunard,NewYork1,1914,December,False,25,G
-7,31,Catherine,Farr,Female,1870,England,1910-03-12,New York City,"Liverpool, England",Campania,Cunard,NewYork1,1910,March,False,40,F
-7,32,Cecilia,Ellen,Female,1885,Netherlands,1911-05-15,New York City,"Dover, England",Lapland,Red Star Line,NewYork1,1911,May,False,26,E
-7,33,Cyril,Gladwell,Male,1891,England,1912-06-30,New York City,"Southampton, England",City of Philadelphia,National Line,NewYork1,1912,June,False,21,G
-7,34,Jacob,Thorsen,Male,1894,Norway,1913-04-22,New York City,"Glasgow, Scotland",Columbia,Anchor Line,NewYork1,1913,April,False,19,T
-7,35,Mary,Ireacey,Female,1892,Ireland,1914-02-25,New York City,"Londonderry, Ireland",California,National Line,NewYork1,1914,February,False,22,I
-7,36,Julliette,Villars,Female,1890,France,1910-10-30,New York City,"Southampton, England",City of New York,National Line,NewYork1,1910,October,False,20,V
-7,37,Dinoke,Koeff,Male,1876,Netherlands,1911-12-15,New York City,"Liverpool, England",Lusitania,Cunard,NewYork1,1911,December,False,35,K
-7,38,Neta,Studdert,Female,1860,Ireland,1912-01-08,New York City,"Liverpool, England",Baltic,White Star Line,NewYork1,1912,January,False,52,S
-7,39,John,Stephens,Male,1873,England,1913-03-06,New York City,"Southampton, England",Oceanic,White Star Line,NewYork1,1913,March,False,40,S
-7,40,William,Pinkham,Male,1891,England,1914-06-15,New York City,"Southampton, England",City of New York,National Line,NewYork1,1914,June,False,23,P
-7,41,Luigi,Zannier,Male,1887,Italy,1910-04-17,New York City,"Southampton, England",City of New York,National Line,NewYork1,1910,April,False,23,Z
-7,42,Sarah,Delly,Female,1883,Ireland,1911-09-16,New York City,"Liverpool, England",Baltic,White Star Line,NewYork1,1911,September,False,28,D
-7,43,Belsey,Van Dam,Female,1887,Netherlands,1912-01-05,New York City,"Liverpool, England",Lusitania,Cunard,NewYork1,1912,January,False,25,V
-7,44,Kathleen,Nolan,Female,1890,Ireland,1913-05-06,New York City,"Londonderry, Ireland",California,National Line,NewYork1,1913,May,False,23,N
-7,45,Hugh,Savage,Male,1861,Ireland,1914-07-05,New York City,"Liverpool, England",Adriatic,White Star Line,NewYork1,1914,July,False,53,S
-7,46,Iida,Koskinen,Female,1882,Finland,1910-11-04,New York City,"Liverpool, England",Mauretania,Cunard,NewYork1,1910,November,False,28,K
-7,47,Frank,Cooper,Male,1855,England,1911-10-17,New York City,"Dover, England",Finland,National Line,NewYork1,1911,October,False,56,C
-7,48,George,Brightman,Male,1875,England,1912-06-29,New York City,"Liverpool, England",Baltic,White Star Line,NewYork1,1912,June,False,37,B
-7,49,Emil,Ivankow,Male,1891,Poland,1913-08-30,New York City,"Liverpool, England",Lusitania,Cunard,NewYork1,1913,August,False,22,I
-7,50,Joseph,Nitzgen,Male,1878,Germany,1914-07-03,New York City,"Liverpool, England",Mauretania,Cunard,NewYork1,1914,July,False,36,N
-7,51,Aranh,Xintaris,Male,1876,Greece,1910-10-07,New York City,"Liverpool, England",Mauretania,Cunard,NewYork1,1910,October,False,34,X
-7,52,Wladimer,Zerkaschoff,Male,1907,Russia,1911-04-24,New York City,"Liverpool, England",Cedric,White Star Line,NewYork1,1911,April,False,4,Z
-7,53,Annie,Quinn,Female,1882,Ireland,1912-12-14,New York City,"Liverpool, England",Mauretania,Cunard,NewYork1,1912,December,False,30,Q
-7,54,Sarah,Evens,Female,1885,England,1913-03-24,New York City,"Liverpool, England",Carmania,National Line,NewYork1,1913,March,False,28,E
-7,55,Herbert,Cohen,Male,1862,Austria,1914-02-08,New York City,"Southampton, England",Kaiserin Augusta Victoria,Hamburg America Line,NewYork1,1914,February,False,52,C
-7,56,Mabel,Irish,Female,1882,England,1910-12-16,New York City,"Liverpool, England",Mauretania,Cunard,NewYork1,1910,December,False,28,I
-7,57,Robert,Hebden,Male,1847,England,1911-09-09,New York City,"Liverpool, England",Carmania,National Line,NewYork1,1911,September,False,64,H
-7,58,Arthur,Rudd,Male,1869,England,1912-03-21,New York City,"Southampton, England",Olympic,White Star Line,NewYork1,1912,March,False,43,R
-7,59,Carl,Spinnler,Male,1875,Switzerland,1913-05-28,New York City,"Southampton, England",Kronprinz Wilhelm,National Line,NewYork1,1913,May,False,38,S
-7,60,Minnie,Nicholls,Female,1890,England,1914-07-08,New York City,"Southampton, England",Olympic,White Star Line,NewYork1,1914,July,False,24,N
-8,1,Sure,Goler,Female,1865,Hebrew,1903-04-07,New York City,"Liverpool, England",Cymric,White Star Line,NewYork1,1903,April,False,38,G
-8,2,Moritz,Wilder,Male,1884,Hebrew,1904-01-28,New York City,"Liverpool, England",Majestic,White Star Line,NewYork1,1904,January,False,20,W
-8,3,Jankel,Rucatchky,Male,1891,Hebrew,1905-03-13,New York City,"Southampton, England",City of New York,National Line,NewYork1,1905,March,False,14,R
-8,4,Lise,Amstu,Female,1886,Hebrew,1906-10-19,New York City,"Liverpool, England",Baltic,White Star Line,NewYork1,1906,October,False,20,A
-8,5,Chane,Dinin,Female,1890,Hebrew,1907-07-06,New York City,"Liverpool, England",Campania,Cunard,NewYork1,1907,July,False,17,D
-8,6,Harris,Berkovitz,Male,1863,Hebrew,1908-09-05,New York City,"Liverpool, England",Cedric,White Star Line,NewYork1,1908,September,False,45,B
-8,7,David,Radwisilowsky,Male,1866,Hebrew,1909-11-15,New York City,"Glasgow, Scotland",California,National Line,NewYork1,1909,November,False,43,R
-8,8,Jeanie,Cohen,Female,1881,Hebrew,1903-06-07,New York City,"Southampton, England",St. Paul,American Line,NewYork1,1903,June,False,22,C
-8,9,Schlojme,Landesman,Male,1868,Hebrew,1904-02-16,New York City,"Glasgow, Scotland",Corean,Allan Line,NewYork1,1904,February,False,36,L
-8,10,Feigel,Goldbaum,Female,1894,Hebrew,1905-04-09,New York City,"Southampton, England",City of New York,National Line,NewYork1,1905,April,False,11,G
-8,11,Leib,Forman,Male,1885,Hebrew,1906-12-23,New York City,"Southampton, England",City of Philadelphia,National Line,NewYork1,1906,December,False,21,F
-8,12,Dawid,Guschewsky,Male,1867,Hebrew,1907-10-12,New York City,"Liverpool, England",Celtic,White Star Line,NewYork1,1907,October,False,40,G
-8,13,Ilona,Izsak,Female,1881,Hebrew,1908-01-04,New York City,"Liverpool, England",Lusitania,Cunard,NewYork1,1908,January,False,27,I
-8,14,Arian,Abram,Male,1864,Hebrew,1909-05-14,New York City,"Liverpool, England",Lusitania,Cunard,NewYork1,1909,May,False,45,A
-8,15,Burzch,Johannes,Male,1887,Hebrew,1903-08-27,New York City,"Liverpool, England",Carpathia,Cunard,NewYork1,1903,August,False,16,J
-8,16,Karl,Chuthof,Male,1883,Hebrew,1904-05-08,New York City,"Liverpool, England",Umbria,Cunard,NewYork1,1904,May,False,21,C
-8,17,Sheine,Perlkan,Female,1904,Hebrew,1905-11-12,New York City,"Southampton, England",City of Philadelphia,National Line,NewYork1,1905,November,False,1,P
-8,18,Cheike,Hilda,Female,1866,Hebrew,1906-06-10,New York City,"Liverpool, England",Umbria,Cunard,NewYork1,1906,June,False,40,H
-8,19,Gusta,Albin,Female,1896,Hebrew,1907-06-15,New York City,"Liverpool, England",Cedric,White Star Line,NewYork1,1907,June,False,11,A
-8,20,Markus,Yadel,Male,1863,Hebrew,1908-02-02,New York City,"Southampton, England",City of Philadelphia,National Line,NewYork1,1908,February,False,45,Y
-8,21,Bobe,Krasner,Male,1900,Hebrew,1909-07-09,New York City,"Liverpool, England",Mauretania,Cunard,NewYork1,1909,July,False,9,K
-8,22,Sime,Qubermann,Female,1884,Hebrew,1903-11-15,New York City,"Southampton, England",City of New York,National Line,NewYork1,1903,November,False,19,Q
-8,23,Judal,Vogel,Male,1892,Hebrew,1904-09-02,New York City,"Liverpool, England",Carpathia,Cunard,NewYork1,1904,September,False,12,V
-8,24,Hersch,Medwet,Male,1880,Hebrew,1905-03-19,New York City,"Glasgow, Scotland",Ethiopia,Anchor Line,NewYork1,1905,March,False,25,M
-8,25,Jacob,Braf,Male,1875,Hebrew,1906-04-29,New York City,"Liverpool, England",Cedric,White Star Line,NewYork1,1906,April,False,31,B
-8,26,Schurl,Malaveczky,Female,1867,Hebrew,1907-02-08,New York City,"Liverpool, England",Baltic,White Star Line,NewYork1,1907,February,False,40,M
-8,27,Rachel,Tentzer,Female,1892,Hebrew,1908-12-21,New York City,"Southampton, England",St. Paul,American Line,NewYork1,1908,December,False,16,T
-8,28,Michael,Liedki,Male,1884,Hebrew,1909-06-20,New York City,"Liverpool, England",Arabic,White Star Line,NewYork1,1909,June,False,25,L
+1,1,Jane,Cosse,Male,1856,Hungary,,New York City,"Liverpool, England",Scythia,Cunard,NewYork1,,,False,,C
+1,2,Pat,Mulcarney,Male,1874,Ireland,,New York City,"Liverpool, England",Oregon,Cunard,NewYork1,,,False,,M
+1,3,Gustav,Adolfkat,Male,1856,Sweden,,New York City,"Southampton, England",Habsburg,Norddeutscher Lloyd,NewYork1,,,True,,A
+1,4,Isa,Johannes,Male,1841,Switzerland,,New York City,"London, England",Denmark,National Line,NewYork1,,,False,,J
+1,5,Johan,Welz,Male,1861,Germany,,New York City,"London, England",Elysia,Anchor Line,NewYork1,,,False,,W
+1,6,Mary,Lahy,Female,1856,Ireland,,New York City,"Queenstown, Ireland",England,National Line,NewYork1,,,True,,L
+1,7,Fredwe,Kennedy,Male,1879,Ireland,,New York City,"Liverpool, England",Baltic,White Star Line,NewYork1,,,False,,K
+1,8,Wilhelm,Menzel,Male,1852,Germany,,New York City,"Queenstown, Ireland",Helvetia,National Line,NewYork1,,,True,,M
+1,9,Rosa,Blumenstein,Female,1848,Germany,,New York City,"Southampton, England",Elbe,Norddeutscher Lloyd,NewYork1,,,True,,B
+1,10,G. M.,Cherveny,Male,1854,England,,New York City,"Queenstown, Ireland",City of Berlin,Inman Line,NewYork1,,,True,,C
+1,11,Maurice,Ellicott,Male,1873,Ireland,,New York City,"Queenstown, Ireland",Canada,National Line,NewYork1,,,True,,E
+1,12,Ann,Eager,Female,1841,England,,New York City,"Newcastle, England",Roxburgh Castle,Red R Shipping Line,NewYork1,,,True,,E
+1,13,Theo,Ullham,Male,1862,England,,New York City,"Liverpool, England",City of Montreal,Inman Line,NewYork1,,,False,,U
+1,14,Martha,Brubach,Female,1862,Germany,,New York City,"Southampton, England",Elbe,Norddeutscher Lloyd,NewYork1,,,True,,B
+1,15,Mick,Herres,Male,1834,Ireland,,New York City,"Liverpool, England",Nevada,Guion Line,NewYork1,,,False,,H
+1,16,Mathilda,Evensen,Female,1856,Norway,,New York City,"Queenstown, Ireland",Erin,National Line,NewYork1,,,True,,E
+1,17,Daniel,Frew,Male,1853,Scotland,,New York City,"Moville, Ireland",Circassia,Anchor Line,NewYork1,,,True,,F
+1,18,Ladesaus,Schedchuske,Male,1859,Russia,,New York City,"Queenstown, Ireland",City of Brussels,Inman Line,NewYork1,,,True,,S
+1,19,John,Dabel,Male,1858,Ireland,,New York City,"Queenstown, Ireland",Spain,National Line,NewYork1,,,True,,D
+1,20,Daniel,Quirk,Male,1865,Ireland,,New York City,"Liverpool, England",America,National Line,NewYork1,,,False,,Q
+1,21,Harriet,Quirk,Female,1834,Ireland,,New York City,"Queenstown, Ireland",Celtic,White Star Line,NewYork1,,,True,,Q
+1,22,Wilhelmin,Hermann,Female,1814,Germany,,New York City,"Southampton, England",Neckar,Norddeutscher Lloyd,NewYork1,,,True,,H
+1,23,Georg,Lensbecher,Male,1862,Germany,,New York City,"Southampton, England",Oder,Norddeutscher Lloyd,NewYork1,,,True,,L
+1,24,George,Bacon,Male,1846,England,,New York City,"London, England",Persian Monarch,Allan Line,NewYork1,,,False,,B
+1,25,James,Wallace,Male,1857,Scotland,,New York City,"Liverpool, England",Oregon,Cunard,NewYork1,,,False,,W
+1,26,Anna,Infantine,Female,1860,Italy,,New York City,"London, England",The Queen,National Line,NewYork1,,,False,,I
+1,27,Ed,Byrne,Male,1848,Ireland,,New York City,"Queenstown, Ireland",Erin,National Line,NewYork1,,,True,,B
+1,28,Johannes,Larson,Male,1855,Sweden,,New York City,"Liverpool, England",City of New York,Inman Line,NewYork1,,,False,,L
+1,29,Edward,Lea,Male,1844,Denmark,,New York City,"Plymouth, England",Amerique,National Line,NewYork1,,,True,,L
+1,30,Patrick,Egan,Male,1866,Ireland,,New York City,"Liverpool, England",Oregon,Cunard,NewYork1,,,False,,E
+1,31,Hans,Osbroald,Male,1877,Germany,,New York City,"Southampton, England",Neckar,Norddeutscher Lloyd,NewYork1,,,True,,O
+1,32,Ernst,Engel,Male,1836,Germany,,New York City,"Southampton, England",Oder,Norddeutscher Lloyd,NewYork1,,,True,,E
+1,33,Marka,Joyce,Male,1855,Ireland,,New York City,"Liverpool, England",Lake Huron,National Line,NewYork1,,,False,,J
+1,34,M.,Newman,Male,1857,Germany,,New York City,"London, England",Grecian Monarch,Allan Line,NewYork1,,,False,,N
+1,35,Bertha,Schwebke,Female,1866,Germany,,New York City,"Southampton, England",Eider,Norddeutscher Lloyd,NewYork1,,,True,,S
+1,36,Fanny,Young,Female,1854,England,,New York City,"London, England",Greece,National Line,NewYork1,,,False,,Y
+1,37,Adrney,Fanny,Male,1855,England,,New York City,"London, England",Elysia,Anchor Line,NewYork1,,,False,,F
+1,38,Ed,Doncie,Male,1860,Ireland,,New York City,"Liverpool, England",City of New York,Inman Line,NewYork1,,,False,,D
+1,39,Casper,Wuchmaner,Male,1855,Germany,,New York City,"Southampton, England",Werra,Norddeutscher Lloyd,NewYork1,,,True,,W
+1,40,Adolphus,Abraham,Male,1864,Poland,,New York City,"London, England",Assyrian Monarch,Allan Line,NewYork1,,,False,,A
+1,41,Marie,Benesch,Female,1862,Bohemia,,New York City,"Southampton, England",Oder,Norddeutscher Lloyd,NewYork1,,,True,,B
+1,42,Adolphine,Yasenez,Male,1855,Netherlands,,New York City,"London, England",Denmark,National Line,NewYork1,,,False,,Y
+1,43,J.E.,Young,Male,1843,Scotland,,New York City,"Queenstown, Ireland",Bothnia,Cunard,NewYork1,,,True,,Y
+1,44,Geard,Benecke,Female,1872,Germany,,New York City,"Southampton, England",Hohenzollern,Norddeutscher Lloyd,NewYork1,,,True,,B
+1,45,Josefa,Uper,Female,1819,Bohemia,,New York City,"Southampton, England",Oder,Norddeutscher Lloyd,NewYork1,,,True,,U
+1,46,Patk,Fitzsimons,Male,1858,Ireland,,New York City,"Liverpool, England",Republic,White Star Line,NewYork1,,,False,,F
+1,47,Charles,Dittrich,Male,1872,England,,New York City,"London, England",Alsatia,Anchor Line,NewYork1,,,False,,D
+1,48,William,Gibson,Male,1854,Scotland,,New York City,"Glasgow, Scotland",Anchoria,Anchor Line,NewYork1,,,False,,G
+1,49,Matilda,Phillips,Female,1873,Ireland,,New York City,"Glasgow, Scotland",Anchoria,Anchor Line,NewYork1,,,False,,P
+1,50,Jochein,Xarwick,Male,1866,Germany,,New York City,"Moville, Ireland",Bolivia,Anchor Line,NewYork1,,,True,,X
+1,51,Andrew,Dowd,Male,1866,Ireland,,New York City,"Liverpool, England",Helvetia,National Line,NewYork1,,,False,,D
+1,52,Samuel,Austill,Male,1855,England,,New York City,"Bristol, England",Bristol,Unknown,NewYork1,,,False,,A
+1,53,Anner,Fersler,Female,1863,Denmark,,New York City,"Liverpool, England",City of Montreal,Inman Line,NewYork1,,,False,,F
+1,54,Mary,Quirke,Female,1870,Ireland,,New York City,"Queenstown, Ireland",City of Rome,Inman Line,NewYork1,,,True,,Q
+1,55,Edward,Carolan,Male,1858,Ireland,,New York City,"Liverpool, England",Austral,Orient Line,NewYork1,,,False,,C
+1,56,Gerrit,Hagelsay,Male,1849,Germany,,New York City,"London, England",The Queen,National Line,NewYork1,,,False,,H
+1,57,Ernestine,Notzold,Female,1840,Germany,,New York City,"Southampton, England",Mosel,Norddeutscher Lloyd,NewYork1,,,True,,N
+1,58,Bernard,Quinn,Male,1858,Ireland,,New York City,"Liverpool, England",Baltic,White Star Line,NewYork1,,,False,,Q
+1,59,Lutta,Fredman,Female,1859,Hungary,,New York City,"Southampton, England",Werra,Norddeutscher Lloyd,NewYork1,,,True,,F
+1,60,John,Cumming,Male,1852,England,,New York City,"Plymouth, England",Italy,National Line,NewYork1,,,True,,C
+1,61,Carl,Taderchop,Male,1852,Germany,,New York City,"Southampton, England",Neckar,Norddeutscher Lloyd,NewYork1,,,True,,T
+1,62,Sofia,Nowakowski,Female,1856,Poland,,New York City,"London, England",Kaiserin Augusta Victoria,Hamburg America Line,NewYork1,,,False,,N
+1,63,John,Urfer,Male,1859,Switzerland,,New York City,"Plymouth, England",Amerique,National Line,NewYork1,,,True,,U
+1,64,Jane,Redpath,Female,1866,England,,New York City,"London, England",Grecian Monarch,Allan Line,NewYork1,,,False,,R
+1,65,Clara,Pole,Female,1855,England,,New York City,"Liverpool, England",America,National Line,NewYork1,,,False,,P
+1,66,Matilde,Lybach,Female,1858,Sweden,,New York City,"Queenstown, Ireland",Canada,National Line,NewYork1,,,True,,L
+1,67,Tairia,Zabe,Female,1837,Sweden,,New York City,"Liverpool, England",Baltic,White Star Line,NewYork1,,,False,,Z
+1,68,Oswald,Burkhard,Male,1865,Denmark,,New York City,"London, England",Egyptian Monarch,Allan Line,NewYork1,,,False,,B
+1,69,Wilhelmen,Wischer,Female,1852,Germany,,New York City,"Southampton, England",Hohenzollern,Norddeutscher Lloyd,NewYork1,,,True,,W
+1,70,Pauline,Cocksky,Female,1862,England,,New York City,"Liverpool, England",Nevada,Guion Line,NewYork1,,,False,,C
+1,71,Johann,Ulmansck,Male,1852,Prussia,,New York City,"Southampton, England",General Werder,Norddeutscher Lloyd,NewYork1,,,True,,U
+1,72,Beinard,Zeiger,Male,1855,Russia,,New York City,"Liverpool, England",Egypt,National Line,NewYork1,,,False,,Z
+1,73,Maria,Goth,Female,1863,Bohemia,,New York City,"Southampton, England",Mosel,Norddeutscher Lloyd,NewYork1,,,True,,G
+1,74,Gievanni,Vindi,Male,1864,Italy,,New York City,"Plymouth, England",Amerique,National Line,NewYork1,,,True,,V
+1,75,Eliz,Qunes,Female,1850,Scotland,,New York City,"Glasgow, Scotland",Devonia,Anchor Line,NewYork1,,,True,,Q
+1,76,Francis,Rabsky,Male,1861,Norway,,New York City,"Liverpool, England",Egypt,National Line,NewYork1,,,False,,R
+1,77,Niels,Anderson,Male,1860,Denmark,,New York City,"London, England",Alsatia,Anchor Line,NewYork1,,,False,,A
+1,78,Moses,Grims,Male,1860,Russia,,New York City,"Liverpool, England",Baltic,White Star Line,NewYork1,,,False,,G
+1,79,Theod,Christensen,Male,1883,Denmark,,New York City,"Southampton, England",Elbe,Norddeutscher Lloyd,NewYork1,,,True,,C
+1,80,Arthur,Forde,Male,1846,England,,New York City,"Liverpool, England",Oregon,Cunard,NewYork1,,,False,,F
+2,1,Chas,Ditchmann,Male,1855,England,,New York City,"Queenstown, Ireland",Germanic,White Star Line,NewYork1,,,True,,D
+2,2,Schmuel,Tinkelskin,Male,1862,Russia,,New York City,"Larne, Ireland",State of Nebraska,Allan Line,NewYork1,,,True,,T
+2,3,Winifred,Pickhard,Female,1849,Ireland,,New York City,"Queenstown, Ireland",Germanic,White Star Line,NewYork1,,,True,,P
+2,4,Ernst,Yousson,Male,1867,Sweden,,New York City,"Queenstown, Ireland",Alaska,Guion Line,NewYork1,,,True,,Y
+2,5,Jen,Nielsen,Male,1859,Denmark,,New York City,"Southampton, England",Kaiserin Augusta Victoria,Hamburg America Line,NewYork1,,,True,,N
+2,6,Bernhd,Rebrich,Male,1870,Germany,,New York City,"Southampton, England",Neckar,Norddeutscher Lloyd,NewYork1,,,True,,R
+2,7,Patk,Judge,Male,1866,Ireland,,New York City,"Liverpool, England",City of Montreal,Inman Line,NewYork1,,,False,,J
+2,8,Carl,Fergan,Male,1855,Germany,,New York City,"Southampton, England",Werra,Norddeutscher Lloyd,NewYork1,,,True,,F
+2,9,Leonhard,Emerling,Male,1867,Austria,,New York City,"Southampton, England",Trave,Norddeutscher Lloyd,NewYork1,,,True,,E
+2,10,Thomas,Laue,Male,1865,England,,New York City,"Liverpool, England",Egypt,National Line,NewYork1,,,False,,L
+2,11,Baptiste,Rebel,Male,1849,France,,New York City,"Plymouth, England",Amerique,National Line,NewYork1,,,True,,R
+2,12,Adling,Johansdotter,Female,1859,Norway,,New York City,"Queenstown, Ireland",Umbria,Cunard,NewYork1,,,True,,J
+2,13,Carl,Hane,Male,1858,England,,New York City,"Queenstown, Ireland",Germanic,White Star Line,NewYork1,,,True,,H
+2,14,Richard,Ivey,Male,1864,England,,New York City,"Queenstown, Ireland",Italy,National Line,NewYork1,,,True,,I
+2,15,Maria,Xriezko,Female,1865,Hungary,,New York City,"Southampton, England",Aller,Norddeutscher Lloyd,NewYork1,,,True,,X
+2,16,Anna,Lup,Female,1863,Russia,,New York City,"Southampton, England",Rhaetia,Hamburg America Line,NewYork1,,,True,,L
+2,17,Anton,Rebicek,Male,1824,Bohemia,,New York City,"Southampton, England",Main,Norddeutscher Lloyd,NewYork1,,,True,,R
+2,18,Eleanor,Keeling,Female,1853,England,,New York City,"Liverpool, England",Teutonic,White Star Line,NewYork1,,,False,,K
+2,19,Jochrn,Willing,Male,1873,Germany,,New York City,"Southampton, England",Werra,Norddeutscher Lloyd,NewYork1,,,True,,W
+2,20,Bridgett,Hallman,Female,1865,Ireland,,New York City,"London, England",Assyrian Monarch,Allan Line,NewYork1,,,True,,H
+2,21,Josef,Weichel,Male,1857,Russia,,New York City,"Southampton, England",Eider,Norddeutscher Lloyd,NewYork1,,,True,,W
+2,22,Mihal,Wasil,Male,1869,Hungary,,New York City,"Southampton, England",Eider,Norddeutscher Lloyd,NewYork1,,,True,,W
+2,23,Ellen,Quigley,Female,1856,England,,New York City,"Queenstown, Ireland",Britannic,White Star Line,NewYork1,,,True,,Q
+2,24,Jan,Zufan,Male,1863,Bohemia,,New York City,"Southampton, England",Lahn,Norddeutscher Lloyd,NewYork1,,,True,,Z
+2,25,Gyurg,Ihnat,Male,1852,Hungary,,New York City,"Southampton, England",Eider,Norddeutscher Lloyd,NewYork1,,,True,,I
+2,26,Josefa,Elias,Female,1863,Prussia,,New York City,"Southampton, England",Werra,Norddeutscher Lloyd,NewYork1,,,True,,E
+2,27,Michal,Melniezath,Male,1861,Hungary,,New York City,"Southampton, England",Werra,Norddeutscher Lloyd,NewYork1,,,True,,M
+2,28,Samuel,Wilson,Male,1856,England,,New York City,"Liverpool, England",Etruria,Cunard,NewYork1,,,False,,W
+2,29,Carl,Gustafson,Male,1846,Sweden,,New York City,"Southampton, England",Lahn,Norddeutscher Lloyd,NewYork1,,,True,,G
+2,30,Peter,Axon,Male,1842,Wales,,New York City,"Liverpool, England",Egypt,National Line,NewYork1,,,False,,A
+2,31,Mary,Clive,Female,1858,England,,New York City,"Liverpool, England",Egypt,National Line,NewYork1,,,False,,C
+2,32,Janos,Nemesiez,Male,1866,Hungary,,New York City,"Southampton, England",Eider,Norddeutscher Lloyd,NewYork1,,,True,,N
+2,33,Michl,Gibb,Male,1876,Ireland,,New York City,"Glasgow, Scotland",Anchoria,Anchor Line,NewYork1,,,False,,G
+2,34,Edwin,England,Male,1865,Sweden,,New York City,"Liverpool, England",Republic,White Star Line,NewYork1,,,False,,E
+2,35,Patsy,Oherron,Male,1873,Ireland,,New York City,"Liverpool, England",Teutonic,White Star Line,NewYork1,,,False,,O
+2,36,Harry,Wheeler,Male,1878,England,,New York City,"London, England",Persian Monarch,Allan Line,NewYork1,,,False,,W
+2,37,C.,Snell,Male,1861,England,,New York City,"London, England",Assyrian Monarch,Allan Line,NewYork1,,,True,,S
+2,38,Margl,Geys,Female,1864,Germany,,New York City,"Southampton, England",Eider,Norddeutscher Lloyd,NewYork1,,,True,,G
+2,39,Karen,Kristensen,Male,1868,Denmark,,New York City,"Southampton, England",Elbe,Norddeutscher Lloyd,NewYork1,,,True,,K
+2,40,Anna,Nilson,Female,1857,Sweden,,New York City,"Southampton, England",Saale,Norddeutscher Lloyd,NewYork1,,,True,,N
+2,41,Joseph,Tighe,Male,1866,Ireland,,New York City,"Liverpool, England",Aurania,Cunard,NewYork1,,,False,,T
+2,42,Alex,Milne,Male,1866,England,,New York City,"Liverpool, England",America,National Line,NewYork1,,,False,,M
+2,43,Archd,Donald,Male,1883,Scotland,,New York City,"Glasgow, Scotland",Devonia,Anchor Line,NewYork1,,,False,,D
+2,44,Marie,Neubauer,Female,1871,Germany,,New York City,"Southampton, England",Aller,Norddeutscher Lloyd,NewYork1,,,True,,N
+2,45,Krista,Saumelsson,Female,1882,Finland,,New York City,"Southampton, England",Trave,Norddeutscher Lloyd,NewYork1,,,True,,S
+2,46,R.B.,Irwin,Male,1849,England,,New York City,"Queenstown, Ireland",Germanic,White Star Line,NewYork1,,,True,,I
+2,47,James,Ivery,Male,1846,England,,New York City,"London, England",Persian Monarch,Allan Line,NewYork1,,,False,,I
+2,48,Anna,Ondis,Female,1869,Hungary,,New York City,"Southampton, England",Werra,Norddeutscher Lloyd,NewYork1,,,True,,O
+2,49,Auguste,Burmeister,Female,1838,Germany,,New York City,"Southampton, England",Trave,Norddeutscher Lloyd,NewYork1,,,True,,B
+2,50,John,Ortlieb,Male,1839,Germany,,New York City,"Southampton, England",Ems,Norddeutscher Lloyd,NewYork1,,,True,,O
+2,51,Rosalia,Frohnapfel,Female,1868,Prussia,,New York City,"Southampton, England",Werra,Norddeutscher Lloyd,NewYork1,,,True,,F
+2,52,Joseph,Newby,Male,1826,England,,New York City,"London, England",Egyptian Monarch,Allan Line,NewYork1,,,False,,N
+2,53,Johann,Mutz,Male,1848,Germany,,New York City,"Southampton, England",Ems,Norddeutscher Lloyd,NewYork1,,,True,,M
+2,54,Anton,Kozlowski,Male,1856,Austria,,New York City,"Southampton, England",Werra,Norddeutscher Lloyd,NewYork1,,,True,,K
+2,55,Anders,Iveslmon,Male,1871,Sweden,,New York City,"Queenstown, Ireland",Germanic,White Star Line,NewYork1,,,True,,I
+2,56,Eugen,Lippsowitz,Male,1870,Germany,,New York City,"Southampton, England",Neckar,Norddeutscher Lloyd,NewYork1,,,True,,L
+2,57,Kate,Baine,Female,1868,Ireland,,New York City,"Liverpool, England",City of Montreal,Inman Line,NewYork1,,,False,,B
+2,58,Hugh,Urquhart,Male,1883,Scotland,,New York City,"Moville, Ireland",Bolivia,Anchor Line,NewYork1,,,True,,U
+2,59,Matthew,Miller,Male,1869,Ireland,,New York City,"Glasgow, Scotland",Devonia,Anchor Line,NewYork1,,,False,,M
+2,60,Emilie,Anderson,Female,1860,Sweden,,New York City,"Southampton, England",Trave,Norddeutscher Lloyd,NewYork1,,,True,,A
+2,61,Fanny,Gutmann,Female,1878,Hungary,,New York City,"Southampton, England",Neckar,Norddeutscher Lloyd,NewYork1,,,True,,G
+2,62,James,Bavier,Male,1811,England,,New York City,"London, England",Ludgate Hill,Allan Line,NewYork1,,,False,,B
+2,63,John,Sharkie,Male,1860,Scotland,,New York City,"Glasgow, Scotland",Devonia,Anchor Line,NewYork1,,,False,,S
+2,64,Antone,Tholke,Male,1859,Poland,,New York City,"Glasgow, Scotland",Anchoria,Anchor Line,NewYork1,,,False,,T
+2,65,Hence,Harms,Male,1852,Prussia,,New York City,"Southampton, England",Kaiserin Augusta Victoria,Hamburg America Line,NewYork1,,,True,,H
+2,66,Marga,Zerrcis,Female,1869,Bavaria,,New York City,"Southampton, England",Werra,Norddeutscher Lloyd,NewYork1,,,True,,Z
+2,67,James,Hall,Male,1844,England,,New York City,"London, England",Tower Hill,Allan Line,NewYork1,,,False,,H
+2,68,James,Larkin,Male,1867,Ireland,,New York City,"Liverpool, England",Arabic,White Star Line,NewYork1,,,False,,L
+2,69,Berth,Kahnt,Male,1860,Hungary,,New York City,"Southampton, England",Werra,Norddeutscher Lloyd,NewYork1,,,True,,K
+2,70,Henry,Vorbanch,Male,1863,Austria,,New York City,"Southampton, England",Ems,Norddeutscher Lloyd,NewYork1,,,True,,V
+2,71,Kate,Mauders,Female,1850,England,,New York City,"London, England",Persian Monarch,Allan Line,NewYork1,,,False,,M
+2,72,Peter,Zemkutes,Male,1867,Austria,,New York City,"Moville, Ireland",Ethiopia,Anchor Line,NewYork1,,,True,,Z
+2,73,Lizzie,Crosson,Female,1866,Ireland,,New York City,"Glasgow, Scotland",Anchoria,Anchor Line,NewYork1,,,False,,C
+2,74,Carl,Anderson,Male,1866,Sweden,,New York City,"Liverpool, England",Republic,White Star Line,NewYork1,,,False,,A
+2,75,Friedr,Platz,Male,1888,Bavaria,,New York City,"Southampton, England",Ems,Norddeutscher Lloyd,NewYork1,,,True,,P
+2,76,Cornelius,McGrenra,Male,1865,Ireland,,New York City,"Glasgow, Scotland",Anchoria,Anchor Line,NewYork1,,,False,,M
+2,77,Johan,Umerle,Male,1866,Poland,,New York City,"Queenstown, Ireland",Italy,National Line,NewYork1,,,True,,U
+2,78,Georgio,Zenorich,Male,1856,Austria,,New York City,"Queenstown, Ireland",Servia,Cunard,NewYork1,,,True,,Z
+2,79,Susanne,Illko,Female,1870,Hungary,,New York City,"Southampton, England",Elbe,Norddeutscher Lloyd,NewYork1,,,True,,I
+2,80,Thos,Quinn,Male,1872,Ireland,,New York City,"Liverpool, England",Teutonic,White Star Line,NewYork1,,,False,,Q
+3,1,Barney,Doran,Male,1869,Ireland,,New York City,"Queenstown, Ireland",Teutonic,White Star Line,NewYork1,,,True,,D
+3,2,Carol,Qusseb,Female,1869,Germany,,New York City,"Southampton, England",Trave,Norddeutscher Lloyd,NewYork1,,,True,,Q
+3,3,Eunic,Southworth,Female,1869,England,,New York City,"Hull, England",Colorado,National Line,NewYork1,,,False,,S
+3,4,John,Brown,Male,1865,England,,New York City,"Liverpool, England",Teutonic,White Star Line,NewYork1,,,False,,B
+3,5,Mary Anne,Stewart,Female,1875,Ireland,,New York City,"Southampton, England",City of New York,American Line,NewYork1,,,False,,S
+3,6,Ivan,Doba,Male,1859,Hungary,,New York City,"Southampton, England",Lahn,Norddeutscher Lloyd,NewYork1,,,True,,D
+3,7,Kate,Batler,Female,1872,Ireland,,New York City,"Liverpool, England",Britannic,White Star Line,NewYork1,,,False,,B
+3,8,Pat,Reilly,Male,1875,Ireland,,New York City,"Liverpool, England",Majestic,White Star Line,NewYork1,,,False,,R
+3,9,Paula,Passler,Female,1859,Prussia,,New York City,"Southampton, England",Kaiserin Augusta Victoria,Hamburg America Line,NewYork1,,,True,,P
+3,10,Daul,McMullen,Male,1868,Ireland,,New York City,"Londonderry, Ireland",Furnessia,Anchor Line,NewYork1,,,False,,M
+3,11,Jacob,Zoller,Male,1863,Germany,,New York City,"Southampton, England",Lahn,Norddeutscher Lloyd,NewYork1,,,True,,Z
+3,12,Ignatz,Unjar,Male,1842,Hungary,,New York City,"Southampton, England",Eider,Norddeutscher Lloyd,NewYork1,,,True,,U
+3,13,James,Farrier,Male,1859,Wales,,New York City,"Liverpool, England",City of New York,Inman Line,NewYork1,,,False,,F
+3,14,Ellen,Yorkin,Female,1850,England,,New York City,"Southampton, England",Chester,American Line,NewYork1,,,False,,Y
+3,15,David,Freund,Male,1861,Poland,,New York City,"Liverpool, England",Etruria,Cunard,NewYork1,,,False,,F
+3,16,Alexander,Otto,Male,1870,Germany,,New York City,"Southampton, England",Eider,Norddeutscher Lloyd,NewYork1,,,True,,O
+3,17,John,Connally,Male,1866,Ireland,,New York City,"Moville, Ireland",Devonia,Anchor Line,NewYork1,,,True,,C
+3,18,Erio,Zetterlund,Male,1867,Sweden,,New York City,"Liverpool, England",Servia,Cunard,NewYork1,,,False,,Z
+3,19,Ebba,Thornell,Female,1875,Sweden,,New York City,"Liverpool, England",Campania,Cunard,NewYork1,,,False,,T
+3,20,Richard,Rigby,Male,1834,England,,New York City,"Liverpool, England",Campania,Cunard,NewYork1,,,False,,R
+3,21,Olevia,Nelson,Female,1872,Sweden,,New York City,"Southampton, England",Lahn,Norddeutscher Lloyd,NewYork1,,,True,,N
+3,22,Florian,Marcalak,Male,1841,Austria,,New York City,"Southampton, England",Werra,Norddeutscher Lloyd,NewYork1,,,True,,M
+3,23,Kate,Quinn,Female,1862,Ireland,,New York City,"Liverpool, England",Teutonic,White Star Line,NewYork1,,,False,,Q
+3,24,Peter,McAulcy,Male,1864,Scotland,,New York City,"Glasgow, Scotland",Devonia,Anchor Line,NewYork1,,,False,,M
+3,25,Niels,Christinson,Male,1870,Denmark,,New York City,"Southampton, England",Berlin,American Line,NewYork1,,,False,,C
+3,26,Edwin,Booth,Male,1867,England,,New York City,"Hull, England",Martello,Wilson Line,NewYork1,,,False,,B
+3,27,Maud,Herrell,Female,1872,England,,New York City,"London, England",Egyptian Monarch,Allan Line,NewYork1,,,False,,H
+3,28,Mattus,Hanssen,Female,1873,Norway,,New York City,"Liverpool, England",City of Chester,Inman Line,NewYork1,,,False,,H
+3,29,Chas,Parker,Male,1892,England,,New York City,"Liverpool, England",Umbria,Cunard,NewYork1,,,False,,P
+3,30,Geo,Hunter,Male,1891,Scotland,,New York City,"Liverpool, England",Teutonic,White Star Line,NewYork1,,,False,,H
+3,31,Martha,Lof,Female,1889,Finland,,New York City,"Southampton, England",Elbe,Norddeutscher Lloyd,NewYork1,,,True,,L
+3,32,C.W.,Golloeyse,Male,1869,England,,New York City,"Southampton, England",Fürst Bismarck,Hamburg America Line,NewYork1,,,True,,G
+3,33,Henry,Vanghan,Male,1851,England,,New York City,"Liverpool, England",Tauric,White Star Line,NewYork1,,,False,,V
+3,34,Jonathan,Isherwood,Male,1853,England,,New York City,"Liverpool, England",Umbria,Cunard,NewYork1,,,False,,I
+3,35,Adam,Bratter,Male,1873,Ireland,,New York City,"Liverpool, England",Campania,Cunard,NewYork1,,,False,,B
+3,36,Johan,Isigus,Male,1867,Austria,,New York City,"Southampton, England",Werra,Norddeutscher Lloyd,NewYork1,,,True,,I
+3,37,Kathe,Lindon,Female,1881,Germany,,New York City,"Southampton, England",Trave,Norddeutscher Lloyd,NewYork1,,,True,,L
+3,38,Emma,Fisher,Female,1867,England,,New York City,"Liverpool, England",Aurania,Cunard,NewYork1,,,False,,F
+3,39,Pheny,Mierson,Male,1890,England,,New York City,"Liverpool, England",Majestic,White Star Line,NewYork1,,,False,,M
+3,40,Charles,Nicol,Male,1871,Scotland,,New York City,"Liverpool, England",Germanic,White Star Line,NewYork1,,,False,,N
+3,41,John,Waugh,Male,1870,Ireland,,New York City,"London, England",The Queen,National Line,NewYork1,,,True,,W
+3,42,Franz,Mehlig,Male,1888,Germany,,New York City,"Southampton, England",Werra,Norddeutscher Lloyd,NewYork1,,,True,,M
+3,43,Agnezka,Szieminski,Female,1847,Poland,,New York City,"Liverpool, England",Wisconsin,Guion Line,NewYork1,,,False,,S
+3,44,David,Owen,Male,1869,England,,New York City,"Liverpool, England",Majestic,White Star Line,NewYork1,,,False,,O
+3,45,William,Pierson,Male,1849,Ireland,,New York City,"Liverpool, England",Aurania,Cunard,NewYork1,,,False,,P
+3,47,Zillie,Tillmann,Female,1873,Hungary,,New York City,"Southampton, England",Ems,Norddeutscher Lloyd,NewYork1,,,True,,T
+3,48,Oscar,Nelson,Male,1873,Sweden,,New York City,"Liverpool, England",City of New York,Inman Line,NewYork1,,,False,,N
+3,49,Ebbe,Overan,Male,1870,Norway,,New York City,"Liverpool, England",City of New York,Inman Line,NewYork1,,,False,,O
+3,50,Joseph,Waterhouse,Male,1866,England,,New York City,"Liverpool, England",Germanic,White Star Line,NewYork1,,,False,,W
+3,51,Chars,Uavenberg,Female,1837,Russia,,New York City,"Southampton, England",Aller,Norddeutscher Lloyd,NewYork1,,,True,,U
+3,52,Marie,Nemec,Female,1870,Bohemia,,New York City,"Southampton, England",Elbe,Norddeutscher Lloyd,NewYork1,,,True,,N
+3,53,Pat,Haeg,Male,1876,Ireland,,New York City,"Londonderry, Ireland",Circassia,Anchor Line,NewYork1,,,False,,H
+3,54,Stewart,Gilkinson,Male,1857,Scotland,,New York City,"Glasgow, Scotland",State of Nebraska,Allan Line,NewYork1,,,False,,G
+3,55,Mary,Hall,Female,1883,England,,New York City,"Glasgow, Scotland",Ethiopia,Anchor Line,NewYork1,,,False,,H
+3,56,Georg,Fuche,Male,1862,Germany,,New York City,"Southampton, England",Trave,Norddeutscher Lloyd,NewYork1,,,True,,F
+3,57,Hura,Fenhula,Female,1835,Finland,,New York City,"Southampton, England",Ems,Norddeutscher Lloyd,NewYork1,,,True,,F
+3,58,Debah,Venevity,Female,1870,Russia,,New York City,"Liverpool, England",City of Berlin,Inman Line,NewYork1,,,False,,V
+3,59,John,Uppenberg,Male,1877,Sweden,,New York City,"Liverpool, England",Teutonic,White Star Line,NewYork1,,,False,,U
+3,60,Berdines,Hoivig,Male,1873,Norway,,New York City,"Southampton, England",City of New York,American Line,NewYork1,,,False,,H
+3,61,Ruche,Uberstein,Female,1875,Poland,,New York City,"Southampton, England",Kaiserin Augusta Victoria,Hamburg America Line,NewYork1,,,True,,U
+3,62,Thora,Hansen,Female,1869,Denmark,,New York City,"Southampton, England",Ems,Norddeutscher Lloyd,NewYork1,,,True,,H
+3,63,James,Jones,Male,1871,Ireland,,New York City,"Liverpool, England",City of New York,Inman Line,NewYork1,,,False,,J
+3,64,Wilhelm,Christoffersen,Male,1875,Norway,,New York City,"Liverpool, England",City of Paris,Inman Line,NewYork1,,,False,,C
+3,65,Robert,Edgeworth,Male,1878,Ireland,,New York City,Sawston,Paris,American Line,NewYork1,,,False,,E
+3,66,Juho,Baski,Male,1883,Finland,,New York City,"Southampton, England",Saale,Norddeutscher Lloyd,NewYork1,,,True,,B
+3,67,Pavel,Dzick,Male,1864,Poland,,New York City,"Southampton, England",Fürst Bismarck,Hamburg America Line,NewYork1,,,True,,D
+3,68,Polly,Richards,Female,1863,Wales,,New York City,"Liverpool, England",City of Berlin,Inman Line,NewYork1,,,False,,R
+3,69,Sigvald,Larsen,Male,1862,Norway,,New York City,"Liverpool, England",Servia,Cunard,NewYork1,,,False,,L
+3,70,Bodie,Pedersen,Female,1874,Denmark,,New York City,"Glasgow, Scotland",Furnessia,Anchor Line,NewYork1,,,False,,P
+3,71,Elas,Kirkala,Male,1808,Finland,,New York City,"Southampton, England",Aller,Norddeutscher Lloyd,NewYork1,,,True,,K
+3,72,C.J.,Andreas,Male,1866,Norway,,New York City,"London, England",The Queen,National Line,NewYork1,,,True,,A
+3,73,George,Hampton,Male,1870,England,,New York City,"Liverpool, England",Umbria,Cunard,NewYork1,,,False,,H
+3,74,Jane,Yates,Female,1878,England,,New York City,"Southampton, England",Berlin,American Line,NewYork1,,,False,,Y
+3,75,Francois,Muller,Male,1845,Switzerland,,New York City,"Southampton, England",City of New York,National Line,NewYork1,,,False,,M
+3,76,Kacisa,Hilsobakka,Female,1864,Finland,,New York City,"Southampton, England",Werra,Norddeutscher Lloyd,NewYork1,,,True,,H
+3,77,Tho,Champion,Male,1871,England,,New York City,"London, England",Ludgate Hill,Allan Line,NewYork1,,,False,,C
+3,78,Alma,Erikson,Female,1876,Sweden,,New York City,"Liverpool, England",Gallia,Cunard,NewYork1,,,False,,E
+3,79,Kate,Lesce,Female,1872,Ireland,,New York City,"Liverpool, England",Britannic,White Star Line,NewYork1,,,False,,L
+3,80,Fredk,Noon,Male,1888,England,,New York City,"Liverpool, England",Majestic,White Star Line,NewYork1,,,False,,N
+4,1,Jocob,Bernson,Male,1872,Russia,,New York City,"Liverpool, England",Aurania,Cunard,NewYork1,,,False,,B
+4,2,Mary,Burne,Female,1877,Ireland,,New York City,"Liverpool, England",Teutonic,White Star Line,NewYork1,,,False,,B
+4,3,John,Juni,Male,1863,Japan,,New York City,"Liverpool, England",Lucania,Cunard,NewYork1,,,False,,J
+4,4,Mata,Xanson,Female,1878,Sweden,,New York City,"Liverpool, England",Aurania,Cunard,NewYork1,,,False,,X
+4,5,Anna,Zvisl,Female,1875,Sweden,,New York City,"Liverpool, England",Oceanic,White Star Line,NewYork1,,,False,,Z
+4,6,John,Meegan,Male,1842,Ireland,,New York City,"Liverpool, England",Lucania,Cunard,NewYork1,,,False,,M
+4,7,Patrick,Keane,Male,1871,Ireland,,New York City,"Queenstown, Ireland",Germanic,White Star Line,NewYork1,,,False,,K
+4,8,Leander,Venstrom,Male,1863,Sweden,,New York City,"Southampton, England",Paris,American Line,NewYork1,,,False,,V
+4,9,Laurits,Larsen,Male,1882,Denmark,,New York City,"Southampton, England",St. Paul,American Line,NewYork1,,,False,,L
+4,10,Kate,Bray,Female,1861,Ireland,,New York City,"Queenstown, Ireland",Britannic,White Star Line,NewYork1,,,False,,B
+4,11,Alf,Young,Male,1867,England,,New York City,"Southampton, England",Berlin,American Line,NewYork1,,,False,,Y
+4,12,Helga,Schanke,Female,1895,Norway,,New York City,"Liverpool, England",Germanic,White Star Line,NewYork1,,,False,,S
+4,13,Thomas,Richards,Male,1845,England,,New York City,"Southampton, England",St. Paul,American Line,NewYork1,,,False,,R
+4,14,Albert,Janson,Male,1873,Sweden,,New York City,"Liverpool, England",Majestic,White Star Line,NewYork1,,,False,,J
+4,15,Kaisa,Taskila,Female,1864,Finland,,New York City,"Glasgow, Scotland",Ethiopia,Anchor Line,NewYork1,,,False,,T
+4,16,Ed,Young,Male,1872,England,,New York City,"Southampton, England",Berlin,American Line,NewYork1,,,False,,Y
+4,17,William,Isaac,Male,1868,England,,New York City,"Liverpool, England",Britannic,White Star Line,NewYork1,,,False,,I
+4,18,Albert,Rhys,Male,1876,Wales,,New York City,"Liverpool, England",Aurania,Cunard,NewYork1,,,False,,R
+4,19,Jennie,Ward,Female,1866,Ireland,,New York City,"Glasgow, Scotland",Mongolian,Allan Line,NewYork1,,,False,,W
+4,20,Edward,Marshall,Male,1883,Ireland,,New York City,"Liverpool, England",Majestic,White Star Line,NewYork1,,,False,,M
+4,21,Cecil,Muller,Male,1874,England,,New York City,"Liverpool, England",Adriatic,White Star Line,NewYork1,,,False,,M
+4,22,Karen,Underfakke,Female,1874,Norway,,New York City,"Liverpool, England",Umbria,Cunard,NewYork1,,,False,,U
+4,23,Christian,Deguigne,Male,1847,France,,New York City,"Liverpool, England",Germanic,White Star Line,NewYork1,,,False,,D
+4,24,Thomas,Rorke,Male,1863,Ireland,,New York City,"Liverpool, England",Umbria,Cunard,NewYork1,,,False,,R
+4,25,Annie,Irwin,Female,1879,Ireland,,New York City,"Queenstown, Ireland",Majestic,White Star Line,NewYork1,,,False,,I
+4,26,Hy,Fielding,Male,1863,England,,New York City,"Southampton, England",Berlin,American Line,NewYork1,,,False,,F
+4,27,Lomine,Iversen,Female,1864,Norway,,New York City,"Liverpool, England",Campania,Cunard,NewYork1,,,False,,I
+4,28,Albert,Dunn,Male,1867,Wales,,New York City,"Liverpool, England",Lucania,Cunard,NewYork1,,,False,,D
+4,29,John,McParklin,Male,1873,Ireland,,New York City,"Liverpool, England",Germanic,White Star Line,NewYork1,,,False,,M
+4,30,Joseph,Zarky,Male,1892,Russia,,New York City,"Liverpool, England",Germanic,White Star Line,NewYork1,,,False,,Z
+4,31,Annie,Underwood,Female,1850,England,,New York City,"Southampton, England",City of New York,National Line,NewYork1,,,False,,U
+4,32,Peter,Axelsen,Male,1873,Denmark,,New York City,"Glasgow, Scotland",Anchoria,Anchor Line,NewYork1,,,False,,A
+4,33,Harry,Narttey,Male,1877,England,,New York City,"Liverpool, England",Majestic,White Star Line,NewYork1,,,False,,N
+4,34,Ailda,Rose,Female,1897,England,,New York City,"Southampton, England",St. Louis,American Line,NewYork1,,,False,,R
+4,35,Margaret,Harding,Female,1861,Ireland,,New York City,"Liverpool, England",Campania,Cunard,NewYork1,,,False,,H
+4,36,Chas,Bull,Male,1865,England,,New York City,"Southampton, England",Paris,American Line,NewYork1,,,False,,B
+4,37,Andrew,Laison,Male,1841,Sweden,,New York City,"Liverpool, England",Britannic,White Star Line,NewYork1,,,False,,L
+4,38,Sarah,Isachson,Female,1860,Russia,,New York City,"Glasgow, Scotland",Anchoria,Anchor Line,NewYork1,,,False,,I
+4,39,Henry,Uhren,Male,1869,England,,New York City,"Southampton, England",St. Paul,American Line,NewYork1,,,False,,U
+4,40,Annie,Upton,Female,1881,Ireland,,New York City,"Queenstown, Ireland",Lucania,Cunard,NewYork1,,,False,,U
+4,41,Leib,Tiller,Male,1855,Germany,,New York City,"Liverpool, England",Umbria,Cunard,NewYork1,,,False,,T
+4,42,J.,Hartmann,Male,1857,England,,New York City,"Hull, England",Ohio,National Line,NewYork1,,,False,,H
+4,43,Enon,Heras,Male,1881,Italy,,New York City,"Southampton, England",City of New York,National Line,NewYork1,,,False,,H
+4,44,William,Davies,Male,1876,Wales,,New York City,"Liverpool, England",Cymric,White Star Line,NewYork1,,,False,,D
+4,45,Edward,Laffert,Male,1854,Ireland,,New York City,"Londonderry, Ireland",Furnessia,Anchor Line,NewYork1,,,False,,L
+4,46,Sofie,Jensen,Female,1871,Norway,,New York City,"Liverpool, England",Umbria,Cunard,NewYork1,,,False,,J
+4,47,Ann,Quigley,Female,1878,Ireland,,New York City,"Liverpool, England",Britannic,White Star Line,NewYork1,,,False,,Q
+4,48,Hanna,Zetterlund,Female,1871,Sweden,,New York City,"Southampton, England",St. Paul,American Line,NewYork1,,,False,,Z
+4,49,Albert,Wyler,Male,1864,Switzerland,,New York City,"Southampton, England",Kaiser Wilhelm Der Grosse,Norddeutscher Lloyd,NewYork1,,,False,,W
+4,50,Catherine,Kinsey,Female,1854,Wales,,New York City,"Liverpool, England",Servia,Cunard,NewYork1,,,False,,K
+4,51,Chas,Isapp,Male,1863,England,,New York City,"Liverpool, England",Campania,Cunard,NewYork1,,,False,,I
+4,52,John,Hughes,Male,1875,Wales,,New York City,"Liverpool, England",Britannic,White Star Line,NewYork1,,,False,,H
+4,53,Mary,Young,Female,1870,Ireland,,New York City,"Queenstown, Ireland",Etruria,Cunard,NewYork1,,,False,,Y
+4,54,Herman,Norlin,Male,1866,Sweden,,New York City,"Liverpool, England",Lucania,Cunard,NewYork1,,,False,,N
+4,55,Francis,Knight,Male,1878,England,,New York City,"Liverpool, England",Campania,Cunard,NewYork1,,,False,,K
+4,56,David,Treenbell,Male,1883,England,,New York City,"Southampton, England",Berlin,American Line,NewYork1,,,False,,T
+4,57,James,Young,Male,1866,Scotland,,New York City,"Glasgow, Scotland",Siberian,Allan Line,NewYork1,,,False,,Y
+4,58,Ama,Poikonen,Female,1893,Finland,,New York City,"Liverpool, England",Servia,Cunard,NewYork1,,,False,,P
+4,59,Maria,Schwermin,Female,1889,Germany,,New York City,"Liverpool, England",Etruria,Cunard,NewYork1,,,False,,S
+4,60,Sore,Seckowsky,Female,1873,Russia,,New York City,"Glasgow, Scotland",City of Rome,Inman Line,NewYork1,,,False,,S
+4,61,George,Ramsay,Male,1868,Scotland,,New York City,"Glasgow, Scotland",Circassia,Anchor Line,NewYork1,,,False,,R
+4,62,George,Young,Male,1855,England,,New York City,"Liverpool, England",Campania,Cunard,NewYork1,,,False,,Y
+4,63,Mary,Jones,Female,1877,Wales,,New York City,"Liverpool, England",Campania,Cunard,NewYork1,,,False,,J
+4,64,William,Cowan,Male,1844,England,,New York City,"Liverpool, England",Majestic,White Star Line,NewYork1,,,False,,C
+4,65,Albert,Vik,Male,1882,Norway,,New York City,"Liverpool, England",Oceanic,White Star Line,NewYork1,,,False,,V
+4,66,Otto,Lawutzen,Male,1871,Norway,,New York City,"Southampton, England",Paris,American Line,NewYork1,,,False,,L
+4,67,Hillery,Coddington,Female,1871,England,,New York City,"Hull, England",Idaho,National Line,NewYork1,,,False,,C
+4,68,Axel,Nikten,Male,1878,Sweden,,New York City,"Southampton, England",St. Paul,American Line,NewYork1,,,False,,N
+4,69,John,Curran,Male,1840,Ireland,,New York City,"Liverpool, England",Britannic,White Star Line,NewYork1,,,False,,C
+4,70,James,Boylan,Male,1879,England,,New York City,"Liverpool, England",Servia,Cunard,NewYork1,,,False,,B
+4,71,Annie,Tully,Female,1877,Ireland,,New York City,"Liverpool, England",Britannic,White Star Line,NewYork1,,,False,,T
+4,72,Anna,Jensen,Female,1878,Denmark,,New York City,"Southampton, England",St. Paul,American Line,NewYork1,,,False,,J
+4,73,Karen,Jusen,Female,1848,Denmark,,New York City,"Liverpool, England",Germanic,White Star Line,NewYork1,,,False,,J
+4,74,Louis,Fosnes,Male,1859,Norway,,New York City,"Liverpool, England",Campania,Cunard,NewYork1,,,False,,F
+4,75,Alfred,Yorkland,Male,1875,Norway,,New York City,"Liverpool, England",Lucania,Cunard,NewYork1,,,False,,Y
+4,76,Niels,Pedersen,Male,1869,Sweden,,New York City,"Liverpool, England",Majestic,White Star Line,NewYork1,,,False,,P
+4,77,Charles,Donoghue,Male,1880,Ireland,,New York City,"Liverpool, England",Teutonic,White Star Line,NewYork1,,,False,,D
+4,78,Katie,Quinn,Female,1873,Ireland,,New York City,"Londonderry, Ireland",Furnessia,Anchor Line,NewYork1,,,False,,Q
+4,79,Claudis,Sturriaga,Male,1887,Spain,,New York City,"Liverpool, England",Germanic,White Star Line,NewYork1,,,False,,S
+4,80,Edward,Lappin,Male,1899,Ireland,,New York City,"Londonderry, Ireland",Numidian,Allan Line,NewYork1,,,False,,L
+5,1,John,Loftus,Male,1878,Ireland,,New York City,"Liverpool, England",Teutonic,White Star Line,NewYork1,,,False,,L
+5,2,Maria,Pheifer,Female,1879,Austria,,New York City,"Southampton, England",Vaderland,Red Star Line,NewYork1,,,False,,P
+5,3,Thomas,Wallace,Male,1883,Italy,,New York City,"Southampton, England",City of Philadelphia,National Line,NewYork1,,,False,,W
+5,4,Sarah,Rush,Female,1883,Ireland,,New York City,"Londonderry, Ireland",Ethiopia,Anchor Line,NewYork1,,,False,,R
+5,5,Robert,Young,Male,1868,Scotland,,New York City,"Liverpool, England",Cedric,White Star Line,NewYork1,,,False,,Y
+5,6,Omand,Carlsen,Male,1878,Norway,,New York City,"Glasgow, Scotland",State of Nebraska,Allan Line,NewYork1,,,False,,C
+5,7,Otto,Schutz,Male,1869,Switzerland,,New York City,"Liverpool, England",Etruria,Cunard,NewYork1,,,False,,S
+5,8,Chaine,Navch,Female,1884,Austria,,New York City,"Liverpool, England",Teutonic,White Star Line,NewYork1,,,False,,N
+5,9,Walter,Thompson,Male,1882,England,,New York City,"Liverpool, England",Umbria,Cunard,NewYork1,,,False,,T
+5,10,John,Johnson,Male,1873,Sweden,,New York City,"Liverpool, England",Cedric,White Star Line,NewYork1,,,False,,J
+5,11,Catherine,Moran,Female,1882,Ireland,,New York City,"Londonderry, Ireland",Furnessia,Anchor Line,NewYork1,,,False,,M
+5,12,Anders,Andersen,Male,1879,Denmark,,New York City,"Liverpool, England",Cymric,White Star Line,NewYork1,,,False,,A
+5,13,Augustus,Baralowitsch,Male,1882,Russia,,New York City,"Liverpool, England",Celtic,White Star Line,NewYork1,,,False,,B
+5,14,Kate,Ivey,Female,1877,England,,New York City,"Southampton, England",City of New York,National Line,NewYork1,,,False,,I
+5,15,T.,Fuji,Male,1867,Japan,,New York City,"Dover, England",Deutschland,Hamburg America Line,NewYork1,,,False,,F
+5,16,John,Scherzinger,Male,1861,Switzerland,,New York City,"Southampton, England",St. Paul,American Line,NewYork1,,,False,,S
+5,17,Alexander,Rutherford,Male,1872,Scotland,,New York City,"Liverpool, England",Campania,Cunard,NewYork1,,,False,,R
+5,18,Held,Inaff,Female,1879,Sweden,,New York City,"Liverpool, England",Campania,Cunard,NewYork1,,,False,,I
+5,19,Ade,Ximeno,Male,1856,Cuba,,New York City,"Liverpool, England",Umbria,Cunard,NewYork1,,,False,,X
+5,20,Kars,Paude,Male,1848,Norway,,New York City,"Liverpool, England",Majestic,White Star Line,NewYork1,,,False,,P
+5,21,Asmus,Nielson,Male,1868,Denmark,,New York City,"Southampton, England",St. Paul,American Line,NewYork1,,,False,,N
+5,22,David,Evans,Male,1864,Wales,,New York City,"Liverpool, England",Oceanic,White Star Line,NewYork1,,,False,,E
+5,23,Mary,Quinn,Female,1884,Ireland,,New York City,"Queenstown, Ireland",Campania,Cunard,NewYork1,,,False,,Q
+5,24,Margt,Robertson,Female,1845,Scotland,,New York City,"Glasgow, Scotland",Columbia,Anchor Line,NewYork1,,,False,,R
+5,25,Benjamin,Moorhouse,Male,1870,England,,New York City,"Liverpool, England",Oceanic,White Star Line,NewYork1,,,False,,M
+5,26,Leonard,Napper,Male,1882,England,,New York City,"Liverpool, England",Germanic,White Star Line,NewYork1,,,False,,N
+5,27,Dorothea,Anderson,Female,1882,Sweden,,New York City,"Liverpool, England",Lucania,Cunard,NewYork1,,,False,,A
+5,28,Andrew,Xedis,Male,1877,Greece,,New York City,"Southampton, England",City of Philadelphia,National Line,NewYork1,,,False,,X
+5,29,Manuel,Vidal,Male,1878,Spain,,New York City,"Liverpool, England",Oceanic,White Star Line,NewYork1,,,False,,V
+5,30,Walter,Clemson,Male,1857,England,,New York City,"Southampton, England",Kaiser Wilhelm Der Grosse,Norddeutscher Lloyd,NewYork1,,,False,,C
+5,31,Catherine,Deblin,Female,1870,Ireland,,New York City,"Londonderry, Ireland",Anchoria,Anchor Line,NewYork1,,,False,,D
+5,32,Jossman,Robinson,Male,1881,Austria,,New York City,"Glasgow, Scotland",Furnessia,Anchor Line,NewYork1,,,False,,R
+5,33,Jean,Ulrich,Male,1885,England,,New York City,"Liverpool, England",Teutonic,White Star Line,NewYork1,,,False,,U
+5,34,Mary,Michael,Female,1877,Syria,,New York City,"Southampton, England",St. Paul,American Line,NewYork1,,,False,,M
+5,35,Frederick,Kranse,Male,1881,Germany,,New York City,"Dover, England",Moltke,Hamburg America Line,NewYork1,,,False,,K
+5,36,Michael,Shannon,Male,1884,Ireland,,New York City,"Liverpool, England",Oceanic,White Star Line,NewYork1,,,False,,S
+5,37,Robert,Brownlee,Male,1871,Ireland,,New York City,"Londonderry, Ireland",Sardinian,Allan Line,NewYork1,,,False,,B
+5,38,John,Fitzmaurice,Male,1876,Ireland,,New York City,"Liverpool, England",Teutonic,White Star Line,NewYork1,,,False,,F
+5,39,May,Pitcher,Female,1880,England,,New York City,"Liverpool, England",Lucania,Cunard,NewYork1,,,False,,P
+5,40,Lindsay,Douglas,Male,1873,England,,New York City,"Liverpool, England",Ivernia,Cunard,NewYork1,,,False,,D
+5,41,Joseph,Rooney,Male,1876,Ireland,,New York City,"Londonderry, Ireland",City of Rome,Inman Line,NewYork1,,,False,,R
+5,42,Iva,Fitzgibbon,Male,1892,Ireland,,New York City,"Liverpool, England",Campania,Cunard,NewYork1,,,False,,F
+5,43,Ivar,Johanson,Male,1877,Sweden,,New York City,"Liverpool, England",Oceanic,White Star Line,NewYork1,,,False,,J
+5,44,Jacob,Zulik,Male,1898,Germany,,New York City,"Liverpool, England",Carpathia,Cunard,NewYork1,,,False,,Z
+5,45,Annie,Vickers,Female,1862,England,,New York City,"Liverpool, England",Umbria,Cunard,NewYork1,,,False,,V
+5,46,Harriette,Yarrow,Female,1838,England,,New York City,"Liverpool, England",Lucania,Cunard,NewYork1,,,False,,Y
+5,47,Mary,Lamont,Female,1864,Ireland,,New York City,"Glasgow, Scotland",Furnessia,Anchor Line,NewYork1,,,False,,L
+5,48,Timothy,Edward,Male,1870,England,,New York City,"Liverpool, England",Oceanic,White Star Line,NewYork1,,,False,,E
+5,49,Alexander,Young,Male,1853,Scotland,,New York City,"Liverpool, England",Ivernia,Cunard,NewYork1,,,False,,Y
+5,50,Gilbert,Don,Male,1860,Scotland,,New York City,"Liverpool, England",Ivernia,Cunard,NewYork1,,,False,,D
+5,51,Christine,Berge,Female,1878,Norway,,New York City,"Liverpool, England",Teutonic,White Star Line,NewYork1,,,False,,B
+5,52,Michael,Winter,Male,1861,Russia,,New York City,"Southampton, England",St. Louis,American Line,NewYork1,,,False,,W
+5,53,Henrich,Ising,Male,1879,Germany,,New York City,"Liverpool, England",Teutonic,White Star Line,NewYork1,,,False,,I
+5,54,William,Aggas,Male,1857,England,,New York City,"Liverpool, England",Campania,Cunard,NewYork1,,,False,,A
+5,55,Robert,McFarlane,Male,1873,Scotland,,New York City,"Glasgow, Scotland",Corean,Allan Line,NewYork1,,,False,,M
+5,56,Margaret,Donohue,Female,1883,Ireland,,New York City,"Liverpool, England",Oceanic,White Star Line,NewYork1,,,False,,D
+5,57,Katas,Katulis,Female,1873,Germany,,New York City,"Glasgow, Scotland",Furnessia,Anchor Line,NewYork1,,,False,,K
+5,58,Auton,Olsen,Male,1870,Norway,,New York City,"Liverpool, England",Celtic,White Star Line,NewYork1,,,False,,O
+5,59,Johan,Herslof,Male,1885,Sweden,,New York City,"Liverpool, England",Celtic,White Star Line,NewYork1,,,False,,H
+5,60,Andrey,Pacer,Male,1883,Poland,,New York City,"Glasgow, Scotland",Columbia,Anchor Line,NewYork1,,,False,,P
+5,61,Luck,Lenezner,Female,1891,Poland,,New York City,"Southampton, England",St. Louis,American Line,NewYork1,,,False,,L
+5,62,Harold,Johanson,Male,1897,Finland,,New York City,"Liverpool, England",Campania,Cunard,NewYork1,,,False,,J
+5,63,John,Kennedy,Male,1878,Ireland,,New York City,"Liverpool, England",Celtic,White Star Line,NewYork1,,,False,,K
+5,64,Horenza,Fabbricoth,Female,1871,England,,New York City,"Liverpool, England",Umbria,Cunard,NewYork1,,,False,,F
+5,65,William,Unwin,Male,1848,England,,New York City,"Liverpool, England",Baltic,White Star Line,NewYork1,,,False,,U
+5,66,John,Creighton,Male,1878,Scotland,,New York City,"Glasgow, Scotland",Laurentian,Allan Line,NewYork1,,,False,,C
+5,67,Josef,Frajman,Male,1883,Austria,,New York City,"Southampton, England",St. Louis,American Line,NewYork1,,,False,,F
+5,68,Jane,Wilson,Female,1879,Ireland,,New York City,"Liverpool, England",Majestic,White Star Line,NewYork1,,,False,,W
+5,69,Morris,Diamond,Male,1882,Hebrew,,New York City,"Southampton, England",St. Paul,American Line,NewYork1,,,False,,D
+5,70,Oscar,Schmidt,Male,1866,Germany,,New York City,"Dover, England",Deutschland,Hamburg America Line,NewYork1,,,False,,S
+5,71,Aug,Nilsson,Male,1880,Sweden,,New York City,"Liverpool, England",Oceanic,White Star Line,NewYork1,,,False,,N
+5,72,Lizzie,Thomas,Female,1868,Wales,,New York City,"Liverpool, England",Oceanic,White Star Line,NewYork1,,,False,,T
+5,73,Franz,Zebrowski,Male,1863,Russia,,New York City,"Glasgow, Scotland",Columbia,Anchor Line,NewYork1,,,False,,Z
+5,74,Harry,Everich,Male,1874,England,,New York City,"Liverpool, England",Lucania,Cunard,NewYork1,,,False,,E
+5,75,Schinson,Grinman,Male,1883,Hebrew,,New York City,"Southampton, England",City of Philadelphia,National Line,NewYork1,,,False,,G
+5,76,Edward,Clark,Male,1872,England,,New York City,"Southampton, England",La Touraine,Compagnie Generale Transatlantique,NewYork1,,,False,,C
+5,77,Minnie,Irwin,Female,1874,Ireland,,New York City,"Liverpool, England",Oceanic,White Star Line,NewYork1,,,False,,I
+5,78,Fred,Pitchford,Male,1877,England,,New York City,"Liverpool, England",Celtic,White Star Line,NewYork1,,,False,,P
+5,79,Kaisa,Nubte,Female,1845,Finland,,New York City,"Liverpool, England",Lucania,Cunard,NewYork1,,,False,,N
+5,80,William,Nelsen,Male,1879,England,,New York City,"Liverpool, England",Cedric,White Star Line,NewYork1,,,False,,N
+6,1,Ambrozy,Zajonczkowski,Male,1886,Lithuania,,New York City,"Glasgow, Scotland",Furnessia,Anchor Line,NewYork1,,,False,,Z
+6,2,Mary,Gurner,Female,1881,France,,New York City,"Dover, England",Amerika,Hamburg America Line,NewYork1,,,False,,G
+6,3,David,Carr,Male,1870,England,,New York City,"Liverpool, England",Arabic,White Star Line,NewYork1,,,False,,C
+6,4,Esther,Neale,Female,1863,England,,New York City,"Dover, England",Vaderland,Red Star Line,NewYork1,,,False,,N
+6,5,Harry,Etherington,Male,1857,England,,New York City,"Liverpool, England",Lusitania,Cunard,NewYork1,,,False,,E
+6,6,Jessie,Varley,Female,1888,England,,New York City,"Liverpool, England",Umbria,Cunard,NewYork1,,,False,,V
+6,7,Silppa,Hakkarainen,Female,1883,Finland,,New York City,"Liverpool, England",Baltic,White Star Line,NewYork1,,,False,,H
+6,8,Lucie,Gerrard,Female,1877,France,,New York City,"Dover, England",Zeeland,Red Star Line,NewYork1,,,False,,G
+6,9,Richard,Needham,Male,1875,England,,New York City,"Liverpool, England",Lucania,Cunard,NewYork1,,,False,,N
+6,10,Thomas,Fearon,Male,1879,Ireland,,New York City,"Liverpool, England",Campania,Cunard,NewYork1,,,False,,F
+6,11,Christopher,Naylor,Male,1850,England,,New York City,"Liverpool, England",Campania,Cunard,NewYork1,,,False,,N
+6,12,Peter,Tobin,Male,1841,Ireland,,New York City,"Liverpool, England",Campania,Cunard,NewYork1,,,False,,T
+6,13,Nellie,Quinn,Female,1878,Ireland,,New York City,"Liverpool, England",Campania,Cunard,NewYork1,,,False,,Q
+6,14,Henry,Vild,Male,1839,Switzerland,,New York City,"Southampton, England",Kaiserin Augusta Victoria,Hamburg America Line,NewYork1,,,False,,V
+6,15,John,Yule,Male,1870,Scotland,,New York City,"Liverpool, England",Mauretania,Cunard,NewYork1,,,False,,Y
+6,16,Wilhelm,Ostern,Male,1874,Germany,,New York City,"Dover, England",Patricia,Hamburg America Line,NewYork1,,,False,,O
+6,17,Giovanni,Ortelli,Male,1872,Italy,,New York City,"Southampton, England",Amerika,Hamburg America Line,NewYork1,,,False,,O
+6,18,Gerrard,Bandina,Male,1883,England,,New York City,"Dover, England",Zeeland,Red Star Line,NewYork1,,,False,,B
+6,19,Meary,Vanderpool,Female,1856,England,,New York City,"Liverpool, England",Cedric,White Star Line,NewYork1,,,False,,V
+6,20,Marie,Engelson,Female,1878,Norway,,New York City,"Liverpool, England",Lusitania,Cunard,NewYork1,,,False,,E
+6,21,Matti,Jarva,Male,1876,Finland,,New York City,"Liverpool, England",Oceanic,White Star Line,NewYork1,,,False,,J
+6,22,Amedio,Venti,Male,1890,Italy,,New York City,"Glasgow, Scotland",Caledonia,Anchor Line,NewYork1,,,False,,V
+6,23,John,Vernon,Male,1878,England,,New York City,"Liverpool, England",Oceanic,White Star Line,NewYork1,,,False,,V
+6,24,Henry,Warwick,Male,1856,England,,New York City,"Liverpool, England",Mauretania,Cunard,NewYork1,,,False,,W
+6,25,Molly,Austen,Female,1905,England,,New York City,"Southampton, England",Teutonic,White Star Line,NewYork1,,,False,,A
+6,26,Edgar,Elgar,Male,1858,England,,New York City,"Dover, England",Deutschland,Hamburg America Line,NewYork1,,,False,,E
+6,27,Erkki,Anttio,Male,1876,Finland,,New York City,"Southampton, England",St. Paul,American Line,NewYork1,,,False,,A
+6,28,May,Joyce,Female,1880,England,,New York City,"Southampton, England",City of New York,National Line,NewYork1,,,False,,J
+6,29,Ernest,Gilbert,Male,1866,England,,New York City,"Southampton, England",Oceanic,White Star Line,NewYork1,,,False,,G
+6,30,Patrick,Kunan,Male,1884,Ireland,,New York City,"Londonderry, Ireland",Columbia,Anchor Line,NewYork1,,,False,,K
+6,31,M.,Luri,Male,1880,Italy,,New York City,"Dover, England",Pretoria,Hamburg America Line,NewYork1,,,False,,L
+6,32,Robert,Ireland,Male,1882,Ireland,,New York City,"Liverpool, England",Umbria,Cunard,NewYork1,,,False,,I
+6,33,Catherine,Walker,Female,1881,Ireland,,New York City,"Hull, England",Idaho,National Line,NewYork1,,,False,,W
+6,34,Bernard,Elmore,Female,1880,Ireland,,New York City,"Liverpool, England",Carmania,National Line,NewYork1,,,False,,E
+6,35,Paolo,Xerri,Male,1887,England,,New York City,"Southampton, England",City of New York,National Line,NewYork1,,,False,,X
+6,36,Ellen,Irwin,Female,1890,Ireland,,New York City,"Londonderry, Ireland",Furnessia,Anchor Line,NewYork1,,,False,,I
+6,37,Joseph,Yates,Male,1873,England,,New York City,"Liverpool, England",Baltic,White Star Line,NewYork1,,,False,,Y
+6,38,Richad,Theahan,Male,1873,Ireland,,New York City,"Liverpool, England",Lusitania,Cunard,NewYork1,,,False,,T
+6,39,Fredk,Vail,Male,1866,England,,New York City,"Liverpool, England",Lusitania,Cunard,NewYork1,,,False,,V
+6,40,Ovs,Norman,Male,1870,Norway,,New York City,"Glasgow, Scotland",Furnessia,Anchor Line,NewYork1,,,False,,N
+6,41,J.P.,Gavria,Male,1877,Spain,,New York City,"Dover, England",Pretoria,Hamburg America Line,NewYork1,,,False,,G
+6,42,James,"McLaughlin, Jr",Male,1849,Ireland,,New York City,"Liverpool, England",Oceanic,White Star Line,NewYork1,,,False,,M
+6,43,Annie,Quinlan,Female,1864,England,,New York City,"Liverpool, England",Majestic,White Star Line,NewYork1,,,False,,Q
+6,44,Kasimer,Urban,Male,1886,Russia,,New York City,"Liverpool, England",Cedric,White Star Line,NewYork1,,,False,,U
+6,45,Thomas,Wood,Male,1842,England,,New York City,"Liverpool, England",Carmania,National Line,NewYork1,,,False,,W
+6,46,Ellen,Crowhurst,Female,1874,England,,New York City,"Dover, England",Amerika,Hamburg America Line,NewYork1,,,False,,C
+6,47,John,Robartson,Male,1820,Netherlands,,New York City,"Liverpool, England",Baltic,White Star Line,NewYork1,,,False,,R
+6,48,Wilfred,Thomborrow,Male,1883,England,,New York City,"Liverpool, England",Carmania,National Line,NewYork1,,,False,,T
+6,49,Dirk,Fabrick,Male,1889,Netherlands,,New York City,"Southampton, England",Adriatic,White Star Line,NewYork1,,,False,,F
+6,50,Vernon,Dren,Male,1886,Australia,,New York City,"Liverpool, England",Baltic,White Star Line,NewYork1,,,False,,D
+6,51,Minnie,Edwards,Female,1881,England,,New York City,"Southampton, England",City of Philadelphia,National Line,NewYork1,,,False,,E
+6,52,C.,Royer,Male,1867,France,,New York City,"Dover, England",Amerika,Hamburg America Line,NewYork1,,,False,,R
+6,53,William,Holmes,Male,1886,Ireland,,New York City,"Glasgow, Scotland",Caledonia,Anchor Line,NewYork1,,,False,,H
+6,54,Michael,Gilhoolys,Male,1889,Ireland,,New York City,"Londonderry, Ireland",California,National Line,NewYork1,,,False,,G
+6,55,Bertrice,Toop,Female,1887,England,,New York City,"Southampton, England",St. Paul,American Line,NewYork1,,,False,,T
+6,56,John,Jones,Male,1883,Wales,,New York City,"Liverpool, England",Caronia,National Line,NewYork1,,,False,,J
+6,57,Alfred,Tetlow,Male,1881,England,,New York City,"Southampton, England",St. Louis,American Line,NewYork1,,,False,,T
+6,58,Thomas,McNally,Male,1871,Ireland,,New York City,"Liverpool, England",Adriatic,White Star Line,NewYork1,,,False,,M
+6,59,Bridget,Quinn,Female,1880,Ireland,,New York City,"Liverpool, England",Cedric,White Star Line,NewYork1,,,False,,Q
+6,60,Richer,Chando,Male,1869,England,,New York City,"Liverpool, England",Baltic,White Star Line,NewYork1,,,False,,C
+6,61,Arey,Rebol,Male,1879,France,1905-07-14,New York City,"Dover, England",Deutschland,Hamburg America Line,NewYork1,1905.0,July,False,26.0,R
+6,62,William,Yeldham,Male,1864,England,1906-09-27,New York City,"Liverpool, England",Majestic,White Star Line,NewYork1,1906.0,September,False,42.0,Y
+6,63,Annie,Neely,Female,1887,Ireland,1907-09-30,New York City,"Londonderry, Ireland",Caledonia,Anchor Line,NewYork1,1907.0,September,False,20.0,N
+6,64,Lore,Burin,Female,1878,Russia,1908-03-14,New York City,"Liverpool, England",Lusitania,Cunard,NewYork1,1908.0,March,False,30.0,B
+6,65,Johann,Zunter,Male,1880,Croatia,1909-03-14,New York City,"Southampton, England",St. Paul,American Line,NewYork1,1909.0,March,False,29.0,Z
+6,66,Carl,Schreiner,Male,1848,Germany,1905-09-14,New York City,"Dover, England",Deutschland,Hamburg America Line,NewYork1,1905.0,September,False,57.0,S
+6,67,Ed,Jones,Male,1876,Wales,1906-05-20,New York City,"Dover, England",Kaiserin Augusta Victoria,Hamburg America Line,NewYork1,1906.0,May,False,30.0,J
+6,68,Sergie,Zerozaschko,Male,1875,Russia,1907-02-11,New York City,"Liverpool, England",Carmania,National Line,NewYork1,1907.0,February,False,32.0,Z
+6,69,Minnie,Greenhouse,Female,1897,Hebrew,1908-07-17,New York City,"Liverpool, England",Mauretania,Cunard,NewYork1,1908.0,July,False,11.0,G
+6,70,Alina,Ojst,Female,1888,Finland,1909-06-11,New York City,"Liverpool, England",Mauretania,Cunard,NewYork1,1909.0,June,False,21.0,O
+6,71,Albert,Asher,Male,1841,England,1905-10-02,New York City,"Dover, England",Blücher,Hamburg America Line,NewYork1,1905.0,October,False,64.0,A
+6,72,Hirsche,Muticzewsky,Male,1897,Hebrew,1906-04-16,New York City,"Liverpool, England",Celtic,White Star Line,NewYork1,1906.0,April,False,9.0,M
+6,73,Fanny,Nandin,Female,1875,France,1907-12-09,New York City,"Liverpool, England",Lusitania,Cunard,NewYork1,1907.0,December,False,32.0,N
+6,74,Kichitaro,Ito,Male,1882,Japan,1908-10-01,New York City,"Southampton, England",Adriatic,White Star Line,NewYork1,1908.0,October,False,26.0,I
+6,75,Harold,Jackson,Male,1886,England,1909-09-22,New York City,"Liverpool, England",Caronia,National Line,NewYork1,1909.0,September,False,23.0,J
+6,76,Salmon,Ambuider,Male,1865,Hebrew,1905-03-21,New York City,"Glasgow, Scotland",Columbia,Anchor Line,NewYork1,1905.0,March,False,40.0,A
+6,77,Annie,Mitchell,Female,1883,Scotland,1906-04-25,New York City,"Glasgow, Scotland",Furnessia,Anchor Line,NewYork1,1906.0,April,False,23.0,M
+6,78,Willem,Vanderlee,Male,1877,Netherlands,1907-10-10,New York City,"Southampton, England",Teutonic,White Star Line,NewYork1,1907.0,October,False,30.0,V
+6,79,Eliza,Usherwood,Female,1838,England,1908-07-18,New York City,"Liverpool, England",Arabic,White Star Line,NewYork1,1908.0,July,False,70.0,U
+6,80,Emma,Crowe,Female,1877,England,1909-05-06,New York City,"Southampton, England",Oceanic,White Star Line,NewYork1,1909.0,May,False,32.0,C
+7,1,William,Warden,Male,1888,Scotland,,New York City,"Glasgow, Scotland",California,National Line,NewYork1,,,False,,W
+7,2,Henry,Rautiainen,Male,1888,Finland,,New York City,"Liverpool, England",Baltic,White Star Line,NewYork1,,,False,,R
+7,3,Charles,Thomfsen,Male,1881,Scotland,,New York City,"Glasgow, Scotland",Columbia,Anchor Line,NewYork1,,,False,,T
+7,4,William,Thomas,Male,1889,Wales,,New York City,"Liverpool, England",Mauretania,Cunard,NewYork1,,,False,,T
+7,5,Emmanuel,Georgiades,Male,1885,Greece,,New York City,"Southampton, England",Kaiser Wilhelm II,Norddeutscher Lloyd,NewYork1,,,False,,G
+7,6,James,McCoy,Male,1867,Ireland,,New York City,"Liverpool, England",Hilarius,National Line,NewYork1,,,False,,M
+7,7,Mate,Jakovac,Male,1883,Croatia,,New York City,"Southampton, England",City of New York,National Line,NewYork1,,,False,,J
+7,8,John,Irwon,Male,1888,Ireland,,New York City,"Londonderry, Ireland",Columbia,Anchor Line,NewYork1,,,False,,I
+7,9,Ada,Abbott,Female,1870,England,,New York City,"Dover, England",Lapland,Red Star Line,NewYork1,,,False,,A
+7,10,Margaret,Larsen,Female,1882,England,,New York City,"Liverpool, England",Lusitania,Cunard,NewYork1,,,False,,L
+7,11,William,Bellamy,Male,1889,England,,New York City,"Hull, England",Buffalo,National Line,NewYork1,,,False,,B
+7,12,John,Jost,Male,1886,Germany,,New York City,"Dover, England",Lapland,Red Star Line,NewYork1,,,False,,J
+7,13,Jean,Danguy,Male,1860,France,,New York City,"Dover, England",Finland,National Line,NewYork1,,,False,,D
+7,14,Carrie,Aronton,Female,1851,England,,New York City,"Dover, England",Lapland,Red Star Line,NewYork1,,,False,,A
+7,15,Jan,Zurionsko,Male,1887,Russia,,New York City,"Liverpool, England",Adriatic,White Star Line,NewYork1,,,False,,Z
+7,16,Annie,Normile,Female,1886,Ireland,,New York City,"Queenstown, Ireland",Oceanic,White Star Line,NewYork1,,,False,,N
+7,17,Margaret,Lydoro,Female,1883,Ireland,,New York City,"Dover, England",Lapland,Red Star Line,NewYork1,,,False,,L
+7,18,Willhelm,Ostrander,Male,1905,Norway,,New York City,"Liverpool, England",Arabic,White Star Line,NewYork1,,,False,,O
+7,19,William,Holmb,Male,1864,Scotland,,New York City,"Dover, England",Kroonland,Red Star Line,NewYork1,,,False,,H
+7,20,Arthur,Schulthess,Male,1882,Germany,,New York City,"Dover, England",Finland,National Line,NewYork1,,,False,,S
+7,21,Augustus,Hug,Male,1882,Germany,,New York City,"Dover, England",Vaderland,Red Star Line,NewYork1,,,False,,H
+7,22,Michael,Ellard,Male,1891,Ireland,,New York City,"Queenstown, Ireland",Campania,Cunard,NewYork1,,,False,,E
+7,23,Marianne,Urban,Female,1893,Russia,,New York City,"Liverpool, England",Mauretania,Cunard,NewYork1,,,False,,U
+7,24,William,Vincent,Male,1888,England,,New York City,"Liverpool, England",Cedric,White Star Line,NewYork1,,,False,,V
+7,25,Gladys,Inman,Female,1893,England,,New York City,"Southampton, England",Olympic,White Star Line,NewYork1,,,False,,I
+7,26,Lihue,Zuny,Female,1888,China,,New York City,"Liverpool, England",Campania,Cunard,NewYork1,,,False,,Z
+7,27,Harold,Emmerson,Male,1901,Ireland,,New York City,"Liverpool, England",Carmania,National Line,NewYork1,,,False,,E
+7,28,Michael,Flynn,Male,1891,Ireland,,New York City,"Southampton, England",Olympic,White Star Line,NewYork1,,,False,,F
+7,29,Robe,Cheesman,Female,1872,England,,New York City,"Dover, England",Lapland,Red Star Line,NewYork1,,,False,,C
+7,30,Spencer,Grey,Male,1889,England,,New York City,"Liverpool, England",Lusitania,Cunard,NewYork1,,,False,,G
+7,31,Catherine,Farr,Female,1870,England,,New York City,"Liverpool, England",Campania,Cunard,NewYork1,,,False,,F
+7,32,Cecilia,Ellen,Female,1885,Netherlands,,New York City,"Dover, England",Lapland,Red Star Line,NewYork1,,,False,,E
+7,33,Cyril,Gladwell,Male,1891,England,,New York City,"Southampton, England",City of Philadelphia,National Line,NewYork1,,,False,,G
+7,34,Jacob,Thorsen,Male,1894,Norway,,New York City,"Glasgow, Scotland",Columbia,Anchor Line,NewYork1,,,False,,T
+7,35,Mary,Ireacey,Female,1892,Ireland,,New York City,"Londonderry, Ireland",California,National Line,NewYork1,,,False,,I
+7,36,Julliette,Villars,Female,1890,France,,New York City,"Southampton, England",City of New York,National Line,NewYork1,,,False,,V
+7,37,Dinoke,Koeff,Male,1876,Netherlands,,New York City,"Liverpool, England",Lusitania,Cunard,NewYork1,,,False,,K
+7,38,Neta,Studdert,Female,1860,Ireland,,New York City,"Liverpool, England",Baltic,White Star Line,NewYork1,,,False,,S
+7,39,John,Stephens,Male,1873,England,,New York City,"Southampton, England",Oceanic,White Star Line,NewYork1,,,False,,S
+7,40,William,Pinkham,Male,1891,England,,New York City,"Southampton, England",City of New York,National Line,NewYork1,,,False,,P
+7,41,Luigi,Zannier,Male,1887,Italy,,New York City,"Southampton, England",City of New York,National Line,NewYork1,,,False,,Z
+7,42,Sarah,Delly,Female,1883,Ireland,,New York City,"Liverpool, England",Baltic,White Star Line,NewYork1,,,False,,D
+7,43,Belsey,Van Dam,Female,1887,Netherlands,,New York City,"Liverpool, England",Lusitania,Cunard,NewYork1,,,False,,V
+7,44,Kathleen,Nolan,Female,1890,Ireland,,New York City,"Londonderry, Ireland",California,National Line,NewYork1,,,False,,N
+7,45,Hugh,Savage,Male,1861,Ireland,,New York City,"Liverpool, England",Adriatic,White Star Line,NewYork1,,,False,,S
+7,46,Iida,Koskinen,Female,1882,Finland,,New York City,"Liverpool, England",Mauretania,Cunard,NewYork1,,,False,,K
+7,47,Frank,Cooper,Male,1855,England,,New York City,"Dover, England",Finland,National Line,NewYork1,,,False,,C
+7,48,George,Brightman,Male,1875,England,,New York City,"Liverpool, England",Baltic,White Star Line,NewYork1,,,False,,B
+7,49,Emil,Ivankow,Male,1891,Poland,,New York City,"Liverpool, England",Lusitania,Cunard,NewYork1,,,False,,I
+7,50,Joseph,Nitzgen,Male,1878,Germany,,New York City,"Liverpool, England",Mauretania,Cunard,NewYork1,,,False,,N
+7,51,Aranh,Xintaris,Male,1876,Greece,,New York City,"Liverpool, England",Mauretania,Cunard,NewYork1,,,False,,X
+7,52,Wladimer,Zerkaschoff,Male,1907,Russia,,New York City,"Liverpool, England",Cedric,White Star Line,NewYork1,,,False,,Z
+7,53,Annie,Quinn,Female,1882,Ireland,,New York City,"Liverpool, England",Mauretania,Cunard,NewYork1,,,False,,Q
+7,54,Sarah,Evens,Female,1885,England,,New York City,"Liverpool, England",Carmania,National Line,NewYork1,,,False,,E
+7,55,Herbert,Cohen,Male,1862,Austria,,New York City,"Southampton, England",Kaiserin Augusta Victoria,Hamburg America Line,NewYork1,,,False,,C
+7,56,Mabel,Irish,Female,1882,England,,New York City,"Liverpool, England",Mauretania,Cunard,NewYork1,,,False,,I
+7,57,Robert,Hebden,Male,1847,England,,New York City,"Liverpool, England",Carmania,National Line,NewYork1,,,False,,H
+7,58,Arthur,Rudd,Male,1869,England,,New York City,"Southampton, England",Olympic,White Star Line,NewYork1,,,False,,R
+7,59,Carl,Spinnler,Male,1875,Switzerland,,New York City,"Southampton, England",Kronprinz Wilhelm,National Line,NewYork1,,,False,,S
+7,60,Minnie,Nicholls,Female,1890,England,,New York City,"Southampton, England",Olympic,White Star Line,NewYork1,,,False,,N
+7,61,Evers,Eriksson,Male,1875,Finland,1910-06-24,New York City,"Liverpool, England",Lusitania,Cunard,NewYork1,1910.0,June,False,35.0,E
+7,62,Mark,Richardson,Male,1884,Ireland,1911-05-31,New York City,"Londonderry, Ireland",Furnessia,Anchor Line,NewYork1,1911.0,May,False,27.0,R
+7,63,Owen,Owen,Male,1863,Wales,1912-01-22,New York City,"Liverpool, England",Carmania,National Line,NewYork1,1912.0,January,False,49.0,O
+7,64,Grastafy,Pianoff,Male,1888,Russia,1913-04-22,New York City,"Glasgow, Scotland",Columbia,Anchor Line,NewYork1,1913.0,April,False,25.0,P
+7,65,John,Quinn,Male,1893,Ireland,1914-05-04,New York City,"Londonderry, Ireland",Cameronia,Anchor Line,NewYork1,1914.0,May,False,21.0,Q
+7,66,Andrey,Ridgwell,Female,1904,England,1910-04-07,New York City,"Southampton, England",St. Louis,American Line,NewYork1,1910.0,April,False,6.0,R
+7,67,Dilbag,Bains,Male,1892,India,1911-02-06,New York City,"Liverpool, England",Baltic,White Star Line,NewYork1,1911.0,February,False,19.0,B
+7,68,Albert,Jones,Male,1890,England,1912-05-12,New York City,"Liverpool, England",Cedric,White Star Line,NewYork1,1912.0,May,False,22.0,J
+7,69,Robert,Lindstrom,Male,1877,Finland,1913-01-03,New York City,"Liverpool, England",Laurentic,White Star Line,NewYork1,1913.0,January,False,36.0,L
+7,70,Judes,Elperin,Female,1911,Hebrew,1914-01-09,New York City,"Liverpool, England",Lusitania,Cunard,NewYork1,1914.0,January,False,3.0,E
+7,71,Francis,Cox,Male,1885,Ireland,1910-03-18,New York City,"Liverpool, England",Mauretania,Cunard,NewYork1,1910.0,March,False,25.0,C
+7,72,Kustan,Javanainen,Male,1885,Finland,1911-09-09,New York City,"Southampton, England",City of New York,National Line,NewYork1,1911.0,September,False,26.0,J
+7,73,Paul,Gerhardy,Male,1903,Germany,1912-02-01,New York City,"Southampton, England",City of New York,National Line,NewYork1,1912.0,February,False,9.0,G
+7,74,John,Whittard,Male,1859,England,1913-03-06,New York City,"Southampton, England",Oceanic,White Star Line,NewYork1,1913.0,March,False,54.0,W
+7,75,William,Davies,Male,1868,England,1914-06-05,New York City,"Liverpool, England",Aquitania,Cunard,NewYork1,1914.0,June,False,46.0,D
+7,76,Elizabeth,Thomas,Female,1888,Wales,1910-08-17,New York City,"Liverpool, England",Carmania,National Line,NewYork1,1910.0,August,False,22.0,T
+7,77,Patrick,Fecony,Male,1855,Ireland,1911-06-30,New York City,"Liverpool, England",Mauretania,Cunard,NewYork1,1911.0,June,False,56.0,F
+7,78,Nils,Ylitalo,Male,1844,Finland,1912-10-02,New York City,"Liverpool, England",Carmania,National Line,NewYork1,1912.0,October,False,68.0,Y
+7,79,Robert,Wall,Male,1890,England,1913-05-01,New York City,"Southampton, England",Olympic,White Star Line,NewYork1,1913.0,May,False,23.0,W
+7,80,Elsbetha,Sementzow,Female,1886,Russia,1914-01-18,New York City,"Liverpool, England",Caronia,Cunard,NewYork1,1914.0,January,False,28.0,S
+8,1,Sure,Goler,Female,1865,Hebrew,,New York City,"Liverpool, England",Cymric,White Star Line,NewYork1,,,False,,G
+8,2,Moritz,Wilder,Male,1884,Hebrew,,New York City,"Liverpool, England",Majestic,White Star Line,NewYork1,,,False,,W
+8,3,Jankel,Rucatchky,Male,1891,Hebrew,,New York City,"Southampton, England",City of New York,National Line,NewYork1,,,False,,R
+8,4,Lise,Amstu,Female,1886,Hebrew,,New York City,"Liverpool, England",Baltic,White Star Line,NewYork1,,,False,,A
+8,5,Chane,Dinin,Female,1890,Hebrew,,New York City,"Liverpool, England",Campania,Cunard,NewYork1,,,False,,D
+8,6,Harris,Berkovitz,Male,1863,Hebrew,,New York City,"Liverpool, England",Cedric,White Star Line,NewYork1,,,False,,B
+8,7,David,Radwisilowsky,Male,1866,Hebrew,,New York City,"Glasgow, Scotland",California,National Line,NewYork1,,,False,,R
+8,8,Jeanie,Cohen,Female,1881,Hebrew,,New York City,"Southampton, England",St. Paul,American Line,NewYork1,,,False,,C
+8,9,Schlojme,Landesman,Male,1868,Hebrew,,New York City,"Glasgow, Scotland",Corean,Allan Line,NewYork1,,,False,,L
+8,10,Feigel,Goldbaum,Female,1894,Hebrew,,New York City,"Southampton, England",City of New York,National Line,NewYork1,,,False,,G
+8,11,Leib,Forman,Male,1885,Hebrew,,New York City,"Southampton, England",City of Philadelphia,National Line,NewYork1,,,False,,F
+8,12,Dawid,Guschewsky,Male,1867,Hebrew,,New York City,"Liverpool, England",Celtic,White Star Line,NewYork1,,,False,,G
+8,13,Ilona,Izsak,Female,1881,Hebrew,,New York City,"Liverpool, England",Lusitania,Cunard,NewYork1,,,False,,I
+8,14,Arian,Abram,Male,1864,Hebrew,,New York City,"Liverpool, England",Lusitania,Cunard,NewYork1,,,False,,A
+8,15,Burzch,Johannes,Male,1887,Hebrew,,New York City,"Liverpool, England",Carpathia,Cunard,NewYork1,,,False,,J
+8,16,Karl,Chuthof,Male,1883,Hebrew,,New York City,"Liverpool, England",Umbria,Cunard,NewYork1,,,False,,C
+8,17,Sheine,Perlkan,Female,1904,Hebrew,,New York City,"Southampton, England",City of Philadelphia,National Line,NewYork1,,,False,,P
+8,18,Cheike,Hilda,Female,1866,Hebrew,,New York City,"Liverpool, England",Umbria,Cunard,NewYork1,,,False,,H
+8,19,Gusta,Albin,Female,1896,Hebrew,,New York City,"Liverpool, England",Cedric,White Star Line,NewYork1,,,False,,A
+8,20,Markus,Yadel,Male,1863,Hebrew,,New York City,"Southampton, England",City of Philadelphia,National Line,NewYork1,,,False,,Y
+8,21,Bobe,Krasner,Male,1900,Hebrew,,New York City,"Liverpool, England",Mauretania,Cunard,NewYork1,,,False,,K
+8,22,Sime,Qubermann,Female,1884,Hebrew,,New York City,"Southampton, England",City of New York,National Line,NewYork1,,,False,,Q
+8,23,Judal,Vogel,Male,1892,Hebrew,,New York City,"Liverpool, England",Carpathia,Cunard,NewYork1,,,False,,V
+8,24,Hersch,Medwet,Male,1880,Hebrew,,New York City,"Glasgow, Scotland",Ethiopia,Anchor Line,NewYork1,,,False,,M
+8,25,Jacob,Braf,Male,1875,Hebrew,,New York City,"Liverpool, England",Cedric,White Star Line,NewYork1,,,False,,B
+8,26,Schurl,Malaveczky,Female,1867,Hebrew,,New York City,"Liverpool, England",Baltic,White Star Line,NewYork1,,,False,,M
+8,27,Rachel,Tentzer,Female,1892,Hebrew,,New York City,"Southampton, England",St. Paul,American Line,NewYork1,,,False,,T
+8,28,Michael,Liedki,Male,1884,Hebrew,,New York City,"Liverpool, England",Arabic,White Star Line,NewYork1,,,False,,L
