@@ -963,7 +963,7 @@ if sampled_df is not None:
         st.markdown("""
         ### KModes Initialization Methods
 
-        The KModes algorithm starts by selecting initial cluster modes (centroids), and the method used can affect cluster results:
+        The KModes algorithm starts by selecting initial cluster modes (centroids), and the method used can affect cluster results:  
         • **Huang (default)**: Chooses initial modes randomly with probabilities proportional to category frequencies.  
         • Tends to favor more common categories.  
         • Fast and works well for small or moderately diverse datasets.  
