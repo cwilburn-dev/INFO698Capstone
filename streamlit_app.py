@@ -50,7 +50,6 @@ if "show_intro" not in st.session_state:
 
 def begin_analysis():
     st.session_state.show_intro = False
-
 # === load data ===
 @st.cache_data(show_spinner=True)
 def load_data(csv_path="migration_analysis_ready_clean.csv"):
@@ -61,14 +60,21 @@ def load_data(csv_path="migration_analysis_ready_clean.csv"):
     - All rows are read (blank lines ignored but not truncated)
     - All columns are strings
     - ArrivalDate is parsed safely as YYYY-MM-DD
+    - ArrivalYear is derived as integer
+    - Bin is cleaned and converted to string
+
+    Notes:
+    - Does NOT include any Streamlit UI calls to ensure compatibility with caching.
     """
-    # read CSV safely, all as strings
+    import pandas as pd
+
+    # --- read CSV safely, all as strings ---
     df = pd.read_csv(csv_path, dtype=str, keep_default_na=False, skip_blank_lines=False)
-    
-    # strip whitespace from column names
+
+    # --- strip whitespace from column names ---
     df.columns = [c.strip() for c in df.columns]
-    
-    # ensure ArrivalDate exists and parse it
+
+    # --- parse ArrivalDate safely ---
     if "ArrivalDate" in df.columns:
         def safe_parse(val):
             val = str(val).strip()
@@ -77,27 +83,35 @@ def load_data(csv_path="migration_analysis_ready_clean.csv"):
             try:
                 return pd.to_datetime(val, errors='raise').strftime("%Y-%m-%d")
             except Exception:
-                st.warning(f"Unparseable ArrivalDate: {val}")
+                # we cannot call st.warning here in cached function
                 return pd.NA
+
         df["ArrivalDate"] = df["ArrivalDate"].apply(safe_parse)
-    
-    # derive ArrivalYear as integer
-    if "ArrivalDate" in df.columns:
+
+        # --- derive ArrivalYear as integer ---
         df["ArrivalYear"] = pd.to_datetime(df["ArrivalDate"], errors='coerce').dt.year
 
-    # optional: check for missing years
+    # --- ensure Bin is string and stripped ---
+    if "Bin" in df.columns:
+        df["Bin"] = df["Bin"].astype(str).str.strip()
+
+    return df
+
+
+# --- usage in the main app (after caching) ---
+df = load_data()
+
+# now it's safe to use Streamlit UI messages
+msg = st.success(f"✅ Loaded {len(df)} rows from migration_analysis_ready_clean.csv")
+time.sleep(2)
+msg.empty()
+
+# optional: warn about invalid ArrivalYear after caching
+if "ArrivalYear" in df.columns:
     missing_years = df["ArrivalYear"].isna().sum()
     if missing_years > 0:
         st.warning(f"{missing_years} rows have invalid ArrivalDate -> ArrivalYear set as NaN")
 
-    # ensure Bin is string
-    if "Bin" in df.columns:
-        df["Bin"] = df["Bin"].astype(str).str.strip()
-
-    st.success(f"Loaded {len(df)} rows from {csv_path}")
-    time.sleep(1)
-    msg.empty()
-    return df
 # endregion
 
 # region CONSTANTS
