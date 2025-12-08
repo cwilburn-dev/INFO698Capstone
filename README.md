@@ -11,6 +11,7 @@ The goal is to create a clear, data-driven narrative of who migrated, when they 
 - [Installation](#installation)
 - [Usage](#usage)
 - [Configuration](#configuration)
+- [Acknowledgements](#acknowledgements)
 
 ---
 
@@ -25,6 +26,10 @@ The project:
 - Identifies demographic and temporal patterns in migration flows.
 - Provides interactive visualizations to support exploration and interpretation.
 - Highlights correlations between travel patterns and major socio-political events.
+
+Data Source:
+
+- New York, U.S., Arriving Passenger and Crew Lists (Castle Garden and Ellis Island), 1820–1957, accessed via Ancestry.com
 
 All analysis is conducted within the Streamlit app, which handles datasets and processing automatically, so users can explore the data entirely in their browser without local files or database setup.
 
@@ -84,3 +89,8 @@ http://localhost:8501
 No manual configuration is required.
 The Streamlit app automatically manages dependencies and dataset integration.
 Simply open the app link and start exploring.
+
+## Acknowledgements
+
+Thank you to Prof. Henry Werchan for serving as my project mentor, whose guidance was invaluable over the project's duration.
+And a special thanks to Dr. Nikita Sharma for supporting me in the early stages of the project and ensuring that I had what I needed to succeed. 
