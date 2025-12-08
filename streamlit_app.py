@@ -50,68 +50,12 @@ if "show_intro" not in st.session_state:
 
 def begin_analysis():
     st.session_state.show_intro = False
+
 # === load data ===
-@st.cache_data(show_spinner=True)
-def load_data(csv_path="migration_analysis_ready_clean.csv"):
-    """
-    Robust loader for migration CSV data.
-
-    Ensures:
-    - All rows are read (blank lines ignored but not truncated)
-    - All columns are strings
-    - ArrivalDate is parsed safely as YYYY-MM-DD
-    - ArrivalYear is derived as integer
-    - Bin is cleaned and converted to string
-
-    Notes:
-    - Does NOT include any Streamlit UI calls to ensure compatibility with caching.
-    """
-    import pandas as pd
-
-    # --- read CSV safely, all as strings ---
-    df = pd.read_csv(csv_path, dtype=str, keep_default_na=False, skip_blank_lines=False)
-
-    # --- strip whitespace from column names ---
-    df.columns = [c.strip() for c in df.columns]
-
-    # --- parse ArrivalDate safely ---
-    if "ArrivalDate" in df.columns:
-        def safe_parse(val):
-            val = str(val).strip()
-            if not val:
-                return pd.NA
-            try:
-                return pd.to_datetime(val, errors='raise').strftime("%Y-%m-%d")
-            except Exception:
-                # we cannot call st.warning here in cached function
-                return pd.NA
-
-        df["ArrivalDate"] = df["ArrivalDate"].apply(safe_parse)
-
-        # --- derive ArrivalYear as integer ---
-        df["ArrivalYear"] = pd.to_datetime(df["ArrivalDate"], errors='coerce').dt.year
-
-    # --- ensure Bin is string and stripped ---
-    if "Bin" in df.columns:
-        df["Bin"] = df["Bin"].astype(str).str.strip()
-
+@st.cache_data
+def load_data():
+    df = pd.read_csv("migration_analysis_ready_clean.csv")
     return df
-
-
-# --- usage in the main app (after caching) ---
-df = load_data()
-
-# now it's safe to use Streamlit UI messages
-msg = st.success(f"✅ Loaded {len(df)} rows from migration_analysis_ready_clean.csv")
-time.sleep(2)
-msg.empty()
-
-# optional: warn about invalid ArrivalYear after caching
-if "ArrivalYear" in df.columns:
-    missing_years = df["ArrivalYear"].isna().sum()
-    if missing_years > 0:
-        st.warning(f"{missing_years} rows have invalid ArrivalDate -> ArrivalYear set as NaN")
-
 # endregion
 
 # region CONSTANTS
