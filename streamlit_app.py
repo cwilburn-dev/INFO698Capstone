@@ -52,10 +52,42 @@ def begin_analysis():
     st.session_state.show_intro = False
 
 # === load data ===
-@st.cache_data
-def load_data():
-    df = pd.read_csv("migration_analysis_ready_clean.csv")
+@st.cache_data(show_spinner=True)
+def load_data(csv_path="migration_analysis_ready_clean.csv"):
+    """
+    Robust loader for migration CSV data.
+
+    Ensures:
+    - All rows are read (blank lines ignored but not truncated)
+    - All columns are strings
+    - ArrivalDate is parsed safely as YYYY-MM-DD
+    """
+    # read CSV safely, all as strings
+    df = pd.read_csv(csv_path, dtype=str, keep_default_na=False, skip_blank_lines=False)
+    
+    # strip whitespace from column names
+    df.columns = [c.strip() for c in df.columns]
+    
+    # ensure ArrivalDate exists and parse it
+    if "ArrivalDate" in df.columns:
+        def safe_parse(val):
+            val = str(val).strip()
+            if not val:
+                return pd.NA
+            try:
+                return pd.to_datetime(val, errors='raise').strftime("%Y-%m-%d")
+            except Exception:
+                st.warning(f"Unparseable ArrivalDate: {val}")
+                return pd.NA
+        df["ArrivalDate"] = df["ArrivalDate"].apply(safe_parse)
+    
+    # ensure Bin is string
+    if "Bin" in df.columns:
+        df["Bin"] = df["Bin"].astype(str).str.strip()
+
+    st.success(f"✅ Loaded {len(df)} rows from {csv_path}")
     return df
+
 # endregion
 
 # region CONSTANTS
