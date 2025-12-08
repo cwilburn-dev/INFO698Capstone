@@ -1,3 +1,27 @@
+# North Atlantic Migration Explorer (1880-1914) - Streamlit App
+# --------------------------------------------------------------
+# This application visualizes and analyzes transatlantic migration patterns
+# during the late 19th and early 20th centuries, using historical passenger
+# lists from New York arrivals. The system:
+#
+# 1. Loads cleaned migration data and caches it for efficient reuse
+# 2. Samples the data by migration bins for balanced visualization
+# 3. Allows user-driven filtering by year range, birthplace, and smoothing
+# 4. Displays multiple views:
+#    - Project Overview (summary, methodology, key findings)
+#    - Demographics (age, gender, nationality, children)
+#    - Temporal Trends (migration counts over time with historical event annotations)
+#    - Clustering (KModes analysis over route, season, age, and gender)
+# 5. Integrates historical context via annotated charts and a Timeline.js visualization
+#
+# Code sections:
+# - Initialization (session state, random seed, data loading)
+# - Constants (historical counts, bin labels, mappings)
+# - Utility Methods (sampling, chart annotation, season/age categorization)
+# - Streamlit Interface (landing page, sidebar controls, tabs)
+# - Demographics, Temporal, and Clustering Visualizations
+# - Timeline Integration and Event Annotation
+
 # ============================================================
 #                       IMPORTS
 # ============================================================
@@ -545,8 +569,8 @@ if sampled_df is not None:
         highlighting the social dynamics and decision-making that shaped transatlantic movement.
         """)
 
+        # === HISTORICAL BAR PLOT ===
         st.subheader("Total Migrants per Year (Historical)")
-
         historical_df = (
             pd.DataFrame(list(historical_counts.items()), columns=["Bin", "Count"])
             .assign(BinLabel=lambda x: x["Bin"].map(bin_labels))
@@ -568,7 +592,7 @@ if sampled_df is not None:
         # === PIE CHARTS ===
         col1, col2 = st.columns(2)
 
-        # === nationality - top 10 ===
+        # --- nationality - top 10 ---
         with col1:
             if "BirthPlace" in selected_df.columns:
                 st.subheader("Top 10 Birthplaces / Nationalities")
@@ -588,7 +612,7 @@ if sampled_df is not None:
             else:
                 st.warning("WARNING: 'BirthPlace' column not found.")
 
-        # === gender ===        
+        # --- gender ---        
         with col2:
             if "Gender" in sampled_df.columns:
                 st.subheader("Gender Distribution")
@@ -610,7 +634,8 @@ if sampled_df is not None:
             else:
                 st.warning("WARNING: 'Gender' column not found.")
 
-        # === age ===
+        # === AGE & CHILDREN BAR CHARTS ===
+        # --- age at arrival ---
         if "AgeAtArrival" in sampled_df.columns:
             st.subheader("Age Distribution of Migrants")
             age_counts = (
@@ -633,7 +658,7 @@ if sampled_df is not None:
         else:
             st.warning("WARNING: 'AgeAtArrival' column not found.")
 
-        # === children by nationality ===
+        # --- children by nationality ---
         if {"AgeAtArrival", "BirthPlace"}.issubset(sampled_df.columns):
             st.subheader("Children by Nationality")
             children_df = sampled_df[sampled_df["AgeAtArrival"] < 15]
@@ -784,7 +809,7 @@ if sampled_df is not None:
 
         df_rel = selected_df.copy()
 
-        # route code: birthplace → departure
+        # route code is birthplace + departure
         df_rel["RouteCode"] = df_rel["BirthPlace"].astype(str) + " → " + df_rel["DeparturePlace"].astype(str)
 
         # === season ===
@@ -841,8 +866,6 @@ if sampled_df is not None:
         # === KMODES ===
         # categories
         cat_cols_rel = ["RouteCode", "Season", "AgeCategory", "Gender"]
-
-        # Check column existence
         missing_cols = [col for col in cat_cols_rel if col not in df_rel.columns]
 
         if missing_cols:
@@ -858,7 +881,7 @@ if sampled_df is not None:
             else:
                 kmodes_ready = True
 
-        # Only proceed if ready
+        # only proceed if ready
         if kmodes_ready:
 
             df_km_rel = df_rel[cat_cols_rel].astype(str)
@@ -883,7 +906,7 @@ if sampled_df is not None:
                 }
                 cluster_profiles_rel[cluster] = profile
 
-            # heatmap plotting function 
+            # heatmap plotting 
             def plot_heatmap_with_profile(df, x_col, cluster_profiles):
                 """
                 Generate an Altair heatmap showing the distribution of clusters across a categorical feature.
