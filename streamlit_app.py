@@ -9,6 +9,9 @@ import random
 from kmodes.kmodes import KModes
 
 # region INITIALIZATION
+# ============================================================
+#                       INITIALIZATION
+# ============================================================
 # === Landing Page ===
 if "show_intro" not in st.session_state:
     st.session_state.show_intro = True
@@ -93,6 +96,9 @@ birthplace_to_country = {
 }
 
 # region METHODS
+# ============================================================
+#                       METHODS
+# ============================================================
 def get_sample(df, sample_per_bin=60):
     """
     Generate a sampled dataset by bin, limiting each bin to a maximum number of records.
@@ -179,6 +185,9 @@ def annotate_chart(base_chart, events):
 # endregion
 
 # region MAIN
+# ============================================================
+#                        MAIN & LANDING
+# ============================================================
 st.set_page_config(page_title="North Atlantic Migration Pattern Explorer (1880-1914)", layout="wide")
 
 # --- Landing Page ---
@@ -219,7 +228,9 @@ sampled_df = get_sample(df, sample_per_bin=60)
 # endregion
 
 # region SIDEBAR
-# --- Sidebar ---
+# ============================================================
+#                           SIDEBAR
+# ============================================================
 with st.sidebar:
     st.title("Controls")
     st.sidebar.header("Sampling Controls")
@@ -288,7 +299,9 @@ if sampled_df is not None:
 # endregion
 
 # region TIMELINE
-    # --- TIMELINE ---
+# ============================================================
+#                           TIMELINE
+# ============================================================
     # load events
     events = pd.read_json("historical_events.json")
 
@@ -404,6 +417,9 @@ if sampled_df is not None:
 # endregion
 
 # region PROJECT OVERVIEW
+# ============================================================
+#                      PROJECT OVERVIEW
+# ============================================================
     with tab1:
         st.markdown("### Project Overview")
         st.markdown("#### Project Summary")
@@ -497,6 +513,9 @@ if sampled_df is not None:
 # endregion
 
 # region DEMOGRAPHICS
+# ============================================================
+#                       DEMOGRAPHICS
+# ============================================================
     with tab2:
         st.markdown("## Demographic Overview")
         st.markdown("""
@@ -631,6 +650,9 @@ if sampled_df is not None:
 # endregion
 
 # region TEMPORAL
+# ============================================================
+#                       TEMPORAL
+# ============================================================
     with tab3:
         st.markdown("## Temporal Migration Trends Over Time")
 
@@ -746,6 +768,9 @@ if sampled_df is not None:
 # endregion
 
 # region CLUSTERS
+# ============================================================
+#                       CLUSTERS
+# ============================================================
     with tab4:
         st.markdown("## Cluster Analysis - Relationship Features")
 
