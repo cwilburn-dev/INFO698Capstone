@@ -1,9 +1,12 @@
 # Project Log
 
 **About:** This document is a running project log and journal.  
-**Project Hours:** 172.5 hours
+**Project Hours:** 174.5 hours
 
 ## Week 16 (Dec 4 - Dec 10)
+
+### 12/08/25  (2 hours)
+- 10am-12pm: I managed to trash the project and had to restore everything from a backup, EXCEL is ruining my project dates.  Anything after 1900 it auto-updates the format and breaks it all.  I really, really wanted to have over 500 records for this.
 
 ### 12/07/25 (15.5 hours)
 - 11am-4pm: Completed supporting paper for the project; will review it in the morning.
