@@ -201,16 +201,13 @@ def annotate_chart(base_chart, events, chart_height=400):
         events_by_year.setdefault(e["year"], []).append(e["label"])
 
     # vertical pixel spacing for stacking
-    offset_step = 15
-    max_offset = 120
-    base_dy = -20  # start labels above the top of chart
+    offset_step = 20
+    base_dy = 0  # starting point relative to top of chart
 
     for year, labels in events_by_year.items():
         n = len(labels)
-        # stack labels above each other
         for i, label in enumerate(labels):
             dy = base_dy - i * offset_step
-            dy = max(dy, -max_offset)
 
             df_event = pd.DataFrame({"ArrivalYear": [year], "Event": [label]})
 
@@ -223,7 +220,7 @@ def annotate_chart(base_chart, events, chart_height=400):
 
             rule = (
                 alt.Chart(df_event)
-                .mark_rule(color="red", strokeDash=[4,4])
+                .mark_rule(color="red", strokeDash=[4, 4])
                 .encode(
                     x='ArrivalYear:O',
                     tooltip=['ArrivalYear:O','Event:N']
@@ -240,7 +237,7 @@ def annotate_chart(base_chart, events, chart_height=400):
                 )
                 .encode(
                     x='ArrivalYear:O',
-                    y=alt.value(chart_height),  # fixed position at top of chart
+                    y=alt.value(10),  # 10px from top of chart area
                     text='Event:N'
                 )
             )
