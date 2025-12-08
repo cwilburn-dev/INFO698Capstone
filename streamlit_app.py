@@ -480,7 +480,7 @@ if sampled_df is not None:
         1) Discovery-oriented goal:
         Determine whether patterns or insights could be uncovered in the passenger lists that have been overlooked or 
         underexplored in traditional summaries of transatlantic migration.
-        2) Validation-oriented goal:
+        2) Accessibility-oriented goal:
         If no novel patterns emerged (due to dataset size, manual collection constraints, or temporal sampling), the 
         expectation was that the dataset would still support well-established migration trends, offering a reliable and engaging 
         way of exploring the records interactively.
