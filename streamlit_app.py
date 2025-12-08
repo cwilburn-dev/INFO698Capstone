@@ -169,7 +169,7 @@ def get_sample(df, sample_per_bin=80):
 
 # adds vertical event marks to chart
 # events is a list of {"year": int, "label": str}.
-def annotate_chart(base_chart, events):
+def annotate_chart(base_chart, events, chart_height=400):
     """
     Layer vertical event markers and labels onto an Altair chart.
 
@@ -192,58 +192,55 @@ def annotate_chart(base_chart, events):
     if not events:
         return base_chart
 
-    # detect min/max year for edge detection
     years = [e["year"] for e in events]
-    min_year, max_year = min(years), max(years)
+    max_year = max(years)
 
     # group events by year
     events_by_year = {}
     for e in events:
         events_by_year.setdefault(e["year"], []).append(e["label"])
 
-    # spacing for stacked labels
+    # vertical pixel spacing for stacking
     offset_step = 15
     max_offset = 120
+    base_dy = -20  # start labels above the top of chart
 
     for year, labels in events_by_year.items():
         n = len(labels)
-        # center stack around 0
-        start_offset = -offset_step * (n - 1) / 2
-
+        # stack labels above each other
         for i, label in enumerate(labels):
-            dy = start_offset + i * offset_step
-            dy = max(min(dy, max_offset), -max_offset)
+            dy = base_dy - i * offset_step
+            dy = max(dy, -max_offset)
 
             df_event = pd.DataFrame({"ArrivalYear": [year], "Event": [label]})
 
-            # default placement
+            # flip label at right edge
             align = "left"
             dx = 5
-            if year == max_year:  # flip right edge
+            if year == max_year:
                 align = "right"
                 dx = -5
 
-            # vertical line
             rule = (
                 alt.Chart(df_event)
-                .mark_rule(color="red", strokeDash=[4, 4])
+                .mark_rule(color="red", strokeDash=[4,4])
                 .encode(
                     x='ArrivalYear:O',
-                    tooltip=['ArrivalYear:O', 'Event:N']
+                    tooltip=['ArrivalYear:O','Event:N']
                 )
             )
 
-            # label
             text = (
                 alt.Chart(df_event)
                 .mark_text(
                     align=align,
-                    dy=dy,
                     dx=dx,
+                    dy=dy,
                     color="white"
                 )
                 .encode(
                     x='ArrivalYear:O',
+                    y=alt.value(chart_height),  # fixed position at top of chart
                     text='Event:N'
                 )
             )
