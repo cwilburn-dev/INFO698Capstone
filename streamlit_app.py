@@ -86,7 +86,7 @@ historical_events_by_country = {
     "United Kingdom": [
         {"year": 1885, "label": "U.S. Recovery Begins"},
         {"year": 1886, "label": "U.S. Recession"},
-        {"year": 1887, "label": "English Disruptions"},
+        {"year": 1887, "label": "English Labor Disruptions"},
         {"year": 1888, "label": "Shipping Bottlenecks"}
     ],
     "German Empire": [
@@ -729,6 +729,9 @@ if sampled_df is not None:
                 events_to_annotate = []
                 for country in countries:
                     events_to_annotate.extend(historical_events_by_country[country])
+                
+                # always add global events
+                events_to_annotate.extend(historical_events_by_country.get("Global", []))
 
                 annotated = annotate_chart(chart, events_to_annotate)
                 st.altair_chart(annotated, width="stretch")
