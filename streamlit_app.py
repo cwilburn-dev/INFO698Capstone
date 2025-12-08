@@ -188,7 +188,7 @@ def annotate_chart(base_chart, events):
         - Designed for time series plots with an 'ArrivalYear' axis.
     """
     # staggered offsets for readability
-    offsets = [-20, -45, -70, -95, -120, -145]
+    offsets = [-20, -45, -70, -90, -110, -130]
     layers = [base_chart]
 
     if not events:
