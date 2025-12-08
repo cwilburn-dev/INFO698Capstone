@@ -24,8 +24,12 @@ def begin_analysis():
 def load_data():
     df = pd.read_csv("migration_analysis_ready_clean.csv")
     return df
+# endregion
 
-# === historical counts ===
+# region CONSTANTS
+# ============================================================
+#                       CONSTANTS
+# ============================================================
 historical_counts = {
     1: 3749,
     2: 4311,
@@ -36,7 +40,6 @@ historical_counts = {
     7: 5934
 }
 
-# === bin labels ===
 bin_labels = {
     1: "1880-1884",
     2: "1885-1889",
@@ -94,6 +97,7 @@ birthplace_to_country = {
     "Denmark": "Scandinavia",
     "Finland": "Scandinavia",
 }
+# endregion
 
 # region METHODS
 # ============================================================
@@ -692,10 +696,6 @@ if sampled_df is not None:
                 events_to_annotate = []
                 for country in countries:
                     events_to_annotate.extend(historical_events_by_country[country])
-
-                # debug
-                #st.write("Event years:", {e["year"] for e in events_to_annotate})
-                #st.write("Years in filtered data:", sorted(filtered["ArrivalYear"].unique()))
 
                 annotated = annotate_chart(chart, events_to_annotate)
                 st.altair_chart(annotated, width="stretch")
